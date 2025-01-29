@@ -22,6 +22,8 @@ In this lab, you will create and publish Power BI dashboards and reports, applyi
 
    ![](../Images/pb3.png)
 
+   > **Note:** If a pop-up appears with **More Information Required**, click **Next**, then select **Skip setup** on the following page.
+
 1. If **Stay signed in** window pops-up, select **No**
 
    ![](../Images/pb4.png)
