@@ -2,19 +2,23 @@
 
 In this lab, you will create and publish Power BI dashboards and reports, applying conditional formatting, adding logos, importing custom visuals, and using bookmarks to enhance storytelling.
 
+## Estimated Duration: 90 minutes
+
 ## Lab Objectives
 
 - Task 1 : Power BI Service – Publishing Report
 - Task 2 : Power BI – Building a Dashboard
+- Task 3 : Organize dashboard.
   
 ### Pre-requisites
+Before starting the lab, you need to complete a set of prerequisite steps to ensure that Power BI is correctly configured.
 
 1. Navigate to [https://app.powerbi.com](https://app.powerbi.com/) in the LabVM browser using the credentials below
 
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Email:** <inject key="AzureAdUserEmail"></inject>
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-   ![](../Images/pb1.png)
+   ![](../Images/pb1upd1.png)
 
    ![](../Images/pb2.png)
 
@@ -32,13 +36,9 @@ In this lab, you will create and publish Power BI dashboards and reports, applyi
 
    ![](../Images/pb5.png) 
 
-1. On the **Tenant settings (1)**, search for **map (2)** then select **Map and filled map visuals (3)** then toggle the bar to **Enable (4)** and then click on **Apply (5)** to enable the settings.
+1. In the **Tenant settings (1)**, search for **map (2)**, then select **Map and Filled Map Visuals (3)**. If the toggle bar is not enabled, switch it to **Enable (4)** and click **Apply (5)** to save the settings. 
 
    ![](../Images/pr1.png) 
-
-   >**Note**: Please wait for 15 mins and continue with the next task.
-
-### Task 1 - Power BI Service – Publishing Report
 
 1. Navigate to **PowerBI desktop** and sign in using the same credentials used for app service.
 
@@ -48,6 +48,12 @@ In this lab, you will create and publish Power BI dashboards and reports, applyi
 1. For **Stay signed in to all your apps** window, select **No, sign in to this app only**
 
    ![](../Images/pb7.png) 
+
+1. You have completed the prerequisites. Please wait for 15 minutes before continuing with the next step.
+
+
+### Task 1 - Power BI Service – Publishing Report
+In this task, you will open a Power BI report, enable map visuals, adjust the mobile layout, create a workspace, and publish the report to the Power BI Service.
 
 1. Navigate to the **DIAD** folder and then to the Reports folder (C:\DIAD\DIADL4\Reports) folder in the LabVM
 
@@ -87,12 +93,12 @@ In this lab, you will create and publish Power BI dashboards and reports, applyi
 
    >**Note:** If you recieve any pop up, click on **Close**.
 
-1. Click on the **View (1)** tab and **turn on (2)** the *Selection pane* by clicking on it. This allows you to change the layer order 
+1. Click on the **View (1)** tab and turn on  the **Selection (2)** pane by clicking on it. This allows you to change the layer order 
 while creating a mobile layout.
 
    ![](../Images/pr6.png)
 
-1. Click on the **View (1)** tab and turn off **Gridlines** and **Snap to Grid** **(2)** and **turn off (3)** the *Selection pane*.
+1. Click on the **View (1)** tab and turn off **Gridlines** and **Snap to Grid** **(2)** and turn off  the **Selection pane (3)**.
 
    ![](../Images/pr7.png)
 
@@ -154,17 +160,6 @@ while creating a mobile layout.
 
     ![](../Images/pb22.png)
 
-1. If you have not already logged into Power BI, a **Sign in** dialog box opens. Please sign in.  
-
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
-
-     ![](../Images/pr9.png) 
-    
-1. For **Stay signed in to all your apps** window, select **No, sign in to this app only**
-
-   ![](../Images/pb7.png) 
-
 1. Once you are signed in, the **Publish to Power BI** dialog box opens. select **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)** in the dialog box and click **Select (2)**
 
     ![](../Images/pb23.png)
@@ -183,8 +178,7 @@ while creating a mobile layout.
 
 ### Task 2- Power BI – Building a Dashboard
 
-In this section, we will create a dashboard that combines data from the **Market Share** report. 
-  
+In this task, you will create a dashboard that combines data from the **Market Share** report.  
 By the end of this section, we will have created a dashboard that looks like the screenshot below.
 
   ![](../Images/powerbi-04-20.png)
@@ -292,7 +286,8 @@ Click the **pin** icon on the top right of the visual. The **Pin to dashboard** 
 
     >**Note**: You will see the visuals on the dashboard like in the screenshot. Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates. Tiles are not interactive.
 
-### Let’s organize the dashboard.
+### Task 3- Organize dashboard.
+In this task, you will organize the Power BI dashboard by resizing tiles, adding images, renaming visuals, generating insights, setting alerts, using drill-through, and exploring bookmarks.
 
 1. Resize and move the **gauge** tile as shown in the screenshot.
 
@@ -484,21 +479,21 @@ In the ribbon of the Power BI Desktop, the Help section has links to some great 
 
 Here are a few more resources that will help you with your next steps with Power BI.
 
-  - Getting started: https://app.powerbi.com/
-  - Power BI Desktop: https://powerbi.microsoft.com/desktop
-  - Power BI Mobile: https://powerbi.microsoft.com/mobile
-  - Community site https://community.powerbi.com/
-  - Power BI Getting started support page: https://support.powerbi.com/knowledgebase/articles/430814-get-started-with-power-bi
-  - Support site https://support.powerbi.com/
-  - Feature requests https://ideas.powerbi.com/forums/265200-power-bi-ideas
-  - New ideas for using Power BI https://aka.ms/PBI_Comm_Ideas
-  - Power BI Courses http://aka.ms/pbi-create-reports
-  - Power Platform https://powerplatform.microsoft.com/en-us/instructor-led-training/
-  - Power Apps [Business Apps | Microsoft Power Apps](https://powerapps.microsoft.com/en-us/)
-  - Power Automate [Power Automate | Microsoft Power Platform](https://powerapps.microsoft.com/en-us/)
+  - Power BI Documents [Power BI | Microsoft Learn](https://learn.microsoft.com/en-us/power-bi/)
+  - Power BI Courses [Power BI | Course](http://aka.ms/pbi-create-reports)
+  - Support site [Power BI | Support](https://support.powerbi.com/)
+
+  Discover additional Power Platform tools:
+  - Power Platform [Power Platform | Course](https://powerplatform.microsoft.com/en-us/instructor-led-training/)
+  - Power Apps [Power Apps | Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/)
+  - Power Automate [Power Automate | Microsoft Learn](https://learn.microsoft.com/en-us/power-automate/)
   - Dataverse [What is Microsoft Dataverse? - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro)
-## Summary
-In this exercise, you started with a pre-created Power BI report and enhanced it by applying conditional formatting, adding logos, importing custom visuals, and applying custom themes. You then used bookmarks to improve storytelling and published the final report to the Power BI Service for sharing and collaboration.
+## Review
+In this exercise, you have completed the following
+
+- Opened a Power BI report, adjusted the mobile layout, created a workspace, and published the report to the Power BI Service.
+- Enabled maps, adjusted the layout, created a workspace, and published the report.
+- Created a dashboard combining data from the Market Share report.
 
 ## You have successfully completed this Lab!
 
