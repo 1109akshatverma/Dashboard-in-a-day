@@ -393,7 +393,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![](../Images/pb52.png)
 
-1. On the **Manage alerts** page, click **+Add alert rule (1)** dialog and the click **Cancel (2)**
+1. On the **Manage alerts** page, click **+Add alert rule (1)** to open the dialog, then click **Cancel (2)** since we are not creating an alert rule.
 
     ![](../Images/pb53.png)
   
