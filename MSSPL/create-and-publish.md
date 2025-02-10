@@ -482,6 +482,7 @@ Here are a few more resources that will help you with your next steps with Power
   - Support site [Power BI | Support](https://support.powerbi.com/)
 
   Discover additional Power Platform tools:
+  
   - Power Platform [Power Platform | Course](https://powerplatform.microsoft.com/en-us/instructor-led-training/)
   - Power Apps [Power Apps | Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/)
   - Power Automate [Power Automate | Microsoft Learn](https://learn.microsoft.com/en-us/power-automate/)
