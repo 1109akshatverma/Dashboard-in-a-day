@@ -106,7 +106,7 @@ while creating a mobile layout.
 
    ![](../Images/pb14.png)
 
-1. Drag the **map** below the line chart on the phone layout, resize the map, and then save the file.
+1. Drag the **map** below the line chart on the phone layout, resize the map, and then exit the mobile view.
 
    ![](../Images/pb15.png)
 
@@ -115,8 +115,6 @@ while creating a mobile layout.
    ![](../Images/pb16.png)
 
 1. If you have not already opened the **app.powerbi.com** page, please open a browser and navigate to [https://app.powerbi.com](https://app.powerbi.com/)
-
-1. Sign-in to Power BI using your user account. Once logged in, you will be taken to the **Home** screen.
 
 1. In the left panel, click on **Workspaces**.
    
@@ -488,9 +486,9 @@ Here are a few more resources that will help you with your next steps with Power
   - Power Apps [Power Apps | Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/)
   - Power Automate [Power Automate | Microsoft Learn](https://learn.microsoft.com/en-us/power-automate/)
   - Dataverse [What is Microsoft Dataverse? - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro)
+
 ## Review
 In this exercise, you have completed the following
-
 - Opened a Power BI report, adjusted the mobile layout, created a workspace, and published the report to the Power BI Service.
 - Enabled maps, adjusted the layout, created a workspace, and published the report.
 - Created a dashboard combining data from the Market Share report.
