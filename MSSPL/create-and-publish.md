@@ -29,9 +29,9 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
    > **Note:** If a pop-up appears with **More Information Required**, click **Next**, then select **Skip setup** on the following page.If **Skip setup** option is not available, please follow the below instructions:
    >1. On the **"Keep your account secure"** page, select **Next** twice.
    >1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
-   >   - Open **Google Play Store** (Android) or **App Store** (iOS).
-   >   - Search for **Microsoft Authenticator** and tap **Install**.
-   >   - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
+   >    - Open **Google Play Store** (Android) or **App Store** (iOS).
+   >    - Search for **Microsoft Authenticator** and tap **Install**.
+   >    - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
    >3. A **QR code** will be displayed on your computer screen.
    >1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
    >1. After scanning, click **Next** to proceed.
