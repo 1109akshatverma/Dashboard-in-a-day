@@ -61,7 +61,7 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
    >**Note**: This file uses the same dataset that you used for the lab. We have added more visuals and performed additional formatting in the report. Feel free to explore the report.
 
-   ![](../Images/pb8.png) 
+   ![](../Images/pb8upd.png) 
 
 1. On the **DIAD Final Report**, to enable the **Map and filled map visuals** like Power BI follow the below steps.
 
@@ -489,7 +489,7 @@ Here are a few more resources that will help you with your next steps with Power
   - Dataverse [What is Microsoft Dataverse? - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro)
 
 ## Review
-In this exercise, you have completed the following
+In this exercise, you have completed the following:
 - Opened a Power BI report, adjusted the mobile layout, created a workspace, and published the report to the Power BI Service.
 - Enabled maps, adjusted the layout, created a workspace, and published the report.
 - Created a dashboard combining data from the Market Share report.
