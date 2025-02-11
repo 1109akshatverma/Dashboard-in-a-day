@@ -26,19 +26,28 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
    ![](../Images/pb3.png)
 
-   > **Note:** If a pop-up appears with **More Information Required**, click **Next**, then select **Skip setup** on the following page.
+   > **Note:** If a pop-up appears with **More Information Required**, click **Next**, then select **Skip setup** on the following page.If **Skip setup** option is not available, please follow the below instructions:
+   >1. On the **"Keep your account secure"** page, select **Next** twice.
+   >1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
+   >   - Open **Google Play Store** (Android) or **App Store** (iOS).
+   >   - Search for **Microsoft Authenticator** and tap **Install**.
+   >   - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
+   >3. A **QR code** will be displayed on your computer screen.
+   >1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
+   >1. After scanning, click **Next** to proceed.
+   >1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
 
 1. If **Stay signed in** window pops-up, select **No**
 
-   ![](../Images/pb4.png)
- 
+    ![](../Images/pb4.png)
+    
 1. Once logged in, navigate to **Settings (1)** icon and select **Admin Portal (2)**
 
-   ![](../Images/pb5.png) 
+    ![](../Images/pb5.png) 
 
 1. In the **Tenant settings (1)**, search for **map (2)**, then select **Map and Filled Map Visuals (3)**. If the toggle bar is not enabled, switch it to **Enable (4)** and click **Apply (5)** to save the settings. 
 
-   ![](../Images/pr1.png) 
+    ![](../Images/pr1.png) 
 
 1. Navigate to **PowerBI desktop** and sign in using the same credentials used for app service.
 
