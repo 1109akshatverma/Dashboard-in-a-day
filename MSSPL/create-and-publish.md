@@ -2,7 +2,7 @@
 
 In this lab, you will create and publish Power BI dashboards and reports, applying conditional formatting, adding logos, importing custom visuals, and using bookmarks to enhance storytelling.
 
-## Estimated Duration: 90 minutes
+## Estimated Duration: 240 minutes
 
 ## Lab Objectives
 
