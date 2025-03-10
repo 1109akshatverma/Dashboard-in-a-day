@@ -13,7 +13,7 @@ In this lab, you will create and publish Power BI dashboards and reports, applyi
 ### Pre-requisites
 Before starting the lab, you need to complete a set of prerequisite steps to ensure that Power BI is correctly configured.
 
-1. Navigate to [https://app.powerbi.com](https://app.powerbi.com/) in the LabVM browser using the credentials below
+1. Navigate to [https://app.powerbi.com](https://app.powerbi.com/) in the LabVM browser using the credentials provided below:
 
    - **Email:** <inject key="AzureAdUserEmail"></inject>
    - **Password:** <inject key="AzureAdUserPassword"></inject>
@@ -41,22 +41,22 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
     ![](../Images/pb4.png)
     
-1. Once logged in, navigate to **Settings (1)** icon and select **Admin Portal (2)**
+1. Once logged in, navigate to **Settings (1)** icon and select **Admin Portal (2)** under **Governance and insights** section.
 
     ![](../Images/pb5.png) 
 
-1. In the **Tenant settings (1)**, search for **map (2)**, then select **Map and Filled Map Visuals (3)**. If the toggle bar is not enabled, switch it to **Enable (4)** and click **Apply (5)** to save the settings. 
+1. In the **Tenant settings (1)**, search for **map (2)**, then select **Map and Filled Map Visuals (3)**. If the toggle bar is not enabled, switch it to **Enabled (4)** and click **Apply (5)** to save the settings. 
 
     ![](../Images/pr1.png) 
 
-1. Navigate to **PowerBI desktop** and sign in using the same credentials used for app service.
+1. Navigate to **PowerBI desktop** from the desktop and sign in using the same credentials used for app service.
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-1. For **Stay signed in to all your apps** window, select **No, sign in to this app only**
+1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
 
-   ![](../Images/pb7.png) 
+   ![](../Images/new-create-publish-powerbi-march-4.png) 
 
 1. You have completed the prerequisites. Please wait for 15 minutes before continuing with the next step.
 
@@ -82,7 +82,7 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
       ![](../Images/pr34.png) 
 
-    - Click on **Security (1)** then select the check box for **Map and Filled map visuals (2)** and then click on **OK (3)**
+    - Click on **Security (1)** then select the check box for **Use Map and Filled Map visuals (2)** under **Map and Filled map visuals** and then click on **OK (3)**
 
       ![](../Images/pr35.png) 
 
@@ -93,6 +93,8 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 1. Click the **View (1)** ribbon and then click **Mobile layout (2)**.
 
    ![](../Images/pb10.png) 
+
+   > **Note:** If **The mobile layout canvas is now interactive** pop-up comes up, click on **Close.**
 
 1. Drag the **Market Analysis** title to the top of the phone layout.
 
@@ -127,7 +129,7 @@ while creating a mobile layout.
 
 1. In the left panel, click on **Workspaces**.
    
-    ![](../Images/pb17.png)
+    ![](../Images/new-create-publish-powerbi-march-6.png)
 
 1. Click on **+ New workspace**. Then *Create a workspace* dialog box opens.
 
@@ -153,6 +155,8 @@ while creating a mobile layout.
 
     ![](../Images/pr37.png)
 
+   > **Note:** If **Introducing task flows (preview)** pop-up comes up, click on **Got it.**
+
 1. Let’s publish the report to Power BI Service and then we will come back to the browser.
 
 1. Navigate back to the **DIAD Final Report** in PowerBi desktop.
@@ -163,11 +167,11 @@ while creating a mobile layout.
 
     ![](../Images/pb21.png)
 
-1. Click on **Save**
+1. If you are prompted to save the changes, then click on **Save**
 
     ![](../Images/pb22.png)
 
-1. Once you are signed in, the **Publish to Power BI** dialog box opens. select **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)** in the dialog box and click **Select (2)**
+1. Once you are signed in, the **Publish to Power BI** dialog box opens. select **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)** in the dialog box and click **Select (2)**.
 
     ![](../Images/pb23.png)
 
@@ -190,7 +194,7 @@ By the end of this section, we will have created a dashboard that looks like the
 
   ![](../Images/powerbi-04-20.png)
   
-1. Click the **DIAD Final Report.** You are navigated to the report you just uploaded.   
+1. Click the **DIAD Final Report** of **Report** type. You will be navigated to the report you just uploaded.   
 
     ![](../Images/pr12.png)
   
@@ -208,21 +212,21 @@ By the end of this section, we will have created a dashboard that looks like the
 
 1. We do not have a dashboard yet. Let’s create one. With **New dashboard (1)** selected, enter **VanArsdel (2)** in the text box then click on **Pin (3)**.
   
-    ![](../Images/pb29.png)
+    ![](../Images/new-create-publish-powerbi-march-9.png)
  
     >**Note**: Notice that alert messages are displayed stating the dashboard is ready to view.
 
-1. Notice in the left panel, the **VanArsdel** dashboard is created under **DIAD_<inject key="DeploymentID" enableCopy="false"/>**.
+1. Notice the **VanArsdel** dashboard is created under **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace.
 
     ![](../Images/pb30.png)
   
-1. From the left panel, click on **VanArsdel (1)** and then click **VanArsdel Market Share (2)**.
+1. From workspace, click on **VanArsdel (1)** and then click **VanArsdel Market Share (2)**.
 
     ![](../Images/pr14.png)
 
     Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
 
-1. Click **VanArsdel Market Share,** notice that you are navigated to the report.
+1. After selecting **VanArsdel Market Share,** notice that you are navigated to the report.
 
     ![](../Images/pr15.png)
 
@@ -232,18 +236,17 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pr16.png)
 
-1. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
+1. Make sure that **Existing dashboard (1)** is selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
     ![](../Images/pr17.png)
   
 1. Closeout the alert dialog boxes.
 
-1. Hover over the **Revenue by Year and Manufacturer** visual.
-Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
+1. Hover over the **Revenue by Year and Manufacturer** visual. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
 
     ![](../Images/pr18.png)
 
-1. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
+1. Make sure that **Existing dashboard (1)** is selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
     ![](../Images/pb32.png)
    
@@ -259,7 +262,7 @@ Click the **pin** icon on the top right of the visual. The **Pin to dashboard** 
 
 1. Click **VanArsdel** in the slicer. This will filter the visuals.
 
-   ![](../Images/pr19.png)
+   ![](../Images/new-create-publish-powerbi-march-17.png)
 
 1. From the top right corner, click the **up arrow**. Notice that the **manufacturer** slicer collapses.
   
@@ -267,29 +270,29 @@ Click the **pin** icon on the top right of the visual. The **Pin to dashboard** 
 
 1. **Pin** the **Revenue, PY Sales(guage)** to the dashboard.
 
-   ![](../Images/pr21.png)
+   ![](../Images/new-create-publish-powerbi-march-14.png)
 
-1. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
+1. Make sure that **Existing dashboard (1)** is selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
-    ![](../Images/pr39.png)
+    ![](../Images/new-create-publish-powerbi-march-12.png)
 
 1. **Pin** the **Revenue by Country** visual to the dashboard.
 
-   ![](../Images/pr22.png)
+   ![](../Images/new-create-publish-powerbi-march-15.png)
 
-1. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
+1. Make sure that **Existing dashboard (1)** s selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
-    ![](../Images/pr38.png)   
+    ![](../Images/new-create-publish-powerbi-march-13.png)   
 
 1. Closeout the alert dialog boxes.
   
     >**Note:** The **VanArsdel** filter is applied to the tile that is pinned to the dashboard.
 
-1. From the left panel, select the **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)**, click **VanArsdel (2)** Dashboard Notice that all the visuals are pinned as tiles to the dashboard.
+1. From the left panel, select the **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)**, click **VanArsdel (2)** Dashboard. Notice that all the visuals are pinned as tiles to the dashboard.
 
    ![](../Images/pr23.png)
 
-   ![](../Images/pb37.png)    
+   ![](../Images/new-create-publish-powerbi-march-11.png)    
 
     >**Note**: You will see the visuals on the dashboard like in the screenshot. Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates. Tiles are not interactive.
 
@@ -304,11 +307,11 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
   
     Tiles can be of various sizes (1x1 to 5x5). Drag the tile using the bottom right corner to resize it. 
 
-1. Click the **Edit (1)** dropdown and click **Add tile (2)**. 
+1. Click the **Edit (1)** dropdown and click **Add a tile (2)**. 
 
     ![](../Images/pb39.png)
 
-1. On the **Add tile** dialog box, click **Image (1)** as the source and select **Next (2)**.
+1. On the **Add a tile** dialog box, click **Image (1)** as the source and select **Next (2)**.
 
     ![](../Images/pb40.png)
 
@@ -320,11 +323,11 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. Notice that a new tile with the **VanArsdel** logo is added to the dashboard.
 
-    ![](../Images/pb42.png)
+    ![](../Images/new-create-publish-powerbi-march-18.png)
   
 1. Resize and rearrange the tiles as shown in the screenshot.
 
-    ![](../Images/pb43.png)
+    ![](../Images/new-create-publish-powerbi-march-19.png)
 
 1. The **Revenue by Country** tile shows Revenue by Country for VanArsdel, let’s rename it.
 
@@ -354,25 +357,27 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. Continue typing **VanArsdel market share by country as treemap (1)** then click arrow icon **-> (2)**. Notice that a treemap visual is created.
 
-    ![](../Images/pr27.png)
+    ![](../Images/new-create-publish-powerbi-march-21.png)
   
     >**Note**: Remember that we renamed our tables. One of the reasons we did this was to make them user friendly for Q & A
 
 1. In the top right of the screen, click **Pin Visual**.
 
-    ![](../Images/pb47.png)
+    ![](../Images/new-create-publish-powerbi-march-22.png)
 
-1. The **Pin to dashboard** dialog box opens. Make sure that **Existing dashboard (1)** then **VanArsdel (2)** is selected in the drop-down and then click **Pin (3)** to pin the visual to the **VanArsdel** dashboard.
+1. The **Pin to dashboard** dialog box opens. Make sure that **Existing dashboard (1)** is selected and **VanArsdel (2)** is selected in the drop-down and then click **Pin (3)** to pin the visual to the **VanArsdel** dashboard.
 
     ![](../Images/pb48.png)
     
 1. Close the alert dialog boxes.
 
-1. Click **Exit Q&A** to navigate back to the dashboard.
+1. Click **Exit Q&A** from upper left corner to navigate back to the dashboard.
+
+    ![](../Images/new-create-publish-powerbi-march-23.png)
 
 1. Notice that the visual is added as tile to the dashboard. Clicking on the treemap visual will navigate you back to the Q & A section.
 
-    ![](../Images/pb49.png)
+    ![](../Images/new-create-publish-powerbi-march-24.png)
 
     >**Note**: Power BI quickly searches different subsets of your dataset while applying a set of sophisticated algorithms to discover potentially interesting insights. You can run insights against a dataset or a dashboard tile.
 
@@ -400,7 +405,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. Click on the **ellipse (...) (1)** in the top right corner of the tile the click **Manage alerts (2)**. The **Manage alerts** dialog box opens.
 
-    ![](../Images/pb52.png)
+    ![](../Images/new-create-publish-powerbi-march-025.png)
 
 1. On the **Manage alerts** page, click **+Add alert rule (1)** to open the dialog, then click **Cancel (2)** since we are not creating an alert rule.
 
@@ -408,15 +413,13 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
   
     >**Note**: Notice that you can add **Above** or **Below threshold**. You can also set the notification frequency. This is just an introduction to managing alerts. Complete functionality is not covered in this lab.
 
-1. Click **Cancel** to close the dialog box.
-
-1. Click **Don’t Save**.
+1. Click **Don’t Save** from **Unsaved changes** pop-up window.
 
 1. Click on the **VanArsdel Market Share** tile to navigate to the report.
 
 1. In the map visual, ensure it is at the **Country (1)** level, right-click the **Australia (2)** bubble, click **Drill through (3)** and click then **By Manufacturer (4)**. 
   
-    ![](../Images/PB54.png)
+    ![](../Images/new-create-publish-powerbi-march-26.png)
 
     >**Note:** If the map visual is not set to **Country** level, use the drill up arrow to set up.
 
@@ -428,7 +431,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. Click the **focus mode** icon on the top right corner of the visual.
 
-    ![](../Images/pb55.png)
+    ![](../Images/new-create-publish-powerbi-march-27.png)
 
 1. Click the **+** icon to expand.
 
@@ -460,11 +463,11 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. Power BI provides an option to get quick insights into the complete dataset.
 
-1. In the left panel, click on **DIAD_<inject key="DeploymentID" enableCopy="false"/>** and then click **DIAD Final Report**.
+1. In the left panel, click on **DIAD_<inject key="DeploymentID" enableCopy="false"/>** and then select the checkbox for **DIAD Final Report** under **Report** type.
 
 1. Click the **ellipse (...) (1)** then click on **Quick Insights (2)**.
 
-   ![](../Images/pb60.png)
+   ![](../Images/new-create-publish-powerbi-march-29.png)
   
     >**Note**: It might take a few minutes for the insights to be created. Once insights are ready, a message appears in the top right corner.
 
@@ -474,7 +477,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
   
     >**Note**: A quick insights report is displayed based on the dataset. This provides insights into data you may have missed and helps to get a quick start on creating dashboards. Hovering over each report provides an option to **Pin it** to a dashboard.
 
-    ![](../Images/pb62.png)  
+    ![](../Images/new-create-publish-powerbi-march-30.png)  
 
 You’ve now successfully completed Lab! Throughout this lab, you have learned how to apply conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. You also learned how to add bookmarks to tell a story about the report.
 
