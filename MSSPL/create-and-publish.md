@@ -1,8 +1,10 @@
 # Hands-on Lab: Create and Publish PowerBI Dashboards & Reports
 
-In this lab, you will create and publish Power BI dashboards and reports, applying conditional formatting, adding logos, importing custom visuals, and using bookmarks to enhance storytelling.
+### Estimated Duration: 4 Hours
 
-## Estimated Duration: 240 minutes
+## Overview
+
+In this lab, you will create and publish Power BI dashboards and reports, applying conditional formatting, adding logos, importing custom visuals, and using bookmarks to enhance storytelling.
 
 ## Lab Objectives
 
