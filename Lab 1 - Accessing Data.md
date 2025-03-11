@@ -1,76 +1,33 @@
-![Microsoft Power Platform.](Images/powerbi-welcome.png 'Microsoft Power Platform')
+# Lab 1: Accessing Data
 
-# Lab 1 - Accessing Data
+### Estimated Duration: 30 minutes
 
-**Contents** 
+## Overview
 
-<!-- TOC -->
+Today you will learn about various key features of the Power BI service. This is an introductory course intended to teach you how to author reports using Power BI Desktop, create operational dashboards and share content via the Power BI Service.
 
-- [Introduction](#introduction)
-  - [Getting Started with the lab](#Getting-started-with-Lab)
-- [Before the hands-on lab](#Before-the-hands-on-lab)
-- [Power BI Desktop](#power-bi-desktop)
-  - [Power BI Desktop – Accessing Data](#power-bi-desktop-accessing-data)
-- [References](#references)
+### Task 1:
 
-## Introduction
-
-Today you will learn about various key features of the Power BI service. This is an introductory course intended to teach you how to author reports using Power BI Desktop, create operational dashboards,
-and share content via the Power BI Service.
-
-By the end of this lab, you will have learned:
-
-- How to load data from Microsoft Excel and Comma-Separated Values (CSV) sources 
-- How to manipulate the data to prepare it for reporting
-- How to prepare the tables in Power Query and load them into the model
-
-### Getting Started with Lab
-
-1. Once the environment is provisioned, a virtual machine (JumpVM) on the left and lab guide on the right will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
-
-2. To get the lab environment details, you can select the **Lab Environment** tab, you can locate the **Lab Environment** tab on the upper right corner. Additionally, the credentials will also be emailed to your email address provided during registration.
-
-   ![](Images/lab_details.png "Lab Environment")
-
-## Before the hands-on lab
-
-**Duration**: 30 minutes
-
-You should follow all of the steps provided in this section _before_ taking part in the hands-on lab ahead of time as some of these steps take time.
-
-1. Sign in to https://app.powerbi.com/ using your admin account credentials and click **Submit**.
+1. Sign in to https://app.powerbi.com/ using the ODL credentials present under the Environemnt tab and click on **Submit**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
 2. Enter the following **Password** and click on **Sign in**. 
    
    * Password: <inject key="AzureAdUserPassword"></inject>   
-   
-3. Click **Skip for now (14 day until this is required)** 
 
-4. If you see the pop-up **Stay Signed in?**, click **No**. Also, if you see a Save Password popup, close that.
+3. In the **Stay Signed in?** pop-up, click on **No**. 
 
-5. Select **Contine** under *Thank you for choosing Microsoft PowerBI page* and provide your phone number when asked for the account info.
+1. From the page header on the top right, click on **Settings (1)** and select **Admin portal (2)**.
 
-6. Check-in the box where you are asked for permission to share the account info to get the product and service updates and click on **Get started**.
-
-7. Once every details are checked and confirmed again clcik **Get started** to continue.
-
-8. From the page header, select ... > **Settings** > **Admin portal**.
-
-   ![](Images/powerbi_admin.png)
-
-9. In **Tenant settings** under Admin Portal, scroll down to **Integration settings**. Then click on the **Map and filled map visuals** drop-down, toggle the button to **Enabled**, and click on **Apply**.
+1. In **Tenant settings** under Admin Portal, scroll down to **Integration settings**. Then click on the **Map and filled map visuals** drop-down, toggle the button to **Enabled**, and click on **Apply**.
 
    ![](Images/powerbi-filled-map-visuals.png)
 
-10. Click **Apply**
+1. Click **Apply**
 
-11. **Sign out** and then **Sign in** to the account for changes to get applied.
+1. **Sign out** and then **Sign in** to the account for changes to get applied.
 
-## Power BI Desktop – Accessing Data
-
-In this section, you will import VanArsdel’s and its competitors’ USA sales data. You will then import and merge sales data from other countries.
 
 ### Task 1: Power BI Desktop - Get Data
 
@@ -83,15 +40,19 @@ Sales of all other countries is in the InternationalSales subfolder within the D
 
 Product, Geography, and Manufacturer information is in a Microsoft Excel file called bi_dimensions.xlsx in the USSales subfolder within the Data folder (/Data/USSales/).
    
- 1. Open the **Power BI Desktop** and launch it now.
+1. From the desktop, open the **Power BI Desktop**.
  
- 2. Click **Already have a Power BI Account? Sign in** option.
+1. Click on **Sign in** from the top.
 
- 3. **Sign in** using your Power BI credentials.
+1. Provide the Email address and click on **Continue**.
 
-    > **Note**: Please use the **Username** and **Password** credentials details from the Environment Details tab. When prompted to sign-in select the odl user accoount details.
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
- 4. You will see the startup screen opens. Click on the **X** on the top right corner of the dialog box to close it.
+1. Enter your Email address again followed with the password.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+   * Password: <inject key="AzureAdUserPassword"></inject>  
 
  5. New format pane feature is released as part of the February 2022 update. This feature is in **Preview**. We will disable this feature for the labs. To disable it, navigate to **File -> Options and settings -> Options**. Options dialog opens. On the left panel select **Preview features** and **uncheck New Format pane** and ensure **Azure map visual** and **Shape map visual** options are checked and select **OK** to close the dialog. You may have to **restart** Power BI Desktop.
  
@@ -274,27 +235,7 @@ There is also an option to select each individual file in the folder (using **Ex
 47. Click **OK**.
 
    >**Note**: You can perform various types of filters, sorting operations using the drop-down to verify the imported data. 
-     
-## References
 
-Dashboard in a Day introduces you to some of the key functions available in Power BI. In the ribbon of the Power BI Desktop, the Help section has links to some great resources.
+## Summary
 
-   ![](Images/powerbi-01-53.png)
-
-Here are a few more resources that will help you with your next steps with Power BI.
-
-  - Getting started: http://powerbi.com
-  - Power BI Desktop: https://powerbi.microsoft.com/desktop
-  - Power BI Mobile: https://powerbi.microsoft.com/mobile
-  - Community site https://community.powerbi.com/
-  - Power BI Getting started support page: https://support.powerbi.com/knowledgebase/articles/430814-get-started-with-power-bi
-  - Support site https://support.powerbi.com/
-  - Feature requests https://ideas.powerbi.com/forums/265200-power-bi-ideas
-  - New ideas for using Power BI https://aka.ms/PBI_Comm_Ideas
-  - Power BI Courses http://aka.ms/pbi-create-reports
-  - Power Platform https://powerplatform.microsoft.com/en-us/instructor-led-training/
-  - Power Apps [Business Apps | Microsoft Power Apps](https://powerapps.microsoft.com/en-us/)
-  - Power Automate [Power Automate | Microsoft Power Platform](https://powerapps.microsoft.com/en-us/)
-  - Dataverse [What is Microsoft Dataverse? - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro)
-
-
+### You have successfully completed the lab!
