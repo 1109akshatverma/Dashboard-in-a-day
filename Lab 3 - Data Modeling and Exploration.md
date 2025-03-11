@@ -1,16 +1,4 @@
-![Microsoft Power Platform.](Images/powerbi-welcome-3.png 'Microsoft Power Platform')
-
 # Lab 3 - Data Modeling and Exploration
-
-**Contents** 
-
-<!-- TOC -->
-
-- [Introduction](#introduction)
-- [Power BI Desktop - Data Modeling and Exploration](#power-bi-desktop-data-modeling-and-exploration)
-  - [Power BI Desktop – Layout](#power-bi-desktop-layout)
-  - [Power BI Desktop – Data Exploration](#power-bi-desktop-data-exploration)
-- [References](#references)
 
 ## Introduction
 
