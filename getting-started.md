@@ -14,7 +14,7 @@
 
 1. From the page header on the top right, click on **Settings (1)** and select **Admin portal (2)**.
 
-   ![](Images/did1.png)
+   ![](Images/did1-1.png)
 
 1. In **Tenant settings** under Admin Portal, scroll down to **Integration settings**. Then, click on the **Map and filled map visuals** drop-down, toggle the button to **Enabled**.
 
