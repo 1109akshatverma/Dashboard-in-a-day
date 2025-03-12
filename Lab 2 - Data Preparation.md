@@ -171,28 +171,32 @@ of data affects the data model performance.
 
    > **Note:** This opens the **Query Dependencies** dialog box. The dialog box shows the source of each query and its dependencies. For example, we see that the Sales query has a CSV file source and a dependency on the International Sales query. This is a useful information to share knowledge with your team members.
 
-   ![](Images/powerbi-01-48.png)
+1. **Close** in the dialog box.
 
-58. Click **Close** in the dialog box.
+    > **Note:** You have now successfully completed import and data shaping operations and are ready to load the data into the Power BI Desktop data model to visualize the data. 
 
-Note that you can zoom in and out of the **Query Dependencies** view as needed.
+1. Click on **File** and then click on **Close & Apply**. This will close out the power query window and apply all changes.
 
-You have now successfully completed import and data shaping operations and are ready to load the data into the Power BI Desktop data model to visualize the data. 
-
-59. Click **File** and then click **Close & Apply**. This will close out the power query window and apply all changes.
-
-    ![](Images/powerbi-01-49.png)
+      ![](Images/did49.png)
     
-    All the data will be loaded in memory in the Power BI Desktop. You will see the progress dialog box with the number of rows being loaded in each table as shown in the Figure.
+    > **Note:** All the data will be loaded in memory in the Power BI Desktop. You will see the progress dialog box with the number of rows being loaded in each table as shown in the Figure.
     
     ![](Images/powerbi-01-50.png)
     
     >**Note**: It may take several minutes to load all the tables.
 
-60. Click **File** and then click **Save** to save the file after the data loading is complete. Name the file as “**MyFirstPowerBIModel**”. Save the file in the DIAD Reports (**\DIAD\Reports**) folder.
+1. Click **File** and then click **Save** to save the file.
 
-61. On the left panel, click **Data ![](Images/powerbi-01-51.png) icon**  to view the data that was loaded. If you need to open Power Query editor, navigate to Home -> Transform Data -> Transform data.
+      ![](Images/did50.png)
 
-    ![](Images/powerbi-01-52.png)
+1. Name the file as “**MyFirstPowerBIModel**”. Save the file in the DIAD Reports (**\DIAD\Reports**) folder.
+
+1. On the left panel, click **Data ![](Images/powerbi-01-51.png) icon**  to view the data that was loaded. If you need to open Power Query editor, navigate to **Home -> Transform Data**.
+
+      ![](Images/did52.png)
+
+## Summary
+
+
      
 ### You have successfully completed the lab!
