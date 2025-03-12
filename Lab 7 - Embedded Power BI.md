@@ -1,53 +1,10 @@
-![Microsoft Power Platform.](Images/powerbi-welcome-7.png 'Microsoft Power Platform')
-
 # Lab 7 - Embedded Power BI App in Web App
 
-**Contents** 
+### Estimated Duration: 40 Minutes
 
-<!-- TOC -->
+## Overview
 
-- [Introduction](#introduction)
-- [Embedded Power BI App in Web App](#embedded-power-bi)
-  - [Task 1 - Generate Client secret value in Azure AD App](#task1-generate-client-secret-value-in-azure-ad-app)
-  - [Task 2 - Enable the Power BI service admin settings](#task2-enable-the-power-bi-service-admin-settings)
-  - [Task 3 - Add the service principal and security group to your workspace](#task3-add-the-service-principal-and-security-group-to-your-workspace)
-  - [Task 4 - Change your Azure AD app's permissions](#task4-change-your-azure-ad-app's-permissions)
-  - [Task 5 - Get the embedding parameter values](#task5-get-the-embedding-parameter-values)
-  - [Task 6 - Embed your content in Visual Studio and run locally](#task6-embed-your-content-in-visual-studio-and-run-locally)
-  - [Task 7 - Publishing Embedded Power BI report to Web App](#task7-publishing-embedded-power-bi-report-to-web-app)
-  - [Developing your application](#developing-your-application)
-  - [References](#references)
-
-## Introduction
-
-**Embedded analytics** and **Power BI Embedded** (the Azure offer) allow you to embed Power BI content such as reports, dashboards and tiles, into your application.
-
-In this lab, you'll learn how to:
-
- - Set up your embedded environment.
- - Configure an embed for your customers (also known as app owns data) sample application.
-
-To use application, users won't need to sign in to Power BI or have a Power BI license.
-
-We recommend using the embed for users method to embed your Power BI content, if you're an independent software vendor (ISV) or a developer, who wants to create applications for third parties.
-
-### Code sample specifications
-
-This lab includes instructions for configuring an embed for sample application in one of the following frameworks:
-
- - .NET Framework
- - .NET Core
- - Java
- - Node JS
- - Python
-
-The code samples support the following browsers:
-
- - Microsoft Edge
- - Google Chrome
- - Mozilla Firefox
-
-## To create an embed for users sample app, follow these steps:
+In this lab, you'll explore Embedded Analytics and Power BI Embedded, learning how to integrate Power BI reports, dashboards, and tiles into your application. You'll set up an embedded environment and configure an "app owns data" sample application, enabling seamless access to Power BI content without requiring users to sign in or have a Power BI license. This approach is ideal for independent software vendors (ISVs) and developers building applications for third parties, leveraging the embed for users method to deliver interactive analytics experiences within their solutions.
 
 ### Task 1 - Generate Client secret value in Azure AD App
 
