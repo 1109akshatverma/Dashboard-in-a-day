@@ -1,25 +1,11 @@
-![Microsoft Power Platform.](Images/powerbi-welcome-4.png 'Microsoft Power Platform')
-
 # Lab 4 - Data Visualization
 
-**Contents** 
+### Estimated Duration: 30 Minutes
 
-<!-- TOC -->
+## Overview
 
-- [Introduction](#introduction)
-- [Power BI Desktop](#power-bi-desktop)
-  - [Power BI Desktop – Data Visualization](#power-bi-desktop-data-visualization)
-- [References](#references)
+In this lab, you will create and finalize a Power BI report that is ready for publication to the Power BI Service. You will explore key features such as conditional formatting, adding a logo to the manufacturer filter, importing a custom visual, and applying a custom theme. Additionally, you will use bookmarks to enhance storytelling within the report. The lab provides step-by-step guidance with accompanying screenshots, where key actions are highlighted in red or orange boxes to ensure clarity and ease of execution.
 
-## Introduction
-
-At the end of this lab, you will have completed a full report that is ready to be published to the Power BI Service. In the report, you will have learned how to do conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. By the end of this lab, you will have also learned how to add bookmarks to tell a story about the report.
-
-The flow of this document includes screenshots to provide a visual aid for the users and a text description of the steps the user needs to follow. In the screenshots, sections are highlighted with red or orange boxes to indicate the action or area on which a user needs to focus.
-
->**NOTE:** This lab uses real, anonymized data provided by ObviEnce, LLC. Visit their site to learn about their services: www.obvience.co[m](http://www.obvience.com/)[.](http://www.obvience.com/)[ ](http://www.obvience.com/)This data is the property of ObviEnce, LLC and has been shared to demonstrate Power BI functionality with industry sample data. Any use of this data must include this attribution to ObviEnce, LLC.
-
-## Power BI Desktop
 
 ### Power BI Desktop – Data Visualization
 

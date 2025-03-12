@@ -1,42 +1,21 @@
-![Microsoft Power Platform.](Images/powerbi-welcome-3.png 'Microsoft Power Platform')
-
 # Lab 3 - Data Modeling and Exploration
 
-**Contents** 
+### Estimated Duration: 40 Minutes
 
-<!-- TOC -->
+## Overview
 
-- [Introduction](#introduction)
-- [Power BI Desktop - Data Modeling and Exploration](#power-bi-desktop-data-modeling-and-exploration)
-  - [Power BI Desktop – Layout](#power-bi-desktop-layout)
-  - [Power BI Desktop – Data Exploration](#power-bi-desktop-data-exploration)
-- [References](#references)
+This lab provides step-by-step instructions for users to follow, accompanied by screenshots that serve as visual aids. Key sections in the screenshots are highlighted with red or orange boxes to direct the user's attention to essential areas. These highlights help users quickly identify the relevant interface elements, ensuring a smooth and guided learning experience.
 
-## Introduction
+## Lab Objectives
 
-In this lab you will learn how to:
- - Create a range of different charts.
- - Highlight and cross-filter.
- - Create new groups and hierarchies.
- - Add new measures to the model to do additional analysis.
+- Task 1 - Power BI Desktop - Layout (READ-ONLY)
+- Task 2 - Power BI Desktop – Data Exploration 
 
-The lab includes steps for the user to follow along with associated screenshots that provide a visual aid. In the screenshots, sections are highlighted with red or orange boxes to indicate the area the user needs to focus on.
+### Task 1 - Power BI Desktop - Layout (READ-ONLY)
 
->**Note**: This lab uses real, anonymized data provided by ObviEnce, LLC. Visit their site to learn about their services: www.obvience.com. This data is the property of ObviEnce, LLC and has been shared to demonstrate Power BI functionality with industry sample data. Any use of this data must include this attribution to ObviEnce, LLC.
-
-# Power BI Desktop – Data Modeling and Exploration
-
-In this section, we will learn about the [key parts of the Power BI desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-query-overview/). We will model and explore the data and build visuals.
-
-### Task 1 - Power BI Desktop - Layout 
-
-Let’s start with the main Power BI Desktop window and become familiar with the distinct sections available.
-
-   ![](Images/powerbi-02-01.png)
-   
 1. On the top of the window, you see the **Home** tab where the most common operations you perform are available.
 
-2. The **Insert** tab in the ribbon allows you to insert shapes, a text box or new visuals
+2. The **Insert** tab in the ribbon allows you to insert shapes, a text box or new visuals.
 
 3. The **Modeling** tab in the ribbon enables additional data modelling capabilities like adding custom columns and calculating measures. 
 
@@ -50,11 +29,11 @@ Let’s start with the main Power BI Desktop window and become familiar with the
 
 8. The **Visualizations** panel on the right allows you to select visualizations, add values to the visuals,and add columns to the axis or filters.
 
-9. The **Fields** window on the right panel is where you see the list of tables which were generated from the queries. Click the :arrow_down_small: icon (downward facing triangle) next to a table name to expand the field list for that table.
+9. The **Data** window on the right panel is where you see the list of tables which were generated from the queries. Click the :arrow_down_small: icon (downward facing triangle) next to a table name to expand the field list for that table.
 
    ![](Images/powerbi-02-02.png)
 
-10. Click on the **Data** icon on the left side. Expand the **Sales** table in the **Fields** pane as shown in the figure above. Scroll up and down to notice how fast you can navigate through over three million rows.
+10. Click on the **Data** icon on the left side. Expand the **Sales** table in the **Data** pane as shown in the image. Scroll up and down to notice how fast you can navigate through over three million rows.
 
     ![](Images/powerbi-02-03.png)
     
@@ -63,62 +42,34 @@ Let’s start with the main Power BI Desktop window and become familiar with the
   - A relationship is created between the Product and Manufacturer tables using the **ManufacturerID** column.
 
     ![](Images/powerbi-02-04.png)
-  
-Power BI supports multiple types of relationships:
-  - 1 to many 
-  - 1 to 1 
-  - Many to many 
-
-In this lab, we will be using the 1 to many type of relationship, the most common type of relationship. This means one of the tables involved in the relationship should have a unique set of values. We will create additional relationships later in this lab. 
-
->**Note**: Tables may not appear as shown in the figure. You can zoom in and out of the **Relationships** page by dragging the zoom slider in the bottom right corner of the window. Also, if you want to ensure you are seeing all the tables, use the fit to screen icon: ![](Images/powerbi-02-05.png) . Drag and move the tables to appear as shown in the figure:
-
-   ![](Images/powerbi-02-06.png)
-   
-12. Click on the Search box and notice the options available. The options change based on what you are clicked on in canvas
-
-    ![](Images/powerbi-02-07.png)
     
 ### Task 2 - Power BI Desktop – Data Exploration 
 
-Now that we have loaded data, let’s start with analyzing sales by country.
-
-13. Click on the **Report** icon on the left panel to navigate to the Report view.
-
-14. Click the **Clustered column chart** visual in **Visualizations** as shown in the screenshot.
+1. Click on the **Report (1)** icon on the left panel. Select the **Clustered column chart (2)** visual in **Visualizations** as shown in the screenshot.
 
     ![](Images/powerbi-02-08.png)
     
-15. From the **Fields** section, expand the **Geography** table and then click the checkbox next to the **Country** field.
+1. From the **Data** section, expand the **Geography** table and then click the checkbox next to the **Country** field.
 
-16. From the **Fields** section, expand the **Sales** table and then click the checkbox next to the **Revenue** field.
+1. From the **Data** section, expand the **Sales** table and then click the checkbox next to the **Revenue** field.
 
-17. **Resize** the visual as needed by dragging the edges.
+1. **Resize** the visual as needed by dragging the edges.
 
-    ![](Images/powerbi-02-09.png)
-    
- Notice that the revenue of each country is the same. Now we need to create a relationship between the Sales and Geography tables.
+1. Click on the **Model** icon on the left panel to navigate to the Relationship view.
 
-18. Click on the **Model** icon on the left panel to navigate to the Relationship view.
-
-19. Our sales data is by **Zip** code, so we need to connect the Zip column from the **Sales** table with **Zip** column in the **Geography** table. You can do this by dragging the **Zip** field in the **Sales** table to connect the line with the **Zip** field in the **Geography** table.
+1. Our sales data is by **Zip** code, so we need to connect the Zip column from the **Sales** table with **Zip** column in the **Geography** table. You can do this by dragging the **Zip** field in the **Sales** table to connect the line with the **Zip** field in the **Geography** table.
 
     ![](Images/powerbi-02-10.png)
-    
-    You will notice the **Create relationship** dialog opens with a warning message at the bottom stating the relationship has a many-many cardinality. The reason for the warning is that we don’t have unique Zip values in the **Geography** table. This is because multiple countries could have the same Zip code. Let’s 
-concatenate the **Zip** and **Country** columns to create a unique value field.
 
-20. Click **Cancel** in the **Create relationship** dialog box.
+1. Click on **Cancel** in the **Create relationship** dialog box.
 
-    We need to create a new column in both the Geography table and the Sales table that combines the **Zip** and **Country** columns. Let’s start by creating a new column in the Sales table. 
+1. Click on the **Report** icon on the left panel to navigate to the **Report** view.
 
-21. Click on the **Report** icon on the left panel to navigate to the **Report** view.
-
-22. In the **Fields** section, click on the ellipse next to the **Sales** table. Click the **New Column** as shown in the figure. You will see a formula bar appear, as shown in the screenshot, to help create this new column.
+1. In the **Data** section, click on the ellipse next to the **Sales** table. Click on **New Column** as shown. You will see a formula bar appear, as shown in the screenshot, to help create this new column.
 
     ![](Images/powerbi-02-11.png)
     
-23. Now we are ready to combine the Zip and Country columns into a new column called **ZipCountry**, separated by a comma. To create this column called ZipCountry, type the following calculation in the editor.
+1. Now we are ready to combine the Zip and Country columns into a new column called **ZipCountry**, separated by a comma. To create this column called ZipCountry, type the following calculation in the editor.
          
     ```bash
     ZipCountry = Sales[Zip] & "," & Sales[Country]
@@ -126,23 +77,13 @@ concatenate the **Zip** and **Country** columns to create a unique value field.
 
     ![](Images/powerbi-02-12.png)
 
-24. Once you are done entering the formula press **Enter** or click the checkmark on the left side of the formula bar. 
+1. Once you are done entering the formula, press `Enter`. 
 
-    You will notice that IntelliSense appears guiding you to choose the correct column. The language you used to create this new column is called Data Analysis Expression (DAX). We are connecting columns (Zip and Country) in each row by using the “&” symbol. The icon with an (fx), near the new column ZipCountry, indicates that you have a column containing an expression, also referred to as a calculated column.
-
-**IMPORTANT**: If you get an error creating a new column, make sure your Zip column is the Text Data Type.
-
->**Note**: An alternative way to add a new column is by selecting the table, click **Table Tools**, click **New Column** or **Modeling**, and then click **New Column** from the ribbon.
-
-   ![](Images/powerbi-02-13.png)
-   
-   Let us use this method to create a **ZipCountry** column in the **Geography** table. 
-
-25. From the Fields section, click the **Geography** table, from the ribbon click **Modeling**, and then click **New Column** as shown in the figure.
+1. From the Data section, click the **Geography** table, from the ribbon click **Modeling**, and then click **New Column** as shown in the figure.
 
     ![](Images/powerbi-02-14.png)
 
-26. A formula bar now appears. Enter the following DAX expression in the formula bar: 
+1. A formula bar now appears. Enter the following DAX expression in the formula bar: 
 
     ```bash
     ZipCountry = Geography[Zip] & "," & Geography[Country]
@@ -150,35 +91,37 @@ concatenate the **Zip** and **Country** columns to create a unique value field.
           
     ![](Images/powerbi-02-15.png)
 
-You will see a new column, **ZipCountry**, in the **Geography** table. The final step is to set up the relationship between the two tables using the newly created **ZipCountry** columns in each of these tables.
+1. Click on the **Model** icon on the left panel to navigate to the **Relationship** view.
 
-27. Click on the **Model** icon on the left panel to navigate to the **Relationship** view.
-
-28. Drag the **ZipCountry** field from the **Sales** table and connect it to the **ZipCountry** field in the **Geography** table.
+1. Drag the **ZipCountry** field from the **Sales** table and connect it to the **ZipCountry** field in the **Geography** table.
 
     ![](Images/powerbi-02-16.png)
+
+1. Click on **Save** in the **Create relationship** dialog box.
     
-Now we have successfully created a relationship. The number “1” next to Geography indicates it is on the one side of the relationship and the “*” next to Sales indicates it is on the many side of the relationship.
+1. Click on the **Report** icon on the left panel to navigate to the **Report** view.
 
-29. Click on the **Report** icon on the left panel to navigate to the **Report** view.
-
-Notice the clustered column chart that we created earlier. It shows different sales for each country or region. USA has the most sales, followed by Australia and Japan. By default, the chart is sorted by **Revenue**.
-
-30. Click on the **ellipse** on the top right corner of the visual (alternatively, the ellipse may be at the bottom of the chart). Notice there is an option to Sort axis by **Country** as well.
+1. Click on the **ellipse** on the top right corner of the visual (alternatively, the ellipse may be at the bottom of the chart). Notice there is an option to Sort axis by **Country** as well.
 
     ![](Images/sort-by-revenue.png)
 
-31. Notice that we have some blanks in our data. We want to clean up our data and get rid of the blanks
+1. Notice that we have some blanks in our data. We want to clean up our data and get rid of the blanks
 
-32. Drag the **Country** field from the **Geography** table to the Filters pane and drop it in **Filters on all pages**
+1. Drag the **Country** field from the **Geography** table to the Filters pane and drop it in **Filters on all pages**
 
-33. Change filter type to **Advanced filtering** and select **is not blank**, click on **Apply Filter**
+1. Change filter type to **Advanced filtering** and select **is not blank**, click on **Apply Filter**
  
  >**NOTE**: Additional filter options are available: is blank, is empty, is not empty
 
    ![](Images/powerbi-02-18.png)
 
-34. From the **Fields** section, expand the **Manufacturer** table, and then drag the **Manufacturer** column to the **Legend** section under Visualizations.
+1. Click on the **Model** icon.
+
+1. Drag the **ProductID** field in the **Product** table to connect the line with the **ProductID** field in the **Sales** table.
+
+1. Drag the **ManufacturerID** field in the **Manufacturer** table to connect the line with the **ManufacturerID** field in the **Manufacturer** table.
+
+1. From the **Data** section, expand the **Manufacturer** table, and then drag the **Manufacturer** column to the **Legend** section under Visualizations.
 
 35. While you have your chart selected, click the **Clustered column chart** from the **Visualizations** section, and then click the **Stacked column chart** visual.
 
@@ -238,7 +181,7 @@ We are interested in the top five competitors by revenue. Let’s group them so 
 
     ![](Images/powerbi-02-25.png)
 
-51. From the **Fields** section, right-click on the **Manufacturer** field name from **Manufacturer** table.
+51. From the **Data** section, right-click on the **Manufacturer** field name from **Manufacturer** table.
 
 >**Note**: do not check the checkbox.
 
@@ -260,7 +203,7 @@ We are interested in the top five competitors by revenue. Let’s group them so 
     
 59. With the **Stacked column chart** selected, click on the **X** next to **Manufacturer** in the **Legend** section. This will remove the Manufacturer.
 
-60. From the **Fields** section, drag the newly created **Manufacturer (groups)** to the **Legend** section.Now we can see that VanArsdel has nearly 50% share in Australia.
+60. From the **Data** section, drag the newly created **Manufacturer (groups)** to the **Legend** section.Now we can see that VanArsdel has nearly 50% share in Australia.
 
     ![](Images/powerbi-02-27.png)
 
@@ -278,9 +221,9 @@ We are interested in the top five competitors by revenue. Let’s group them so 
 
 Now let’s create a Revenue by Manufacturer visual.
 
-65. Click on the white space in the canvas. From the **Fields** section, click the checkbox next to the **Revenue** field in the **Sales** table.
+65. Click on the white space in the canvas. From the **Data** section, click the checkbox next to the **Revenue** field in the **Sales** table.
 
-66. From the **Fields** section, click the checkbox next to the **Manufacturer** field in the **Manufacturer** table.
+66. From the **Data** section, click the checkbox next to the **Manufacturer** field in the **Manufacturer** table.
 
 67. From the **Visualizations** section, click the **Treemap** visual.
 
@@ -300,7 +243,7 @@ Previously, we added a Top 5 Visual level filter. Now let’s add a filter to th
 
 Page-level filters apply to all visuals on the page. Visual-level filters apply only to a visual. Ensure the Filters pane is expanded/open.
 
-70. From the **Fields** section, drag **Manufacturer (groups)** from the **Manufacturer** table to the **Filters on this page** box in the **Filters Pane**.
+70. From the **Data** section, drag **Manufacturer (groups)** from the **Manufacturer** table to the **Filters on this page** box in the **Filters Pane**.
 
 71. Click **Top Competitors** and **VanArsdel**.
 
@@ -376,25 +319,8 @@ Notice that the fourth-quarter sales have always been high, but in 2021 there wa
 
 There is a lot of information in the visual and we must scroll left and right to compare.
 
-## References
+## Summary
 
-Dashboard in a Day introduces you to some of the key functions available in Power BI. In the ribbon of the Power BI Desktop, the Help section has links to some great resources.
+In this lab, you have explored the various data in Power BI.
 
-  ![](Images/powerbi-01-53.png)    
-
-Here are a few more resources that will help you with your next steps with Power BI.
-
-  - Getting started: http://powerbi.com
-  - Power BI Desktop: https://powerbi.microsoft.com/desktop
-  - Power BI Mobile: https://powerbi.microsoft.com/mobile
-  - Community site https://community.powerbi.com/
-  - Power BI Getting started support page: https://support.powerbi.com/knowledgebase/articles/430814-get-started-with-power-bi
-  - Support site https://support.powerbi.com/
-  - Feature requests https://ideas.powerbi.com/forums/265200-power-bi-ideas
-  - New ideas for using Power BI https://aka.ms/PBI_Comm_Ideas
-  - Power BI Courses http://aka.ms/pbi-create-reports
-  - Power Platform https://powerplatform.microsoft.com/en-us/instructor-led-training/
-  - Power Apps [Business Apps | Microsoft Power Apps](https://powerapps.microsoft.com/en-us/)
-  - Power Automate [Power Automate | Microsoft Power Platform](https://powerapps.microsoft.com/en-us/)
-  - Dataverse [What is Microsoft Dataverse? - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro)
-
+### You have successfully completed the lab!
