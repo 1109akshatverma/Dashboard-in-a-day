@@ -149,39 +149,29 @@ To analyze the Sales of all countries, it is convenient to have a single **Sales
 1. Click on **OK** to close this filter.
 
    ![](Images/did45.png)
+
+1. Click the **arrow** next to **Date** in the **Sales** Query.
+
+1. Click on the **Date Filters** and then click **In the Previous…**
+
+   ![](Images/did46.png)
     
-Typically, when exploring data, we load a subset of data. There are multiple ways to do this. From the ribbon, you can click **Home**, click **Keep Rows**, and then click **Keep Top Rows**. Another way to load a subset of data is to navigate to **Home**, then click **Keep Rows** and then click **Keep Bottom Rows**. A third method is to click **Home**, click **Keep Rows**, and then click **Keep Range of Rows**. You can use any of these options to filter down to a subset of data.
+1. The **Filter Rows** dialog box opens. Enter **3 (1)** in the text box next to **is in the previous (2)**. Click **years** from the drop-down menu. Click on **OK**.
 
-Our dataset has data from 2014 to 2021. For our analysis we want to start with the last three years of data (2019-2021). We don’t yet know how many rows will result. We can filter by year to get the subset.
+      ![](Images/did47.png)
 
-50. Click the **arrow** next to **Date** in the **Sales** Query.
+      > **Note:** Our dataset has data from 2022 to 2024. For our analysis we want to start with the last three years of data (2022-2024). We don’t yet know how many rows will result. We can filter by year to get the subset.
+   
+1. From the Queries panel on the left, click the **International Sales** query. Right-click and then click **Enable Load**. This will disable loading International Sales.
 
-51. Click **Date Filters** and then click **In the Previous…**
-
-    ![](Images/powerbi-01-45.png)
-    
-52. The **Filter Rows** dialog box opens. Enter **3** in the text box next to **is in the previous**.
-
-53. Click **years** from the drop-down menu.
-
-54. Click **OK**.
-
-    ![](Images/powerbi-01-46.png)
-    
-Now that the International Sales data is appended to the Sales query, we don’t need the International Sales table to load into the data model. Let’s prevent the International Sales table from loading into the data model. 
-
-55. From the Queries panel on the left, click the **International Sales** query.
-
-56. Right-click and then click **Enable Load**. This will disable loading International Sales.
-
-    ![](Images/powerbi-01-47.png)
+      ![](Images/did48.png)
     
      >**Note**: The appropriate data from the International Sales table will load into the Sales table each time the model is refreshed. By removing the International Sales table, we are preventing duplicate data from loading into the model and increasing its file size. In some instances, storing very large amounts 
 of data affects the data model performance.
  
-57. From the ribbon click **View** and then click **Query Dependencies**.
+1. From the ribbon click **View** and then click **Query Dependencies**.
 
-This opens the **Query Dependencies** dialog box. The dialog box shows the source of each query and its dependencies. For example, we see that the Sales query has a CSV file source and a dependency on the International Sales query. This is a useful information to share knowledge with your team members.
+   > **Note:** This opens the **Query Dependencies** dialog box. The dialog box shows the source of each query and its dependencies. For example, we see that the Sales query has a CSV file source and a dependency on the International Sales query. This is a useful information to share knowledge with your team members.
 
    ![](Images/powerbi-01-48.png)
 
