@@ -154,7 +154,7 @@ To analyze the Sales of all countries, it is convenient to have a single **Sales
 
    ![](Images/did46.png)
     
-1. The **Filter Rows** dialog box opens. Enter **3 (1)** in the text box next to **is in the previous (2)**. Click **years** from the drop-down menu. Click on **OK**.
+1. The **Filter Rows** dialog box opens. Enter **3 (1)** in the text box next to **is in the previous**. Click **years (2)** from the drop-down menu. Click on **OK (3)**.
 
       ![](Images/did47.png)
 
