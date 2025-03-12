@@ -1,28 +1,7 @@
-![Microsoft Power Platform.](Images/powerbi-welcome-5.png 'Microsoft Power Platform')
-
 # Lab 5 - Publishing and Accessing Reports
 
-**Contents** 
+### Estimated Duration: 40 Minutes
 
-<!-- TOC -->
-
-- [Introduction](#introduction)
-- [Power BI Service](#power-bi-service)
-  - [Power BI Service – Publishing Reports](#power-bi-desktop-publishing-reports)
-  - [Power BI – Building a Dashboard](#power-bi-desktop-building-a-dashboard)
-- [References](#references)
-
-## Introduction
-
-At the end of this lab, you will have completed a full report that is ready to be published to the Power BI Service. By creating the report, you will have learned how to do conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. By the end of this lab, you will have also learned how to add bookmarks to tell a story about the report.
-
-The flow of this document includes screenshots to provide a visual aid for you and text descriptions of the steps you need to follow. In the screenshots, sections are highlighted with red or orange boxes to indicate the action or area on which you need to focus.
-
-**NOTE:** This lab uses real, anonymized data provided by ObviEnce, LLC. Visit their site to learn about their services: www.obvience.co[m](http://www.obvience.com/)[.](http://www.obvience.com/)[ ](http://www.obvience.com/)This data is the property of ObviEnce. LLC and has been shared to demonstrate Power BI functionality with industry sample data. Any use of this data must include this attribution to ObviEnce, LLC.
-
-## Power BI Service
-
-You will now leverage a report authored using Power BI Desktop to create a dashboard for the VanArsdel data analysis team and CMO. A Power BI Desktop file with additional reports and visuals is provided. Please use this file for the next section of the lab.
 
 ### Task 1 - Power BI Service – Publishing Report
 
