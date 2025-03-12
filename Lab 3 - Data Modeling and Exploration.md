@@ -31,23 +31,23 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
 9. The **Data** window on the right panel is where you see the list of tables which were generated from the queries. Click the :arrow_down_small: icon (downward facing triangle) next to a table name to expand the field list for that table.
 
-   ![](Images/powerbi-02-02.png)
+      ![](Images/did55.png)
 
 10. Click on the **Data** icon on the left side. Expand the **Sales** table in the **Data** pane as shown in the image. Scroll up and down to notice how fast you can navigate through over three million rows.
 
-    ![](Images/powerbi-02-03.png)
+      ![](Images/did56.png)
     
 11. Click on the **Model** icon on the left panel of Power BI Desktop. You see the tables you have imported along with Relationships. The Power BI Desktop automatically infers relationships between the tables. 
   - A relationship is created between the Sales and Product tables using the **ProductID** column.
   - A relationship is created between the Product and Manufacturer tables using the **ManufacturerID** column.
 
-    ![](Images/powerbi-02-04.png)
+       ![](Images/did57.png)
     
 ### Task 2 - Power BI Desktop – Data Exploration 
 
 1. Click on the **Report (1)** icon on the left panel. Select the **Clustered column chart (2)** visual in **Visualizations** as shown in the screenshot.
 
-    ![](Images/powerbi-02-08.png)
+      ![](Images/did58.png)
     
 1. From the **Data** section, expand the **Geography** table and then click the checkbox next to the **Country** field.
 
@@ -187,137 +187,109 @@ We are interested in the top five competitors by revenue. Let’s group them so 
 
 52. Click **New Group**.
 
-53. In the **Ungrouped values** section, using **Ctrl** key, click **Aliqui**, **Currus**, **Natura**, and **Pirum**.
+1. In the **Ungrouped values** section, using **Ctrl** key, click **Aliqui**, **Currus**, **Natura**, and **Pirum** **(1)**. Click the **Group (2)** button. Notice a new group is added in the **Groups and members** section.
 
-54. Click the **Group** button. Notice a new group is added in the **Groups and members** section.
+      ![](Images/did76.png)
 
-55. Double-click the newly created group and rename it **Top Competitors**.
+1. Double-click the newly created group and rename it **Top Competitors (3)**. Click **VanArsdel (4)** from the **Ungrouped values** section and click the **Group (5)** button to create the **VanArsdel** group.
 
-56. Click **VanArsdel** from the **Ungrouped values** section and click the **Group** button to create the **VanArsdel** group.
+      ![](Images/did83.png)
 
-57. Click the checkbox **Include Other group**. This will create another **Other** group that includes all the other manufacturers.
+1. Click the checkbox **Include Other group (7)**. This will create another **Other** group that includes all the other manufacturers. Click on **OK** to close the **Groups** dialog.
 
-58. Click **OK** to close the **Groups** dialog.
-
-    ![](Images/powerbi-02-26.png)
+      ![](Images/did77.png)
     
-59. With the **Stacked column chart** selected, click on the **X** next to **Manufacturer** in the **Legend** section. This will remove the Manufacturer.
+1. With the **Stacked column chart** selected, click on the **X** next to **Manufacturer** in the **Legend** section. This will remove the Manufacturer.
 
-60. From the **Data** section, drag the newly created **Manufacturer (groups)** to the **Legend** section.Now we can see that VanArsdel has nearly 50% share in USA.
+1. From the **Data** section, drag the newly created **Manufacturer (groups)** to the **Legend** section.Now we can see that VanArsdel has nearly 50% share in USA.
 
     ![](Images/powerbi-02-27.png)
 
-61. Hover over one of the columns and right-click.
+1. Hover over one of the columns and right-click.
 
-62. Click **Show as a table**. You will now be in **Focus** mode with the chart displayed on top and the data displayed below. Notice that VanArsdel has a large percent of the USA market.
+1. Click **Show as a table**. You will now be in **Focus** mode with the chart displayed on top and the data displayed below. Notice that VanArsdel has a large percent of the USA market.
 
-63. Use the icon in the top right corner to switch to the vertical layout. In this layout, you view the chart on the left panel and the data on the right panel.
+      ![](Images/did79.png)
 
-64. Click **Back to Report** to go back to the **Report** canvas.
+1. Click **Back to Report** to go back to the **Report** canvas.
 
-    ![](Images/powerbi-02-28.png)
+      ![](Images/did80.png)
 
- >**Note**: You can use similar steps to Show data point as a table to see records for a specific data point.
+1. Click on the white space in the canvas. From the **Data** section, click the checkbox next to the **Revenue (1)** field in the **Sales** table. From the **Data** section, click the checkbox next to the **Manufacturer (2)** field in the **Manufacturer** table. From the **Visualizations** section, click the **Treemap (3)** visual.
 
-Now let’s create a Revenue by Manufacturer visual.
+      ![](Images/did81.png)
 
-65. Click on the white space in the canvas. From the **Data** section, click the checkbox next to the **Revenue** field in the **Sales** table.
-
-66. From the **Data** section, click the checkbox next to the **Manufacturer** field in the **Manufacturer** table.
-
-67. From the **Visualizations** section, click the **Treemap** visual.
-
-    ![](Images/powerbi-02-29.png)
+1. In the **Treemap**, click **VanArsdel** and notice that the Stacked column chart is filtered. This confirms that VanArsdel has a large percentage of the USA market.
     
-We now have Revenue by Manufacturer. Now let’s turn our attention to the interaction between the Stacked column chart and the Treemap visuals.
+1. To remove the filter, click **VanArsdel** again.
 
-68. In the **Treemap**, click **VanArsdel** and notice that the Stacked column chart is filtered. This confirms that VanArsdel has a large percentage of the USA market.
+1. From the **Data** section, drag **Manufacturer (groups) (1)** from the **Manufacturer** table to the **Filters on this page (2)** box in the **Filters Pane**. Select **Top Competitors** and **VanArsdel** **(3)**.
 
-    ![](Images/powerbi-02-30.png)
+      ![](Images/did84.png)
+
+1. Begin by clicking on the white space in the canvas and select **Clusterd column chart (1)** from Visualizations.Click the checkbox next to the **Date (2)** field in the **Sales** table. Click the checkbox next to the **Revenue (3)** in the **Sales** table field.
+   
+      > **Note:** Notice that a Clustered column chart is created. Also notice in the **Axis** section, a date hierarchy is created. There are arrows on the top bar of the chart which are used to navigate through the hierarchy.
+
+      ![](Images/did86.png)
+
+1. Click on the **USA** column in the **Revenue by Country** visual.
+
+1. With the **Revenue by Country (1)** visual selected, from the ribbon click on **Format (2)**, and then click **Edit Interactions (3)**. Notice on the top right of the other two visuals new icons with the highlight icon selected.
+
+      ![](Images/did87.png)
+
+1. Click the **filter icon** for both visuals.
+
+      ![](Images/did88.png)
     
-69. To remove the filter, click **VanArsdel** again.
+      > **Note:** Notice now in both Revenue by Year and Revenue by Manufacturer, data is filtered for USA.
 
-This interaction between visuals is called cross-filtering.
+1. Now click the **Revenue by Year** visual. Next, click the **filter** icon on the other two visuals.
 
-Previously, we added a Top 5 Visual level filter. Now let’s add a filter to the Page level, so we are working with the Top Competitors and VanArsdel and filter out the other manufacturers.
+      ![](Images/did89.png)
 
-Page-level filters apply to all visuals on the page. Visual-level filters apply only to a visual. Ensure the Filters pane is expanded/open.
+1. Similarly, click on the **Revenue by Manufacturer** visual and click the **filter icon** on the other **two visuals**. Once you are done, all the visuals should be in filter mode.
 
-70. From the **Data** section, drag **Manufacturer (groups)** from the **Manufacturer** table to the **Filters on this page** box in the **Filters Pane**.
+      ![](Images/did90.png)
 
-71. Click **Top Competitors** and **VanArsdel**.
+1. With the **Revenue by Manufacturer (1)** visual selected, from the ribbon click **Format (2)** then **Edit Interactions (3)** to remove the icons.
 
-    ![](Images/powerbi-02-31.png)
+      ![](Images/did91.png)
 
-Now, let’s add a visual that provides sales information over time
+1. Click on **VanArsdel** in the Revenue by Manufaturer visual.
 
-72. Begin by clicking on the white space in the canvas and select **Clusterd column chart** from Visualizations.
+      ![](Images/did92.png)
 
-73. Click the checkbox next to the **Date** field in the **Sales** table. Notice that a Date Hierarchy is created. 
+1. Click on the **Revenue by Country and Manufacturer (groups) (1)** chart and remove **Manufacturer (groups) (2)** from the legend.
 
-74. Click the checkbox next to the **Revenue** in the **Sales** table field. Notice that a Clustered column chart is created. Also notice in the **Axis** section, a date hierarchy is created. There are arrows on the top bar of the chart which are used to navigate through the hierarchy.
+      ![](Images/did93.png)
 
-    ![](Images/powerbi-02-32.png)
+1. Click on **VanArsdel** in the **Revenue by Manufacturer** visual.
 
-75. Click on the **USA** column in the **Revenue by Country** visual.
+1. **Ctrl+Click** the **USA column** in the **Revenue by Country** visual. 
 
-76. With the **Revenue by Country** visual selected, from the ribbon click on **Format**, and then click **Edit Interactions**. Notice on the top right of the other two visuals new icons with the highlight icon selected.
+      ![](Images/did94.png)
 
-77. Click the **filter icon** for both visuals.
+1. Click the **down arrow (1)** on the top of the **Revenue by Year** visual. Click the **2024 (2)** column in the **Revenue by Year** visual.
 
-    ![](Images/powerbi-02-33.png)
-    
-Notice now in both Revenue by Year and Revenue by Manufacturer, data is filtered for USA.
+      ![](Images/did95.png)
 
-78. Now click the **Revenue by Year** visual.
+      ![](Images/did96.png)
 
-79. Next, click the **filter** icon on the other two visuals.
+1. Click on the double arrow icon on the top of the **Revenue by Year** visual. This drills down to the next level of the hierarchy, which is the month.
 
-    ![](Images/powerbi-02-34.png)
+      ![](Images/did97.png)
 
-80. Similarly, click on the **Revenue by Manufacturer** visual and click the **filter icon** on the other **two visuals**. Once you are done, all the visuals should be in filter mode.
+      ![](Images/did98.png)
 
-81. With the **Revenue by Manufacturer** visual selected, from the ribbon click **Format** then **Edit Interactions** to remove the icons.
+1. Click on the up-arrow icon on the top of the **Revenue by Year** visual to drill up to the **Quarter** level.
 
-82. Click on VanArsdel in the Revenue by Manufaturer visual
+1. Click on the drill up icon again to go up to the **Year** level
 
->**Note**: If your screen doesn’t look like the one below please edit your interactions.
+1. Click on the split arrow icon on the top right of the **Revenue by Year** visual. This expands down to the next level of the hierarchy, which is quarters for all the years.
 
-   ![](Images/powerbi-02-35.png)
-
-We have already noticed that VanArsdel has a large share of the market in Australia. Let’s see how VanArsdel has done over time in Australia.
-
-83. Click on the **Revenue by Country and Manufacturer (groups)** chart and remove **Manufacturer (groups)** from the legend.
-
-84. Click on **VanArsdel** in the **Revenue by Manufacturer** visual.
-
-85. **Ctrl+Click** the **Australia column** in the **Revenue by Country** visual. 
-
-Now we have filtered the charts by both VanArsdel and Australia. Looking at the results, we can see a spike in 2021 sales for VanArsdel in Australia. This spike in sales is intriguing, so let’s investigate further.
-
-86. Click the down arrow on the top of the **Revenue by Year** visual. This enables drill-down capability.
-
-    ![](Images/powerbi-02-36.png)
-    
-87. Click the **2024** column in the **Revenue by Year** visual.
-
-Notice that you have drilled down to the quarter level of 2021. There was a big spike in the fourth quarter. Let’s dig further.
-
-88. Click on the double arrow icon on the top of the **Revenue by Year** visual. This drills down to the next level of the hierarchy, which is the month.
-
-    ![](Images/powerbi-02-37.png)
-
-89. Click on the up-arrow icon on the top of the **Revenue by Year** visual to drill up to the **Quarter** level.
-
-90. Click on the drill up icon again to go up to the **Year** level
-
-91. Click on the split arrow icon on the top right of the **Revenue by Year** visual. This expands down to the next level of the hierarchy, which is quarters for all the years.
-
-Notice that the fourth-quarter sales have always been high, but in 2021 there was a larger sales spike in the fourth quarter than usual.
-
-92. Now let’s expand down to the month level. Click on the split arrow icon on the top right of the **Revenue by Year** visual. This expands down to the next level of the hierarchy, which is months for all the years.
-
-There is a lot of information in the visual and we must scroll left and right to compare.
+1. Now let’s expand down to the month level. Click on the split arrow icon on the top right of the **Revenue by Year** visual. This expands down to the next level of the hierarchy, which is months for all the years.
 
 ## Summary
 
