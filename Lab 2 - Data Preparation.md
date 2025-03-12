@@ -65,8 +65,6 @@ In the **Geography** query, notice that the first two rows are informational. Th
       ![](Images/did32.png)
 
 1. The **Remove Top Rows** dialog box opens. Enter **2** in the text box and click on **OK**.
-
-    ![](Images/remove_row.png)
     
       >**Note**: Notice the first row in the Geography query is now the column header. Let’s make it a header.
 
