@@ -52,24 +52,19 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
 1. Click on the **Model** icon on the left panel to navigate to the Relationship view.
 
-19. Our sales data is by **Zip** code, so we need to connect the Zip column from the **Sales** table with **Zip** column in the **Geography** table. You can do this by dragging the **Zip** field in the **Sales** table to connect the line with the **Zip** field in the **Geography** table.
+1. Our sales data is by **Zip** code, so we need to connect the Zip column from the **Sales** table with **Zip** column in the **Geography** table. You can do this by dragging the **Zip** field in the **Sales** table to connect the line with the **Zip** field in the **Geography** table.
 
     ![](Images/powerbi-02-10.png)
-    
-    You will notice the **Create relationship** dialog opens with a warning message at the bottom stating the relationship has a many-many cardinality. The reason for the warning is that we don’t have unique Zip values in the **Geography** table. This is because multiple countries could have the same Zip code. Let’s 
-concatenate the **Zip** and **Country** columns to create a unique value field.
 
-20. Click **Cancel** in the **Create relationship** dialog box.
+1. Click on **Cancel** in the **Create relationship** dialog box.
 
-    We need to create a new column in both the Geography table and the Sales table that combines the **Zip** and **Country** columns. Let’s start by creating a new column in the Sales table. 
+1. Click on the **Report** icon on the left panel to navigate to the **Report** view.
 
-21. Click on the **Report** icon on the left panel to navigate to the **Report** view.
-
-22. In the **Data** section, click on the ellipse next to the **Sales** table. Click the **New Column** as shown in the figure. You will see a formula bar appear, as shown in the screenshot, to help create this new column.
+1. In the **Data** section, click on the ellipse next to the **Sales** table. Click on **New Column** as shown. You will see a formula bar appear, as shown in the screenshot, to help create this new column.
 
     ![](Images/powerbi-02-11.png)
     
-23. Now we are ready to combine the Zip and Country columns into a new column called **ZipCountry**, separated by a comma. To create this column called ZipCountry, type the following calculation in the editor.
+1. Now we are ready to combine the Zip and Country columns into a new column called **ZipCountry**, separated by a comma. To create this column called ZipCountry, type the following calculation in the editor.
          
     ```bash
     ZipCountry = Sales[Zip] & "," & Sales[Country]
@@ -77,23 +72,13 @@ concatenate the **Zip** and **Country** columns to create a unique value field.
 
     ![](Images/powerbi-02-12.png)
 
-24. Once you are done entering the formula press **Enter** or click the checkmark on the left side of the formula bar. 
+1. Once you are done entering the formula, press `Enter`. 
 
-    You will notice that IntelliSense appears guiding you to choose the correct column. The language you used to create this new column is called Data Analysis Expression (DAX). We are connecting columns (Zip and Country) in each row by using the “&” symbol. The icon with an (fx), near the new column ZipCountry, indicates that you have a column containing an expression, also referred to as a calculated column.
-
-**IMPORTANT**: If you get an error creating a new column, make sure your Zip column is the Text Data Type.
-
->**Note**: An alternative way to add a new column is by selecting the table, click **Table Tools**, click **New Column** or **Modeling**, and then click **New Column** from the ribbon.
-
-   ![](Images/powerbi-02-13.png)
-   
-   Let us use this method to create a **ZipCountry** column in the **Geography** table. 
-
-25. From the Data section, click the **Geography** table, from the ribbon click **Modeling**, and then click **New Column** as shown in the figure.
+1. From the Data section, click the **Geography** table, from the ribbon click **Modeling**, and then click **New Column** as shown in the figure.
 
     ![](Images/powerbi-02-14.png)
 
-26. A formula bar now appears. Enter the following DAX expression in the formula bar: 
+1. A formula bar now appears. Enter the following DAX expression in the formula bar: 
 
     ```bash
     ZipCountry = Geography[Zip] & "," & Geography[Country]
@@ -101,37 +86,37 @@ concatenate the **Zip** and **Country** columns to create a unique value field.
           
     ![](Images/powerbi-02-15.png)
 
-You will see a new column, **ZipCountry**, in the **Geography** table. The final step is to set up the relationship between the two tables using the newly created **ZipCountry** columns in each of these tables.
+1. Click on the **Model** icon on the left panel to navigate to the **Relationship** view.
 
-27. Click on the **Model** icon on the left panel to navigate to the **Relationship** view.
-
-28. Drag the **ZipCountry** field from the **Sales** table and connect it to the **ZipCountry** field in the **Geography** table.
+1. Drag the **ZipCountry** field from the **Sales** table and connect it to the **ZipCountry** field in the **Geography** table.
 
     ![](Images/powerbi-02-16.png)
 
 1. Click on **Save** in the **Create relationship** dialog box.
     
-Now we have successfully created a relationship. The number “1” next to Geography indicates it is on the one side of the relationship and the “*” next to Sales indicates it is on the many side of the relationship.
+1. Click on the **Report** icon on the left panel to navigate to the **Report** view.
 
-29. Click on the **Report** icon on the left panel to navigate to the **Report** view.
-
-Notice the clustered column chart that we created earlier. It shows different sales for each country or region. USA has the most sales, followed by Australia and Japan. By default, the chart is sorted by **Revenue**.
-
-30. Click on the **ellipse** on the top right corner of the visual (alternatively, the ellipse may be at the bottom of the chart). Notice there is an option to Sort axis by **Country** as well.
+1. Click on the **ellipse** on the top right corner of the visual (alternatively, the ellipse may be at the bottom of the chart). Notice there is an option to Sort axis by **Country** as well.
 
     ![](Images/sort-by-revenue.png)
 
-31. Notice that we have some blanks in our data. We want to clean up our data and get rid of the blanks
+1. Notice that we have some blanks in our data. We want to clean up our data and get rid of the blanks
 
-32. Drag the **Country** field from the **Geography** table to the Filters pane and drop it in **Filters on all pages**
+1. Drag the **Country** field from the **Geography** table to the Filters pane and drop it in **Filters on all pages**
 
-33. Change filter type to **Advanced filtering** and select **is not blank**, click on **Apply Filter**
+1. Change filter type to **Advanced filtering** and select **is not blank**, click on **Apply Filter**
  
  >**NOTE**: Additional filter options are available: is blank, is empty, is not empty
 
    ![](Images/powerbi-02-18.png)
 
-34. From the **Data** section, expand the **Manufacturer** table, and then drag the **Manufacturer** column to the **Legend** section under Visualizations.
+1. Click on the **Model** icon.
+
+1. Drag the **ProductID** field in the **Product** table to connect the line with the **ProductID** field in the **Sales** table.
+
+1. Drag the **ManufacturerID** field in the **Manufacturer** table to connect the line with the **ManufacturerID** field in the **Manufacturer** table.
+
+1. From the **Data** section, expand the **Manufacturer** table, and then drag the **Manufacturer** column to the **Legend** section under Visualizations.
 
 35. While you have your chart selected, click the **Clustered column chart** from the **Visualizations** section, and then click the **Stacked column chart** visual.
 
