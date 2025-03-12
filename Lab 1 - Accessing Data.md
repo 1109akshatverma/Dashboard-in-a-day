@@ -146,7 +146,7 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
  
 1. Highlight the **Zip** column and change the **Data Type** to **Text**.
 
-     ![](Images/did23.png)
+     ![](Images/did23-1.png)
 
 1. The **Change Column Type** dialog box will open. Click the **Replace Current** button.
 
