@@ -2,9 +2,16 @@
 
 ### Estimated Duration: 30 Minutes
 
-## Introduction
+## Overview
 
 In this lab, you will explore how to share reports and dashboards in the Power BI service to collaborate effectively with colleagues inside and outside your organization. You will learn how to grant view and interaction access while ensuring data security through Row-Level Security (RLS). Additionally, you will configure sharing permissions, including controlling whether recipients can reshare content. By the end of this exercise, you will understand best practices for securely sharing insights while maintaining control over your data.
+
+## Lab Objectives
+
+- Task 1: Azure Portal - Create an AD User
+- Task 2: Power BI – Manage Permissions to a Report
+- Task 3: Power BI – Share a Dashboard
+- Task 4: Power BI – Manage Permissions to a Dashboard   
 
 ## Task 1: Azure Portal - Create an AD User
 
@@ -174,26 +181,9 @@ You can share the dashboard with guest users whose addresses are outside your or
 5. In the **Remove access** dialog, decide if you also want to remove access to related content, such as reports and datasets. It's best to also remove access to related content; otherwise, the related content may not display properly. 
   
    ![](Images/powerbi-06-19.png)
-  
-## References
 
-Dashboard in a Day introduces you to some of the key functions available in Power BI. In the ribbon of the Power BI Desktop, the Help section has links to some great resources.
+## Summary
 
-   ![](Images/powerbi-01-53.png)
+In this lab, you have created an AD User in Azure, managed permissions to a Report, shared a Dashboard, managed Permissions to a Dashboard in Power BI.  
 
-Here are a few more resources that will help you with your next steps with Power BI.
-
-  - Getting started: http://powerbi.com
-  - Power BI Desktop: https://powerbi.microsoft.com/desktop
-  - Power BI Mobile: https://powerbi.microsoft.com/mobile
-  - Community site https://community.powerbi.com/
-  - Power BI Getting started support page: https://support.powerbi.com/knowledgebase/articles/430814-get-started-with-power-bi
-  - Support site https://support.powerbi.com/
-  - Feature requests https://ideas.powerbi.com/forums/265200-power-bi-ideas
-  - New ideas for using Power BI https://aka.ms/PBI_Comm_Ideas
-  - Power BI Courses http://aka.ms/pbi-create-reports
-  - Power Platform https://powerplatform.microsoft.com/en-us/instructor-led-training/
-  - Power Apps [Business Apps | Microsoft Power Apps](https://powerapps.microsoft.com/en-us/)
-  - Power Automate [Power Automate | Microsoft Power Platform](https://powerapps.microsoft.com/en-us/)
-  - Dataverse [What is Microsoft Dataverse? - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro) 
-  
+### You have successfully completed the lab!
