@@ -10,6 +10,10 @@ In this lab, you will explore methods to transform data in the data model to ens
 
 - Task 1 - Power BI Desktop – Filling empty values
 - Task 2 - Power BI Desktop – Splitting columns
+- Task 3 - Power BI Desktop – Renaming columns
+- Task 4 - Power BI Desktop – Removing unwanted rows
+- Task 5 - Power BI Desktop – Transposing data
+- Task 6 - Power BI Desktop – Appending queries
 
 ### Task 1 - Power BI Desktop – Filling empty values
 
@@ -197,6 +201,6 @@ of data affects the data model performance.
 
 ## Summary
 
-
+In this lab, you have filled empty values, split columns, renamed columns, removed unwanted rows, transposed data and appended queries.
      
 ### You have successfully completed the lab!
