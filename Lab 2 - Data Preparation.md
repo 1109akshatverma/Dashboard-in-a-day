@@ -1,8 +1,14 @@
 # Lab 2 - Data Preparation
 
+### Estimated Duration: 
+
 ## Overview
 
-In this section, we will explore methods to [transform data in the data model](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-shape-and-combine-data/). Transforming the data by renaming tables, updating data types, and appending tables together ensures that the data is ready to be used for reporting. In some instances, this means cleaning the data up so that similar sets of data can be combined. In other instances, groups of data are renamed so that they are more easilyrecognized by end users and report writing is simplified.
+In this lab, you will explore methods to transform data in the data model to ensure it is optimized for reporting. You will perform key transformations such as renaming tables, updating data types, and appending tables to clean and structure the data effectively. These transformations enhance data consistency, improve usability for end users, and streamline the report creation process in Power BI.
+
+## Lab Objectives
+
+- Task 1 - Power BI Desktop - Renaming tables
 
 ### Task 1 - Power BI Desktop - Renaming tables
 
