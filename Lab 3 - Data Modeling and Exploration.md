@@ -6,6 +6,11 @@
 
 This lab provides step-by-step instructions for users to follow, accompanied by screenshots that serve as visual aids. Key sections in the screenshots are highlighted with red or orange boxes to direct the user's attention to essential areas. These highlights help users quickly identify the relevant interface elements, ensuring a smooth and guided learning experience.
 
+## Lab Objectives
+
+- Task 1 - Power BI Desktop - Layout (READ-ONLY)
+- Task 2 - Power BI Desktop – Data Exploration 
+
 ### Task 1 - Power BI Desktop - Layout (READ-ONLY)
 
 1. On the top of the window, you see the **Home** tab where the most common operations you perform are available.
@@ -314,25 +319,8 @@ Notice that the fourth-quarter sales have always been high, but in 2021 there wa
 
 There is a lot of information in the visual and we must scroll left and right to compare.
 
-## References
+## Summary
 
-Dashboard in a Day introduces you to some of the key functions available in Power BI. In the ribbon of the Power BI Desktop, the Help section has links to some great resources.
+In this lab, you have explored the various data in Power BI.
 
-  ![](Images/powerbi-01-53.png)    
-
-Here are a few more resources that will help you with your next steps with Power BI.
-
-  - Getting started: http://powerbi.com
-  - Power BI Desktop: https://powerbi.microsoft.com/desktop
-  - Power BI Mobile: https://powerbi.microsoft.com/mobile
-  - Community site https://community.powerbi.com/
-  - Power BI Getting started support page: https://support.powerbi.com/knowledgebase/articles/430814-get-started-with-power-bi
-  - Support site https://support.powerbi.com/
-  - Feature requests https://ideas.powerbi.com/forums/265200-power-bi-ideas
-  - New ideas for using Power BI https://aka.ms/PBI_Comm_Ideas
-  - Power BI Courses http://aka.ms/pbi-create-reports
-  - Power Platform https://powerplatform.microsoft.com/en-us/instructor-led-training/
-  - Power Apps [Business Apps | Microsoft Power Apps](https://powerapps.microsoft.com/en-us/)
-  - Power Automate [Power Automate | Microsoft Power Platform](https://powerapps.microsoft.com/en-us/)
-  - Dataverse [What is Microsoft Dataverse? - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro)
-
+### You have successfully completed the lab!
