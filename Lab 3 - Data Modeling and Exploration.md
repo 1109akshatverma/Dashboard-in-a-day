@@ -31,23 +31,23 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
 9. The **Data** window on the right panel is where you see the list of tables which were generated from the queries. Click the :arrow_down_small: icon (downward facing triangle) next to a table name to expand the field list for that table.
 
-   ![](Images/powerbi-02-02.png)
+      ![](Images/did55.png)
 
 10. Click on the **Data** icon on the left side. Expand the **Sales** table in the **Data** pane as shown in the image. Scroll up and down to notice how fast you can navigate through over three million rows.
 
-    ![](Images/powerbi-02-03.png)
+      ![](Images/did56.png)
     
 11. Click on the **Model** icon on the left panel of Power BI Desktop. You see the tables you have imported along with Relationships. The Power BI Desktop automatically infers relationships between the tables. 
   - A relationship is created between the Sales and Product tables using the **ProductID** column.
   - A relationship is created between the Product and Manufacturer tables using the **ManufacturerID** column.
 
-    ![](Images/powerbi-02-04.png)
+       ![](Images/did57.png)
     
 ### Task 2 - Power BI Desktop – Data Exploration 
 
 1. Click on the **Report (1)** icon on the left panel. Select the **Clustered column chart (2)** visual in **Visualizations** as shown in the screenshot.
 
-    ![](Images/powerbi-02-08.png)
+      ![](Images/did58.png)
     
 1. From the **Data** section, expand the **Geography** table and then click the checkbox next to the **Country** field.
 
@@ -251,73 +251,69 @@ Page-level filters apply to all visuals on the page. Visual-level filters apply 
 
 Now, let’s add a visual that provides sales information over time
 
-72. Begin by clicking on the white space in the canvas and select **Clusterd column chart** from Visualizations.
+1. Begin by clicking on the white space in the canvas and select **Clusterd column chart (1)** from Visualizations.Click the checkbox next to the **Date (2)** field in the **Sales** table. Click the checkbox next to the **Revenue (3)** in the **Sales** table field.
+   
+      > **Note:** Notice that a Clustered column chart is created. Also notice in the **Axis** section, a date hierarchy is created. There are arrows on the top bar of the chart which are used to navigate through the hierarchy.
 
-73. Click the checkbox next to the **Date** field in the **Sales** table. Notice that a Date Hierarchy is created. 
+      ![](Images/did86.png)
 
-74. Click the checkbox next to the **Revenue** in the **Sales** table field. Notice that a Clustered column chart is created. Also notice in the **Axis** section, a date hierarchy is created. There are arrows on the top bar of the chart which are used to navigate through the hierarchy.
+1. Click on the **USA** column in the **Revenue by Country** visual.
 
-    ![](Images/powerbi-02-32.png)
+1. With the **Revenue by Country (1)** visual selected, from the ribbon click on **Format (2)**, and then click **Edit Interactions (3)**. Notice on the top right of the other two visuals new icons with the highlight icon selected.
 
-75. Click on the **USA** column in the **Revenue by Country** visual.
+      ![](Images/did87.png)
 
-76. With the **Revenue by Country** visual selected, from the ribbon click on **Format**, and then click **Edit Interactions**. Notice on the top right of the other two visuals new icons with the highlight icon selected.
+1. Click the **filter icon** for both visuals.
 
-77. Click the **filter icon** for both visuals.
-
-    ![](Images/powerbi-02-33.png)
+      ![](Images/did88.png)
     
-Notice now in both Revenue by Year and Revenue by Manufacturer, data is filtered for USA.
+      > **Note:** Notice now in both Revenue by Year and Revenue by Manufacturer, data is filtered for USA.
 
-78. Now click the **Revenue by Year** visual.
+1. Now click the **Revenue by Year** visual. Next, click the **filter** icon on the other two visuals.
 
-79. Next, click the **filter** icon on the other two visuals.
+      ![](Images/did89.png)
 
-    ![](Images/powerbi-02-34.png)
+1. Similarly, click on the **Revenue by Manufacturer** visual and click the **filter icon** on the other **two visuals**. Once you are done, all the visuals should be in filter mode.
 
-80. Similarly, click on the **Revenue by Manufacturer** visual and click the **filter icon** on the other **two visuals**. Once you are done, all the visuals should be in filter mode.
+      ![](Images/did90.png)
 
-81. With the **Revenue by Manufacturer** visual selected, from the ribbon click **Format** then **Edit Interactions** to remove the icons.
+1. With the **Revenue by Manufacturer (1)** visual selected, from the ribbon click **Format (2)** then **Edit Interactions (3)** to remove the icons.
 
-82. Click on VanArsdel in the Revenue by Manufaturer visual
+      ![](Images/did91.png)
 
->**Note**: If your screen doesn’t look like the one below please edit your interactions.
+1. Click on **VanArsdel** in the Revenue by Manufaturer visual.
 
-   ![](Images/powerbi-02-35.png)
+      ![](Images/did92.png)
 
-We have already noticed that VanArsdel has a large share of the market in Australia. Let’s see how VanArsdel has done over time in Australia.
+1. Click on the **Revenue by Country and Manufacturer (groups) (1)** chart and remove **Manufacturer (groups) (2)** from the legend.
 
-83. Click on the **Revenue by Country and Manufacturer (groups)** chart and remove **Manufacturer (groups)** from the legend.
+      ![](Images/did93.png)
 
-84. Click on **VanArsdel** in the **Revenue by Manufacturer** visual.
+1. Click on **VanArsdel** in the **Revenue by Manufacturer** visual.
 
-85. **Ctrl+Click** the **Australia column** in the **Revenue by Country** visual. 
+1. **Ctrl+Click** the **USA column** in the **Revenue by Country** visual. 
 
-Now we have filtered the charts by both VanArsdel and Australia. Looking at the results, we can see a spike in 2021 sales for VanArsdel in Australia. This spike in sales is intriguing, so let’s investigate further.
+      ![](Images/did94.png)
 
-86. Click the down arrow on the top of the **Revenue by Year** visual. This enables drill-down capability.
+1. Click the **down arrow (1)** on the top of the **Revenue by Year** visual. Click the **2024 (2)** column in the **Revenue by Year** visual.
 
-    ![](Images/powerbi-02-36.png)
-    
-87. Click the **2024** column in the **Revenue by Year** visual.
+      ![](Images/did95.png)
 
-Notice that you have drilled down to the quarter level of 2021. There was a big spike in the fourth quarter. Let’s dig further.
+      ![](Images/did96.png)
 
-88. Click on the double arrow icon on the top of the **Revenue by Year** visual. This drills down to the next level of the hierarchy, which is the month.
+1. Click on the double arrow icon on the top of the **Revenue by Year** visual. This drills down to the next level of the hierarchy, which is the month.
 
-    ![](Images/powerbi-02-37.png)
+      ![](Images/did97.png)
 
-89. Click on the up-arrow icon on the top of the **Revenue by Year** visual to drill up to the **Quarter** level.
+      ![](Images/did98png)
 
-90. Click on the drill up icon again to go up to the **Year** level
+1. Click on the up-arrow icon on the top of the **Revenue by Year** visual to drill up to the **Quarter** level.
 
-91. Click on the split arrow icon on the top right of the **Revenue by Year** visual. This expands down to the next level of the hierarchy, which is quarters for all the years.
+1. Click on the drill up icon again to go up to the **Year** level
 
-Notice that the fourth-quarter sales have always been high, but in 2021 there was a larger sales spike in the fourth quarter than usual.
+1. Click on the split arrow icon on the top right of the **Revenue by Year** visual. This expands down to the next level of the hierarchy, which is quarters for all the years.
 
-92. Now let’s expand down to the month level. Click on the split arrow icon on the top right of the **Revenue by Year** visual. This expands down to the next level of the hierarchy, which is months for all the years.
-
-There is a lot of information in the visual and we must scroll left and right to compare.
+1. Now let’s expand down to the month level. Click on the split arrow icon on the top right of the **Revenue by Year** visual. This expands down to the next level of the hierarchy, which is months for all the years.
 
 ## Summary
 
