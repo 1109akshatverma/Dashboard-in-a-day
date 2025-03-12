@@ -187,69 +187,45 @@ We are interested in the top five competitors by revenue. Let’s group them so 
 
 52. Click **New Group**.
 
-53. In the **Ungrouped values** section, using **Ctrl** key, click **Aliqui**, **Currus**, **Natura**, and **Pirum**.
+1. In the **Ungrouped values** section, using **Ctrl** key, click **Aliqui**, **Currus**, **Natura**, and **Pirum** **(1)**. Click the **Group (2)** button. Notice a new group is added in the **Groups and members** section.
 
-54. Click the **Group** button. Notice a new group is added in the **Groups and members** section.
+      ![](Images/did76.png)
 
-55. Double-click the newly created group and rename it **Top Competitors**.
+1. Double-click the newly created group and rename it **Top Competitors (3)**. Click **VanArsdel (4)** from the **Ungrouped values** section and click the **Group (5)** button to create the **VanArsdel** group.
 
-56. Click **VanArsdel** from the **Ungrouped values** section and click the **Group** button to create the **VanArsdel** group.
+      ![](Images/did83.png)
 
-57. Click the checkbox **Include Other group**. This will create another **Other** group that includes all the other manufacturers.
+1. Click the checkbox **Include Other group (7)**. This will create another **Other** group that includes all the other manufacturers. Click on **OK** to close the **Groups** dialog.
 
-58. Click **OK** to close the **Groups** dialog.
-
-    ![](Images/powerbi-02-26.png)
+      ![](Images/did77.png)
     
-59. With the **Stacked column chart** selected, click on the **X** next to **Manufacturer** in the **Legend** section. This will remove the Manufacturer.
+1. With the **Stacked column chart** selected, click on the **X** next to **Manufacturer** in the **Legend** section. This will remove the Manufacturer.
 
-60. From the **Data** section, drag the newly created **Manufacturer (groups)** to the **Legend** section.Now we can see that VanArsdel has nearly 50% share in USA.
+1. From the **Data** section, drag the newly created **Manufacturer (groups)** to the **Legend** section.Now we can see that VanArsdel has nearly 50% share in USA.
 
     ![](Images/powerbi-02-27.png)
 
-61. Hover over one of the columns and right-click.
+1. Hover over one of the columns and right-click.
 
-62. Click **Show as a table**. You will now be in **Focus** mode with the chart displayed on top and the data displayed below. Notice that VanArsdel has a large percent of the USA market.
+1. Click **Show as a table**. You will now be in **Focus** mode with the chart displayed on top and the data displayed below. Notice that VanArsdel has a large percent of the USA market.
 
-63. Use the icon in the top right corner to switch to the vertical layout. In this layout, you view the chart on the left panel and the data on the right panel.
+      ![](Images/did79.png)
 
-64. Click **Back to Report** to go back to the **Report** canvas.
+1. Click **Back to Report** to go back to the **Report** canvas.
 
-    ![](Images/powerbi-02-28.png)
+      ![](Images/did80.png)
 
- >**Note**: You can use similar steps to Show data point as a table to see records for a specific data point.
+1. Click on the white space in the canvas. From the **Data** section, click the checkbox next to the **Revenue (1)** field in the **Sales** table. From the **Data** section, click the checkbox next to the **Manufacturer (2)** field in the **Manufacturer** table. From the **Visualizations** section, click the **Treemap (3)** visual.
 
-Now let’s create a Revenue by Manufacturer visual.
+      ![](Images/did81.png)
 
-65. Click on the white space in the canvas. From the **Data** section, click the checkbox next to the **Revenue** field in the **Sales** table.
-
-66. From the **Data** section, click the checkbox next to the **Manufacturer** field in the **Manufacturer** table.
-
-67. From the **Visualizations** section, click the **Treemap** visual.
-
-    ![](Images/powerbi-02-29.png)
+1. In the **Treemap**, click **VanArsdel** and notice that the Stacked column chart is filtered. This confirms that VanArsdel has a large percentage of the USA market.
     
-We now have Revenue by Manufacturer. Now let’s turn our attention to the interaction between the Stacked column chart and the Treemap visuals.
+1. To remove the filter, click **VanArsdel** again.
 
-68. In the **Treemap**, click **VanArsdel** and notice that the Stacked column chart is filtered. This confirms that VanArsdel has a large percentage of the USA market.
+1. From the **Data** section, drag **Manufacturer (groups) (1)** from the **Manufacturer** table to the **Filters on this page (2)** box in the **Filters Pane**. Select **Top Competitors** and **VanArsdel** **(3)**.
 
-    ![](Images/powerbi-02-30.png)
-    
-69. To remove the filter, click **VanArsdel** again.
-
-This interaction between visuals is called cross-filtering.
-
-Previously, we added a Top 5 Visual level filter. Now let’s add a filter to the Page level, so we are working with the Top Competitors and VanArsdel and filter out the other manufacturers.
-
-Page-level filters apply to all visuals on the page. Visual-level filters apply only to a visual. Ensure the Filters pane is expanded/open.
-
-70. From the **Data** section, drag **Manufacturer (groups)** from the **Manufacturer** table to the **Filters on this page** box in the **Filters Pane**.
-
-71. Click **Top Competitors** and **VanArsdel**.
-
-    ![](Images/powerbi-02-31.png)
-
-Now, let’s add a visual that provides sales information over time
+      ![](Images/did84.png)
 
 1. Begin by clicking on the white space in the canvas and select **Clusterd column chart (1)** from Visualizations.Click the checkbox next to the **Date (2)** field in the **Sales** table. Click the checkbox next to the **Revenue (3)** in the **Sales** table field.
    
@@ -305,7 +281,7 @@ Now, let’s add a visual that provides sales information over time
 
       ![](Images/did97.png)
 
-      ![](Images/did98png)
+      ![](Images/did98.png)
 
 1. Click on the up-arrow icon on the top of the **Revenue by Year** visual to drill up to the **Quarter** level.
 
