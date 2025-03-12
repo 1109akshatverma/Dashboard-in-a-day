@@ -11,7 +11,7 @@ In this lab, you will create and finalize a Power BI report that is ready for pu
 
 Now that we’ve completed data exploration and visualization in previous labs, you have good insights to share with your team. In this section, you create a professional report for the benefit of you and your entire team.
 
-**IMPORTANT**: Please start this lab with the provided **Lab 2 solution.pbix** file found in the **"C:\DIAD\Reports"** in the Lab Virtual machine.
+**IMPORTANT**: Please start this lab with the provided  file found in the  in the Lab Virtual machine.
 
 At the end of this section, you will build a report like the one shown in the screenshot below.
 
@@ -19,7 +19,11 @@ At the end of this section, you will build a report like the one shown in the sc
 
 Now let’s get started, we will pick up where we left off at the end of Lab 3. 
 
+1. Navigate to **"C:\DIAD\Reports"** and select **Lab 2 solution.pbix**.
+
 1. With the **Matrix** visual selected, navigate to the **Values** section and click the arrow next to **% Growth**.
+
+    ![](Images/powerbi-03-01.png)
 
 2. Click **Conditional Formatting** and then click Background color. The **Background color** dialog box opens. This dialog provides options to format the report background color using either rules or diverging colors.
 

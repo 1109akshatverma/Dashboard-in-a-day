@@ -1,5 +1,23 @@
 # Power BI: Dashboard-in-a-Day
 
+## Overview
+
+In this lab, you will explore the key features of the Power BI service, from authoring reports in Power BI Desktop to sharing insights via the Power BI Service. You will perform essential data transformations to optimize the data model, ensuring consistency and usability. The lab provides step-by-step guidance, including visual aids with highlighted key sections for clarity. You will finalize a Power BI report by applying conditional formatting, custom visuals, themes, and bookmarks for enhanced storytelling. Additionally, you will learn to share reports securely using Row-Level Security (RLS) and configure sharing permissions. Lastly, you will explore Embedded Analytics, integrating Power BI reports into applications using Power BI Embedded, enabling seamless access to insights within third-party solutions.
+
+## Objectives
+
+In this lab, you will:
+
+- Accessing Data: Explore data connectivity and integration in Power BI Desktop by importing and enhancing datasets.
+- Data Preparation: Learn how to clean and transform data in Power BI Desktop by filling empty values, splitting and renaming columns, removing unwanted rows, transposing data, and appending queries.
+- Data Modeling and Exploration: 
+
+
+
+
+
+
+
 ## Getting Started with the Lab
 
 1. Sign in to https://app.powerbi.com/ using the ODL credentials present under the Environemnt tab and click on **Submit**.

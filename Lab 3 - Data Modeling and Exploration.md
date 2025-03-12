@@ -153,7 +153,7 @@ Now let’s try different visuals to see which chart represents the data the bes
 
     ![](Images/powerbi-02-22.png)
 
-Notice that the visual is filtered to display the top five manufacturers by Revenue. We see that the manufacturer VanArsdel has a higher percentage of sales in Australia compared to other countries or regions.
+Notice that the visual is filtered to display the top five manufacturers by Revenue. We see that the manufacturer VanArsdel has a higher percentage of sales in USA compared to other countries or regions.
 
 We can now add total labels to the stacked visuals
 
@@ -203,13 +203,13 @@ We are interested in the top five competitors by revenue. Let’s group them so 
     
 59. With the **Stacked column chart** selected, click on the **X** next to **Manufacturer** in the **Legend** section. This will remove the Manufacturer.
 
-60. From the **Data** section, drag the newly created **Manufacturer (groups)** to the **Legend** section.Now we can see that VanArsdel has nearly 50% share in Australia.
+60. From the **Data** section, drag the newly created **Manufacturer (groups)** to the **Legend** section.Now we can see that VanArsdel has nearly 50% share in USA.
 
     ![](Images/powerbi-02-27.png)
 
 61. Hover over one of the columns and right-click.
 
-62. Click **Show as a table**. You will now be in **Focus** mode with the chart displayed on top and the data displayed below. Notice that VanArsdel has a large percent of the Australian market.
+62. Click **Show as a table**. You will now be in **Focus** mode with the chart displayed on top and the data displayed below. Notice that VanArsdel has a large percent of the USA market.
 
 63. Use the icon in the top right corner to switch to the vertical layout. In this layout, you view the chart on the left panel and the data on the right panel.
 
@@ -231,7 +231,7 @@ Now let’s create a Revenue by Manufacturer visual.
     
 We now have Revenue by Manufacturer. Now let’s turn our attention to the interaction between the Stacked column chart and the Treemap visuals.
 
-68. In the **Treemap**, click **VanArsdel** and notice that the Stacked column chart is filtered. This confirms that VanArsdel has a large percentage of the Australian market.
+68. In the **Treemap**, click **VanArsdel** and notice that the Stacked column chart is filtered. This confirms that VanArsdel has a large percentage of the USA market.
 
     ![](Images/powerbi-02-30.png)
     
@@ -259,7 +259,7 @@ Now, let’s add a visual that provides sales information over time
 
     ![](Images/powerbi-02-32.png)
 
-75. Click on the **Australia** column in the **Revenue by Country** visual.
+75. Click on the **USA** column in the **Revenue by Country** visual.
 
 76. With the **Revenue by Country** visual selected, from the ribbon click on **Format**, and then click **Edit Interactions**. Notice on the top right of the other two visuals new icons with the highlight icon selected.
 
@@ -267,7 +267,7 @@ Now, let’s add a visual that provides sales information over time
 
     ![](Images/powerbi-02-33.png)
     
-Notice now in both Revenue by Year and Revenue by Manufacturer, data is filtered for Australia
+Notice now in both Revenue by Year and Revenue by Manufacturer, data is filtered for USA.
 
 78. Now click the **Revenue by Year** visual.
 
@@ -299,7 +299,7 @@ Now we have filtered the charts by both VanArsdel and Australia. Looking at the 
 
     ![](Images/powerbi-02-36.png)
     
-87. Click the **2021** column in the **Revenue by Year** visual.
+87. Click the **2024** column in the **Revenue by Year** visual.
 
 Notice that you have drilled down to the quarter level of 2021. There was a big spike in the fourth quarter. Let’s dig further.
 
