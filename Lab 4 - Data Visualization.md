@@ -23,7 +23,7 @@ Now let’s get started, we will pick up where we left off at the end of Lab 3.
 
 1. With the **Matrix** visual selected, navigate to the **Values** section and click the arrow next to **% Growth**.
 
-  ![](Images/powerbi-03-01.png)
+    ![](Images/powerbi-03-01.png)
 
 2. Click **Conditional Formatting** and then click Background color. The **Background color** dialog box opens. This dialog provides options to format the report background color using either rules or diverging colors.
 
