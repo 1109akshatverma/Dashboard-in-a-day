@@ -4,29 +4,13 @@
 
 ## Overview
 
-Today you will learn about various key features of the Power BI service. This is an introductory course intended to teach you how to author reports using Power BI Desktop, create operational dashboards and share content via the Power BI Service.
+In this lab, you will explore the key features of the Power BI service. This introductory session will guide you through authoring reports using Power BI Desktop, creating operational dashboards, and sharing content via the Power BI Service, enabling you to turn data into actionable insights.
 
-### Task 1:
+## Lab Objectives
 
-1. Sign in to https://app.powerbi.com/ using the ODL credentials present under the Environemnt tab and click on **Submit**.
+- Task 1: Power BI Desktop - Get Data
+- 
 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-2. Enter the following **Password** and click on **Sign in**. 
-   
-   * Password: <inject key="AzureAdUserPassword"></inject>   
-
-3. In the **Stay Signed in?** pop-up, click on **No**. 
-
-1. From the page header on the top right, click on **Settings (1)** and select **Admin portal (2)**.
-
-1. In **Tenant settings** under Admin Portal, scroll down to **Integration settings**. Then click on the **Map and filled map visuals** drop-down, toggle the button to **Enabled**, and click on **Apply**.
-
-   ![](Images/powerbi-filled-map-visuals.png)
-
-1. Click **Apply**
-
-1. **Sign out** and then **Sign in** to the account for changes to get applied.
 
 
 ### Task 1: Power BI Desktop - Get Data
@@ -44,63 +28,59 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
  
 1. Click on **Sign in** from the top.
 
+     ![](Images/did4.png)
+
 1. Provide the Email address and click on **Continue**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-1. Enter your Email address again followed with the password.
+1. Enter your Email address again followed by the password.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
    * Password: <inject key="AzureAdUserPassword"></inject>  
 
- 5. New format pane feature is released as part of the February 2022 update. This feature is in **Preview**. We will disable this feature for the labs. To disable it, navigate to **File -> Options and settings -> Options**. Options dialog opens. On the left panel select **Preview features** and **uncheck New Format pane** and ensure **Azure map visual** and **Shape map visual** options are checked and select **OK** to close the dialog. You may have to **restart** Power BI Desktop.
- 
-    ![](Images/azure_map.png)
+1. On the **Automatically sign in to all the desktop apps and websites on this device** pop-up, click on **No, this app only**.
 
-  Let’s set the **Locale** to US English to make it convenient in the rest of this lab.
- 
-6. From the ribbon, click **File**, then click **Options and settings**, then click **Options**.
- 
-    ![](Images/powerbi-01-03.png)
- 
-7. In the left panel of **Options** dialog box, click **Regional Settings** under Current File.
+     ![](Images/did5.png)
 
-8. From the Locale drop-down, click **English (United States)**.
+1. Click on **Options and settings (1)** from the left pane and select **Options (2)**.
 
-9. Click **OK** to close the dialog box.
+     ![](Images/did6.png)
+   
+1. Check the box for **Shape map visual (1)** option and click on **OK (2)** to close the dialog.
+ 
+     ![](Images/did7.png)
 
-    ![](Images/powerbi-01-04.png)
+      > **Note:** Click on **OK** when you are prompted with the Feature requires a restart pop-up.
+
+      ![](Images/did8.png)      
+ 
+1. From the ribbon, click **File**, then click **Options and settings (1)**, then click **Options (2)**.
+ 
+     ![](Images/did9.png)
+ 
+1. In the left panel of **Options** dialog box, click **Regional Settings (1)** under Current File. From the Locale drop-down, click **English (United States) (2)**.
+
+     ![](Images/did10.png)
+
+1. Click **OK** to close the dialog box.
     
-    The next step is to load data to Power BI Desktop. We will load USA Sales data which is in CSV files.
-    
-10. From the ribbon, click **Home** and then click the **Get Data** drop-down arrow.
+1. From the ribbon, click on **Home** and then click the **Get Data (1)** drop-down arrow. Select **Text/CSV (2)**.
 
-11. Click **Text/CSV**.
+     ![](Images/did11.png)
 
-    ![](Images/getdata.png)
-    
-   >**Note**: Power BI Desktop has the capability to connect to 300+ data sources. We are using CSV and Excel data files in this lab for simplicity. If you would like a full list of data sources, please visit this link: https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources
+1. Browse to **Local Disk(C:)> DIAD**, double-click **Data**, double-click the **USSales** folder, and then select **sales.csv**.
 
-12. Browse to **Local Disk(C:)> DIAD**, double-click **Data**, double-click the **USSales** folder, and then click **sales.csv**.
-
-13. Click the **Open** button.
+1. Click on the **Open** button.
 
     ![](Images/ussales_file2.png)
-    
-    Power BI detects the data type within each column. There are options to detect the data type based on the first 200 rows, based on the entire dataset or to not detect the data. Since our dataset is large and it will take time and resources to scan the complete dataset, we will leave the default option of selecting the dataset based on the first 200 rows.
-    
-    After completing your selection, you have three options – Load, Edit or Cancel.
-    
-      - **Load** adds the data from the source into Power BI Desktop for you to start creating reports.
-      - **Transform** Data allows you to perform data shaping operations such as merging columns, adding additional columns, changing data types of columns as well as bringing in additional data. 
-      - **Cancel** gets you back to the main canvas. 
 
- 14. Click Transform Data as shown in the screenshot. A new window opens.
+1. Ensure **based on first 200 rows (1)** is selected for Data Type Detection and then click on **Transform Data (2)**.
 
-     ![](Images/powerbi-01-07.png)
+     ![](Images/did12.png)
      
-     You should be in the Query Editor window as shown in the screenshot below. The Query Editor is used to perform data shaping operations. Notice that the sales file you connected to shows as a query in the left panel. You can see a preview of the data in the center panel. Power BI predicts the data type of each field (based on the first 200 rows) as indicated next to the column header. In the right panel, steps that the Query Editor performs are recorded in the Applied Steps section.    
+     >**Note**: You should be in the Query Editor window as shown in the screenshot below. The Query Editor is used to perform data shaping operations. Notice that the sales file you connected to shows as a query in the left panel. You can see a preview of the data in the center panel. Power BI predicts the data type of each field (based on the first 200 rows) as indicated next to the column header. In the right panel, steps that the Query Editor performs are recorded in the Applied Steps section.    
      
      ![](Images/powerbi-01-08.png)
      
