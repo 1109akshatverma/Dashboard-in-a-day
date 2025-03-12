@@ -6,6 +6,16 @@
 
 In this lab, you'll explore Embedded Analytics and Power BI Embedded, learning how to integrate Power BI reports, dashboards, and tiles into your application. You'll set up an embedded environment and configure an "app owns data" sample application, enabling seamless access to Power BI content without requiring users to sign in or have a Power BI license. This approach is ideal for independent software vendors (ISVs) and developers building applications for third parties, leveraging the embed for users method to deliver interactive analytics experiences within their solutions.
 
+## Lab Objectives
+
+- Task 1 - Generate Client secret value in Azure AD App
+- Task 2 - Enable the Power BI service admin settings
+- Task 3 - Add the service principal and security group to your workspace
+- Task 4 - Change your Azure AD app's permissions
+- Task 5 - Get the embedding parameter values
+- Task 6 - Embed your content in Visual Studio and run locally
+- Task 7 - Publishing Embedded Power BI report to Web App
+
 ### Task 1 - Generate Client secret value in Azure AD App
 
 1. Log into [Microsoft Azure](https://portal.azure.com) portal.
@@ -267,26 +277,3 @@ After configuring and running the embed for your customers sample application, y
 
 When you're ready, review the [move to production](https://docs.microsoft.com/en-us/power-bi/developer/embedded/move-to-production) requirements. You'll also need a [capacity](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embedded-capacity), and should review the [capacity planning](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embedded-capacity-planning) article to establish which SKU best suits your needs.
      
- ## References
-
-Dashboard in a Day introduces you to some of the key functions available in Power BI. In the ribbon of the Power BI Desktop, the Help section has links to some great resources.
-
-   ![](Images/powerbi-01-53.png)
-
-Here are a few more resources that will help you with your next steps with Power BI.
-
-  - Getting started: http://powerbi.com
-  - Power BI Desktop: https://powerbi.microsoft.com/desktop
-  - Power BI Mobile: https://powerbi.microsoft.com/mobile
-  - Community site https://community.powerbi.com/
-  - Power BI Getting started support page: https://support.powerbi.com/knowledgebase/articles/430814-get-started-with-power-bi
-  - Support site https://support.powerbi.com/
-  - Feature requests https://ideas.powerbi.com/forums/265200-power-bi-ideas
-  - New ideas for using Power BI https://aka.ms/PBI_Comm_Ideas
-  - Power BI Courses http://aka.ms/pbi-create-reports
-  - Power Platform https://powerplatform.microsoft.com/en-us/instructor-led-training/
-  - Power Apps [Business Apps | Microsoft Power Apps](https://powerapps.microsoft.com/en-us/)
-  - Power Automate [Power Automate | Microsoft Power Platform](https://powerapps.microsoft.com/en-us/)
-  - Dataverse [What is Microsoft Dataverse? - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro)
-  - Embedded Power BI repotrt [Embed a Power BI report in an application for your customers | Microsoft Docs](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-customer-app)
-  
