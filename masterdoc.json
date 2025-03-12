@@ -4,9 +4,9 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Gayatrimurali/Dashboard-in-a-day/refs/heads/prod/getting-started.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Dashboard-in-a-day/refs/heads/prod/getting-started.md",
         "Order": 1
-      }
+      },
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Dashboard-in-a-day/prod/Lab%201%20-%20Accessing%20Data.md",
         "Order": 2
