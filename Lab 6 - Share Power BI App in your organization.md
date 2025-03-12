@@ -1,35 +1,10 @@
-![Microsoft Power Platform.](Images/powerbi-welcome-6.png 'Microsoft Power Platform')
-
 # Lab 6 - Share Power BI App in your Organization
 
-**Contents** 
-
-<!-- TOC -->
-- [Introduction](#introduction)
-- [Power Bi- Share Power Bi App](#power-BI–create-ad-user)
-  - [Power BI – Create AD user ](#power-bi-link-settings)
-  - [Power BI – Link settings](#power-bi-link-settings)
-  - [Power BI – Manage Permissions to a Report](#power-bi-manage-permissions-to-a-report)
-- [Power BI – Share a Dashboard](#power-bi-share-a-dashboard)
-  - [Power BI – Manage Permissions to a Dashboard](#power-bi-manage-permissions-to-a-dashboard)
-- [References](#references)
+### Estimated Duration: 30 Minutes
 
 ## Introduction
 
-**Sharing** is the easiest way to give people access to your reports and dashboards in the Power BI service. You can share with people inside or outside your organization.
-
-When you share a report or dashboard, the people you share it with can view it and interact with it but can't edit it. They see the same data that you see in the reports and dashboards and get access to the entire underlying dataset unless row-level security (RLS) is applied to the underlying dataset. The coworkers you share with can reshare with their coworkers if you allow them to.
-
-   ![](Images/powerbi-06-01.png)
-
-The Power BI service offers other ways to collaborate and distribute reports and dashboards, too. Read [Ways to collaborate and share in Power BI](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-how-to-collaborate-distribute-dashboards-reports) to see which way works best for your circumstances.
-
-Where you can share:
-
-- You can share reports and dashboards from My Workspace.
-- You can share from workspaces other than My Workspace, if you have the Admin or Member role in the workspace. If you have the Contributor or Viewer role, you can share if you have Reshare permissions.
-- You can share from the Power BI mobile apps.
-- You can't share directly from Power BI Desktop. You publish reports from Power BI Desktop to the Power BI service.
+In this lab, you will explore how to share reports and dashboards in the Power BI service to collaborate effectively with colleagues inside and outside your organization. You will learn how to grant view and interaction access while ensuring data security through Row-Level Security (RLS). Additionally, you will configure sharing permissions, including controlling whether recipients can reshare content. By the end of this exercise, you will understand best practices for securely sharing insights while maintaining control over your data.
 
 ## Task 1: Azure Portal - Create an AD User
 
