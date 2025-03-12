@@ -8,15 +8,13 @@ In this lab, you will explore the key features of the Power BI service, from aut
 
 In this lab, you will:
 
-- Accessing Data: Explore data connectivity and integration in Power BI Desktop by importing and enhancing datasets.
-- Data Preparation: Learn how to clean and transform data in Power BI Desktop by filling empty values, splitting and renaming columns, removing unwanted rows, transposing data, and appending queries.
-- Data Modeling and Exploration: 
-
-
-
-
-
-
+- **Accessing Data**: Explore data connectivity and integration in Power BI Desktop by importing and enhancing datasets.
+- **Data Preparation**: Learn how to clean and transform data in Power BI Desktop by filling empty values, splitting and renaming columns, removing unwanted rows, transposing data, and appending queries.
+- **Data Modeling and Exploration**: Explore the Power BI Desktop interface, focusing on layout and data exploration.
+- Data Visualization
+- **Publishing and Accessing Reports**: Learn how to publish a Power BI report to the Power BI Service and build an interactive dashboard.
+- **Share Power BI App in your Organization**: Learn how to create an Azure AD user and manage permissions for Power BI reports and dashboards.
+- **Embedded Power BI App in Web App**: Configure an Microsoft Entra app, set up Power BI service permissions, and embed a Power BI report into a web app using Visual Studio.
 
 ## Getting Started with the Lab
 
