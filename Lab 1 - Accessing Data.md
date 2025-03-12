@@ -140,44 +140,30 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
 
      ![](Images/did22.png)
 
-39. If you do not see the **Queries** pane on left, click on the > (greater than) icon to expand. 
+    > **Note:** If you do not see the **Queries** pane on left, click on the > (greater than) icon to expand. 
 
-40. If you do not see the **Query Settings** pane on the right as shown in the figure, click on **View** in the ribbon and click **Query Settings** to see the pane. 
-
-41. Click on the Query **InternationalSales**.
-
-    ![](Images/powerbi-01-19.png)
-    
-    Notice that column Zip is of the Whole Number type. Based on the first 200 rows, Power BI thinks theZip column consists of whole numbers. But zip code could be alpha numeric in some countries orregions or contain leading zeros. If we do not change the data type, we will receive an error when we load the data shortly. So, let’s change the Zip column to data type Text.
+1. Click on the Query **InternationalSales**.
  
-42. Highlight the **Zip** column and change the **Data Type** to **Text**.
+1. Highlight the **Zip** column and change the **Data Type** to **Text**.
 
-43. The **Change Column Type** dialog box will open. Click the **Replace Current** button.
+     ![](Images/did23.png)
 
-    ![](Images/powerbi-01-20.png)
-    
-    In the Queries panel, notice that a Transform File from the InternationalSales folder is created. This contains the function used to load each of the files into the folder.
+1. The **Change Column Type** dialog box will open. Click the **Replace Current** button.
 
-    ![](Images/powerbi-01-21.png)
-    
-    If you compare the **InternationalSales** and the **sales** table, you will see the **InternationalSales** table contains two new columns, **Source.Name** and **Country**.
+1. Click on the **Source.Name** column and right click and select **Remove** option.
 
-44. We do not need the **Source.Name** column. Click the **Source.Name** column and right click and select **Remove** option or you can select the **Source.Name** column and then click on **Manage Coloumns** and then select **Remove Coloumns**.
-    
-45. Next, click the drop-down menu next to the **Country** column to see the unique values. 
+     ![](Images/did24.png)    
 
-46. You will only see Australia as shown in the figure. By default, Power BI only loads the first 1000 rows. Click **Load more** to validate that you have data from the various countries included.
+1. Next, click the drop-down menu next to the **Country** column to see the unique values. Click on **Load more** to validate that you have data from the various countries included.
 
-   ![](Images/powerbi-01-23.png)
+     ![](Images/did25.png)    
    
-  Now, you will see the countries (blank), Australia, Canada, Germany, Japan, Mexico, and Nigeria.
+1. Now, you will see the **countries (1)** (blank), Australia, Canada, Germany, Japan, Mexico, and Nigeria. Click on **OK (2)**.
 
-   ![](Images/powerbi-01-24.png)
-    
-47. Click **OK**.
-
-   >**Note**: You can perform various types of filters, sorting operations using the drop-down to verify the imported data. 
+     ![](Images/did26.png)
 
 ## Summary
+
+In this lab, you have fetched Data and added additional data.
 
 ### You have successfully completed the lab!
