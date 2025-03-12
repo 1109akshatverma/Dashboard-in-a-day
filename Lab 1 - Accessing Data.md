@@ -9,9 +9,7 @@ In this lab, you will explore the key features of the Power BI service. This int
 ## Lab Objectives
 
 - Task 1: Power BI Desktop - Get Data
-- 
-
-
+- Task 2: Adding additional data
 
 ### Task 1: Power BI Desktop - Get Data
 
@@ -74,8 +72,6 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
 
 1. Click on the **Open** button.
 
-    ![](Images/ussales_file2.png)
-
 1. Ensure **based on first 200 rows (1)** is selected for Data Type Detection and then click on **Transform Data (2)**.
 
      ![](Images/did12.png)
@@ -86,97 +82,63 @@ Product, Geography, and Manufacturer information is in a Microsoft Excel file ca
      
      >**Note**: You will bring in sales data from other countries as well as performing certain data shaping operations.
 
-15. Notice that Power BI has set the **Zip** field to the data type **Whole Number**. To ensure that the leading zero is not dropped from Zip codes that start with zero, we will format them as **Text**. To do this, select the **Zip column**. Then, from the ribbon, click **Home**, click **Data Type**, and change it to **Text**.
+1. Select the **Zip column**. Then, from the ribbon, click **Home**, click **Data Type (1)**, and change it to **Text (2)**.
 
-16. The **Change Column Type** dialog box opens. Click the **Replace Current** button which overwrites Power BI’s predicted data type.
+     ![](Images/did13.png)
 
-    ![](Images/powerbi-01-09.png)
+1. The **Change Column Type** dialog box opens. Click on the **Replace Current** button which overwrites Power BI’s predicted data type.
     
-    Now let’s get the data that is in Excel source file.
+1. From the ribbon, click **Home**, click **New Source (1)**, and select **Excel Workbook (2)**.
+
+     ![](Images/did14.png)
     
-17. From the ribbon, click **Home**, click **New Source**, and click then **Excel**.
+1. Browse to **Local Disk(C:)> DIAD**, double-click **Data**, double-click the **USSales** folder, and then select **bi_dimensions.xlsx**.
 
-    ![](Images/excel_workbook.png)
+1. Click on the **Open** button. The **Navigator** dialog box opens.
     
-18. Browse to **Local Disk(C:)> DIAD**, double-click **Data**, double-click the **USSales** folder, and then click **bi_dimensions.xlsx**.
+1. Click on **product** in the panel on the left. In the preview panel, notice that the first row is the headers. This is not part of the data.
+ 
+     ![](Images/did15.png)
 
-19. Click the **Open** button. The **Navigator** dialog box opens.
+1. Now, deselect **product** from the left panel and click on **Product_Table**. Notice that this table has only the contents of the named table. This is the data we need.
 
-    ![](Images/ussales_file.png)
-    
-20. The **Navigator** dialog box lists three sheets that are in the Excel workbook. It also lists the **Product** table. Click **product** in the panel on the left. In the preview panel, notice that the first row is the headers. This is not part of the data.
-
-21. Now, deselect **product** from the left panel and click **Product_Table**. Notice that this table has only the contents of the named table. This is the data we need.
-
-    ![](Images/powerbi-01-12.png)
+     ![](Images/did16.png)
     
    >**Note**: Table names are differentiated from Worksheet names by using different icons.
     
-22. From the left panel, click **geo**. In the preview panel, notice that the first few rows are headers and are not part of the data. We will remove them shortly.
+1. From the left panel, click on **geo**. In the preview panel, notice that the first few rows are headers and are not part of the data.
 
-23. From the left panel, click **manufacturer**. In the preview panel, notice that the last couple of rows are footers and are not part of the data. We will remove them shortly.
+1. From the left panel, click **manufacturer**. In the preview panel, notice that the last couple of rows are footers and are not part of the data.
 
-24. Make sure that **Product_Table**, **geo** and **manufacturer** are selected in the left panel, and then click **OK**. Notice all that three sheets are added as queries in the Query Editor.
+1. Make sure that **Product_Table**, **geo** and **manufacturer** **(1)** are selected in the left panel, and then click **OK (2)**. 
 
-    ![](Images/powerbi-01-13.png)
+     ![](Images/did17.png)
 
-## Task 2: Adding additional data
+### Task 2: Adding additional data
 
-In this scenario, the international subsidiaries have agreed to provide their sales data so that the company’s sales can be analyzed together. You’ve created a folder where they each put their data.
+1. On the **Home** tab of the Query Editor, click on the **New Source (1)** drop-down menu. Select **More… (2)**.
 
-To analyze all the data together, you import the new data from each of the subsidiaries and combine it with the US Sales you loaded earlier.
-
-You can load the files one at a time, like how you loaded the US Sales data, but Power BI provides an easier way to load all the files in a folder together.
-
-25. On the **Home** tab of the Query Editor, click on the **New Source** drop-down menu.
-
-26. Click **More…** as shown in the figure.
-
-    ![](Images/powerbi-01-14.png)
+     ![](Images/did18.png)
     
-27. The Get Data dialog box opens.
+    > **Note:** The Get Data dialog box opens.
 
-28. In the **Get Data** dialog box, click **Folder** as shown in the diagram.
+1. In the **Get Data** dialog box, select **Folder (1)** . Click **Connect (2)**.
 
-29. Click **Connect** and the **Folder** dialog box will open.
-
-    ![](Images/powerbi-01-15.png)
+     ![](Images/did19.png)
     
-30. Click the **Browse…** button.
+1. Click on the **Browse… (1)** button. In the **Browse** for Folder dialog box, navigate to **This PC> Windows(C:)> DIAD** > **Data** and click on the **InternationalSales (2)** folder. Click on **OK (3)** (to close the **Browse for Folder** dialog box). Click on **OK (4)** again.
 
-31. In the **Browse** for Folder dialog box, navigate to the location where you unzipped the class files.
+     ![](Images/did20.png)
 
-32. Open the **This PC> Windows(C:)> DIAD**.
-
-33. Open the **Data** folder.
-
-34. Click the **InternationalSales** folder.
-
-35. Click **OK** (to close the **Browse for Folder** dialog box).
-
-36. Click **OK** (to close the **Folder** dialog box).
-
-    ![](Images/powerbi-01-16.png)
-    
-      >**Note**: This approach will load all the files located in the folder. This is useful when you have a group that puts files on an FTP site each month and you are not always sure of the names of the files or the number of files. All the files must be of the same file type with columns in the same order.
-
-The dialog box will display the list of files in the folder.
-
-37. Click **Combine & Transform Data**.
+1. Click on **Combine & Transform Data**.
  
-    ![](Images/powerbi-01-17.png)
+     ![](Images/did21.png)
     
      >**Note**: The data in your file for **Date accessed**, **Date modified**, and **Date created** might be different than the dates displayed in the screenshot. 
 
-The **Combine Files** dialog box will open. By default, Power BI will again detect the data type based on the first 200 rows. Notice there is an option to select various file Delimiters. The file we are working with is Comma delimited, so let’s leave the Delimiter option as Comma.
+1. Ensure the **First File (1)** is selected for Sample file, **comma (2)** is selected for Dilimiter and click on **OK (3)**.
 
-There is also an option to select each individual file in the folder (using **Example File** drop-down) to validate the format of the files.
-
-38. Click **OK**.
-
-    ![](Images/powerbi-01-18.png)
-
-    You will now be in the **Query Editor** window with a new query named **InternationalSales**. 
+     ![](Images/did22.png)
 
 39. If you do not see the **Queries** pane on left, click on the > (greater than) icon to expand. 
 
