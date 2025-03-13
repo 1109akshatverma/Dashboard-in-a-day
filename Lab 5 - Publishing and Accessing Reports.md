@@ -19,188 +19,135 @@ In this lab, you will perform:
 
 1. Navigate to **app.powerbi.com** [http://app.powerbi.com](http://app.powerbi.com/)[.](http://app.powerbi.com/) and sign in if not already signed in.
 
-The following options are listed in the left navigation:
+1. Few of the options that are listed in the left navigation are as follows:
 
-- **Home**: This is a one-stop-shop for all your content. It lists your favorite and recent content such as reports, dashboards, and apps. It also shows the most recent content that was shared with you.
+      - **Home**: This is a one-stop-shop for all your content. It lists your favorite and recent content such as reports, dashboards, and apps. It also shows the most recent content that was shared with you.
+      
+      - **Create**: Allows you to add data manually or use an already existing dataset.
+      
+      - **Apps**: List all the apps you have installed.
+      
+      - **Workspaces**: Lists all the workspaces you are assigned. By default, you are assigned to **My Workspace**.
 
-- **Create**: Allows you to add data manually or use an already existing dataset.
+      ![](Images/did300.png)    
 
-- **Apps**: List all the apps you have installed.
+1. In the left panel, click **Workspaces (1)** and then click on **+ New workspace (2)**. The **Create a workspace** dialog box opens.
 
-- **Workspaces**: Lists all the workspaces you are assigned. By default, you are assigned to **My Workspace**.
+     ![](Images/did301.png)   
 
-1. In the left panel, click **Workspaces** and then click on **+ New workspace**. The **Create a workspace** dialog box opens.
+1. In the **Create a workspace** dialog box, click on **Upload**.
 
-   ![](Images/powerbi-04-14.png)
+     ![](Images/did302.png) 
 
-6. In the **Create a workspace** dialog box, click **Upload**.
+1. A file browser dialog box opens. Navigate to `DIAD/Data` and click on **VanArsdel Logo** file.
 
-7. A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder (**/DIAD/Data**). Click **VanArsdel Logo** file.
+1. Provide the name as **DIAD (1)** and the **Description** as **This is DIAD workspace (2)** and click on **Apply** to create the workspace.
 
-8. In the **Name your workspace** text area, type **DIAD**.
+     ![](Images/did303.png) 
 
-9. In the **Description** text area, type **This is DIAD workspace**.
+1. Navigate to `C:\DIAD\Reports` and select the **DIADFinalReport**.
 
-10. Click on **Apply** to create the workspace.
+1. From the **Home** tab, click on **Publish (1)**. Select **DIAD (2)** in the dialog box and click on **Select (3)**.
 
-    ![](Images/powerbi-04-15.png)
+     ![](Images/did304.png) 
 
-11. Navigate to `C:\DIAD\Reports` and select the **DIAD** Final Report.
+1. The **Publishing to Power BI** dialog box opens. Click on **Got it**.
 
-13. From the **Home** tab, click **Publish.**
-
-    ![](Images/powerbi-04-17.png) 
-  
-14. If you have not already logged into Power BI, a **Sign in** dialog box opens. Please sign in.
-
-15. Once you are signed in, the **Publish to Power BI** dialog box opens. Click **DIAD** in the dialog box.
-
-16. Click **Select**.
-
-The **Publishing to Power BI** dialog box opens. Once the process is complete, a success message displays.
-
-![](Images/powerbi-04-18.png)  
-
+     ![](Images/did320.png) 
 
 ### Task 2- Power BI – Building a Dashboard
-
-In this section, we will create a dashboard that combines data from the **Market Share** report. 
   
-By the end of this section, we will have created a dashboard that looks like the screenshot below.
+1. From the left menu, click **Reports** and then click on **DIAD (1)**. Click on **DIAD Final Report (2)**.
 
-![](Images/powerbi-04-20.png)
+     ![](Images/did307.png) 
   
-18. From the left menu, click **Reports** and then click the **DIAD Final Report.** You are navigated to the report you just uploaded.   
+1. In the **map visual**, enable drill-down by **hovering** over the visual.
 
-    ![](Images/powerbi-04-21.png)
+1. Click the **down arrow** on the top right corner of the visual.
+
+1. Select **Australia** to drill-down to the **State** level.
+
+1. Hover over the **VanArsdel Market Share** card visual. Click the **pin** icon on the top right of the visual. 
+
+1. Provide the dashboard name as **VanArsdel (1)** in the text box and click on **Pin (2)**.
   
-19. In the **map visual**, enable drill-down by **hovering** over the visual.
-
-20. Click the **down arrow** on the top right corner of the visual.
-
-21. Select **Australia** to drill-down to the **State** level.
-
-Now let’s pin visuals to the dashboard.
-
-22. Hover over the **VanArsdel Market Share** card visual.
-
-23. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
-
-24. We do not have a dashboard yet. Let’s create one. With **New dashboard** selected, enter **VanArsdel** in the text box.
-
-25. Click **Pin**.
-  
-    ![](Images/powerbi-04-22.png)
+     ![](Images/did321.png) 
  
-Notice that alert messages are displayed stating the dashboard is ready to view.
+1. We can verify by navigating to the **DIAD (1)** workspace and the **VanArsdel (2)** dashboard is created.
 
-Notice in the left panel, the **VanArsdel** dashboard is created under **Dashboards**.
-
-![](Images/powerbi-04-23.png)   
+     ![](Images/did311.png)  
   
-26. From the left panel, click **Dashboards** then click **VanArsdel**.
+1. Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
 
-Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
+     ![](Images/did323.png)  
 
-27. Click **VanArsdel Market Share,** notice that you are navigated to the report.
+1. Click **VanArsdel Market Share,** notice that you are navigated to the report.
 
->**Note:** Tiles in the dashboard are not interactive.
+      >**Note:** Tiles in the dashboard are not interactive.
 
-28. Hover over the **% Growth by Manufacturer** visual.
+1. Hover over the **% Growth by Manufacturer** visual. Click the **pin** icon on the top right of the visual. 
 
-29. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
+1. Make sure that **VanArsdel** is selected in the drop-down and click on **Pin**.
 
-30. Make sure that **VanArsdel** is selected in the drop-down.
+     ![](Images/did324.png)  
 
-31. Click **Pin**.
+1. Hover over the **Revenue by Year and Manufacturer** visual. Click the **pin** icon on the top right of the visual.
 
-    ![](Images/powerbi-04-24.png)
+1. Make sure **VanArsdel** is selected in the drop-down and click on **Pin**.
+
+     ![](Images/did326.png)  
+
+1. Navigate to the **By Manufacturer (1)** page from the left pane. From the top right corner, click the **down arrow (2)**. 
+
+     ![](Images/did327.png)  
+
+1. Click **VanArsdel (1)** in the slicer. From the top right corner, click on the **up arrow (2)**. 
+
+     ![](Images/did328.png)  
   
-32. Closeout the alert dialog boxes.
+1. Pin the **gauge visual** to the dashboard.
 
-33. Hover over the **Revenue by Year and Manufacturer** visual.
-
-34. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
-
-35. Make sure **VanArsdel** is selected in the drop-down.
-
-36. Click **Pin**.
-
-    ![](Images/powerbi-04-25.png)
-   
-37. Closeout the alert dialog boxes.
-
-38. Navigate to the **By Manufacturer** page.
-
-39. From the top right corner, click the **down arrow**. Notice that the **manufacturer** slicer displays.
-
-40. Click **VanArsdel** in the slicer. This will filter the visuals.
-
-41. From the top right corner, click the **up arrow**. Notice that the **manufacturer** slicer collapses.
-
-    ![](Images/powerbi-04-26.png)
+1. Pin the **Revenue by Country** visual to the dashboard.
   
-42. Pin the **gauge visual** to the dashboard.
+      >**Note:** The **VanArsdel** filter is applied to the tile that is pinned to the dashboard.
 
-43. Pin the **Revenue by Country** visual to the dashboard.
+1. Navigate to the **VanArsdel** dashboard. Notice that all the visuals are pinned as tiles to the dashboard.
 
-44. Closeout the alert dialog boxes.
+     ![](Images/did330.png)
 
-    ![](Images/powerbi-04-27.png)
+    > **Note:** Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates.
+
+1. Resize and move the **gauge** tile.
+
+1. Click the bottom right corner of the tile and move it diagonally to change the image size.
+
+1. Click the **Edit (1)** dropdown and click on **Add tile (2)**.
+
+     ![](Images/did331.png)
+
+1. Click on **Image** as the source and click on **Next (2)**.
+
+     ![](Images/did332.png)
+
+1. In the **URL** text box, add the following URL: <https://raw.githubusercontent.com/CharlesSterling/DiadManu/master/Vanarsdel.png> and click on **Apply**.
+
+      ![](Images/did333.png) 
+
+     >**Note:** The URL is case sensitive.
+
+1. Notice that a new tile with the **VanArsdel** logo is added to the dashboard.
+
+      ![](Images/did334.png) 
   
->**Note:** The **VanArsdel** filter is applied to the tile that is pinned to the dashboard.
+1. Resize and rearrange the tiles.
 
-45. From the left panel, select the three lines in the upper left-hand corner, click **Dashboards**, and then click **VanArsdel**. Notice that all the visuals are pinned as tiles to the dashboard.
+1. Hover over **Revenue by Country** tile. Click on the **ellipsis** on the top right corner of the tile and click on **Edit Details**. 
 
-    ![](Images/powerbi-04-28.png)    
+      ![](Images/did335.png) 
 
-You will see the visuals on the dashboard like in the screenshot. Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates. Tiles are not interactive.
+1. Change the **Title** to **VanArsdel Revenue (1)** and click on **Apply(2)**.
 
-Let’s organize the dashboard.
-
-46. Resize and move the **gauge** tile as shown in the screenshot.
-
-47. Click the bottom right corner of the tile and move it diagonally to change the image size.
-
-    ![](Images/powerbi-04-29.png)
-  
-Tiles can be of various sizes (1x1 to 5x5). Drag the tile using the bottom right corner to resize it. As you are dragging, note the gray shadow which indicates the size of the tile when you stop dragging.
-
-48. Click the **Edit** dropdown and click **Add tile**. The **Add tile** dialog box opens.
-
-49. Click **Image** as the source.
-
-50. Click **Next**.
-
-51. In the **URL** text box, type the following URL: <https://raw.githubusercontent.com/CharlesSterling/DiadManu/master/Vanarsdel.png>
-
-    ![](Images/powerbi-04-30.png)
-  
-    ![](Images/powerbi-04-31.png)
-  
->**Note:** The URL is case sensitive.
-
-52. Click **Apply**.
-
-Notice that a new tile with the **VanArsdel** logo is added to the dashboard.
-
-![](Images/powerbi-04-32.png)
-  
-53. Resize and rearrange the tiles as shown in the screenshot.
-
-The **Revenue by Country** tile shows Revenue by Country for VanArsdel, let’s rename it.
-
-54. Hover over **Revenue by Country** tile.
-
-55. Click the ellipse in the top right corner of the tile.
-
-56. Click **Edit Details**. The **Tile Details** dialog box opens.
-
-57. Change the **Title** to **VanArsdel Revenue**.
-
-58. Click **Apply.**
-
-    ![](Images/powerbi-04-33.png)
+      ![](Images/did336.png) 
 
 Now let’s create a visual that represents Market Share by country.
 
