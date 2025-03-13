@@ -149,125 +149,97 @@ In this lab, you will perform:
 
       ![](Images/did336.png) 
 
-Now let’s create a visual that represents Market Share by country.
+1. Click on **Ask a question about your data** on the top left.
 
-Notice on the top of the visual, there is an option to **Ask a question about your data**. This is like **Ask a question in the desktop**.
+      ![](Images/did337.png) 
 
-59. In the text box, start typing **VanArsdel market share.** Notice that a card visual is created.
+1. In the text box, start typing **VanArsdel market share** and click on `Enter`. Notice that a card visual is created.
 
-60. Continue typing **VanArsdel market share by country**. Notice that a bar chart is created.
+      ![](Images/did338.png) 
 
-61. Continue typing **VanArsdel market share by country as treemap**. Notice that a treemap visual is created.
+1. Continue typing **VanArsdel market share by country**. Notice that a bar chart is created.
 
-    ![](Images/powerbi-04-34.png)
+1. Continue typing **VanArsdel market share by country as treemap**. Notice that a treemap visual is created. In the top right of the screen, click **Pin Visual**.
+
+      ![](Images/did339.png)
+
+1. The **Pin to dashboard** dialog box opens. Click **Pin** to pin the visual to the **VanArsdel** dashboard.
+
+      ![](Images/did340.png) 
+
+1. Click on the **Exit Q&A** from the top left to navigate back to the dashboard.
+
+      > **Note:** Notice that the visual is added as tile to the dashboard. Clicking on the treemap visual will navigate you back to the Q & A section.
+
+1. Hover over the **line chart** on the dashboard. Click on the **ellipsis** on the top right corner and then click on **View Insights**.
+
+      ![](Images/did341.png) 
   
->**Note**: Remember that we renamed our tables. One of the reasons we did this was to make them user friendly for Q & A
+      > **Note:** You will be navigated to **Focus mode** for the line chart.
 
-62. In the top right of the screen, click **Pin Visual**.
+1. Scroll on the Insights panel to review the various insights Power BI can generate.
 
-63. The **Pin to dashboard** dialog box opens. Click **Pin** to pin the visual to the **VanArsdel** dashboard.
+      ![](Images/did342.png) 
 
-    ![](Images/powerbi-04-35.png)
-    
-64. Close the alert dialog boxes.
+1. Click on the **Exit Focus mode** from the top left to navigate back to the dashboard.
 
-65. Click **Exit Q&A** to navigate back to the dashboard.
+1. Hover over **VanArsdel Market Share** tile. Click on the **ellipsis (1)** in the top right corner of the tile. Select **Manage alerts (2)**. 
 
-Notice that the visual is added as tile to the dashboard. Clicking on the treemap visual will navigate you back to the Q & A section.
+      ![](Images/did343.png) 
 
-Power BI quickly searches different subsets of your dataset while applying a set of sophisticated algorithms to discover potentially interesting insights. You can run insights against a dataset or a dashboard tile.
+1. Click **+ Add alert rule** option.
 
-Let’s generate insights on a dashboard tile. When we run insights on a dashboard tile, instead of searching for insights against an entire dataset, the search is narrowed to the data used to create a single dashboard tile. This is often referred to as scoped insights.
-
-66. Hover over the **line chart** on the dashboard.
-
-67. Click the **ellipse** on the top right corner.
-
-68. Click **View Insights**.
-
-    ![](Images/powerbi-04-36.png)
+      ![](Images/did344.png) 
   
-You will be navigated to **Focus mode** for the line chart.
+      >  **Note:** Notice that you can add **Above** or **Below threshold**. You can also set the notification frequency. This is just an introduction to managing alerts. Complete functionality is not covered in this lab.
 
-69. Scroll on the Insights panel to review the various insights Power BI can generate. Notice that there is an option to pin insight visuals to the dashboard.
+1. Click on **Cancel** to close the dialog box and click on **Don’t Save**.
 
-    ![](Images/powerbi-04-37.png)
+1. Click on the **VanArsdel Market Share** tile to navigate to the report.
 
-70. Click **Exit Focus mode** in the top left to navigate back to the dashboard.
-
-We want to be notified when VanArsdel’s Market Share goes above or below a threshold. We can set up alerts to achieve this.
-
-71. Hover over **VanArsdel Market Share** tile.
-
-72. Click on the **ellipse** in the top right corner of the tile.
-
-73. Click **Manage alerts**. The **Manage alerts** dialog box opens.
-
-74. Click **Add alert rule** dialog.
-
-    ![](Images/powerbi-04-38.png)
+1. In the map visual, ensure it is at the **Country** level, right-click the **Australia** bubble, click **Drill through (1)**, and then select **By Manufacturer (2)**. 
   
-Notice that you can add **Above** or **Below threshold**. You can also set the notification frequency. This is just an introduction to managing alerts. Complete functionality is not covered in this lab.
+      ![](Images/did345.png) 
 
-75. Click **Cancel** to close the dialog box.
+      > **Note:** You will be navigated to the **By Manufacturer** page of the report with the **Australia** filter applied to the report page.
 
-76. Click **Don’t Save**.
+1. Hover over the **matrix** visual.
 
-77. Click on the **VanArsdel Market Share** tile to navigate to the report.
+1. Click on the **focus mode** icon on the top right corner of the visual.
 
-78. In the map visual, ensure it is at the **Country** level, right-click the **Australia** bubble, click **Drill through**, and click then **By Manufacturer**. 
+1. Click the **double-down arrow** to drill down. Click on **Back to report.**
+
+      ![](Images/did346.png) 
   
-    ![](Images/powerbi-04-39.png)
+1. From the top menu, click **Bookmarks (1)** and then click on **Add a Personal bookmark (2)**.
 
-You will be navigated to the **By Manufacturer** page of the report with the **Australia** filter applied to the report page.
+      ![](Images/did347.png) 
 
-79. Hover over the **matrix** visual.
+      > **Note:**
+      > - Report bookmarks are the bookmarks the report author created (we did this in Power BI Desktop).
+      > - Personal bookmarks on the report are ones which the consumer can create on their own.
 
-80. Click the **focus mode** icon on the top right corner of the visual.
+1. Click on **View** in the **Report** bookmarks pane.
 
-81. Click the double-down arrow to drill down.
+      ![](Images/did348.png) 
 
-82. Click **Back to report.**
-
-    ![](Images/powerbi-04-40.png)
+      > **Note:** Notice that you can view and navigate through the bookmarks using the arrow at the bottom of the screen. This behavior is like in Power BI Desktop.
   
-83. From the top menu, click **Bookmarks** and then click **Show more bookmarks**. The **Bookmark** pane opens on the right. There are two options: **Personal** bookmarks and **Report** bookmarks.
+1. Click **Exit** in the **Bookmark** pane to close it.
 
-    ![](Images/powerbi-04-41.png)
+1. Navigate to **DIAD (1)** workspace, click on the **ellpsis (2)** of the **DIAD Final Report** and then click on **Quick Insights (3)**.
+
+      ![](Images/did349.png) 
   
-- Report bookmarks are the bookmarks the report author created (we did this in Power BI Desktop).
+      > **Note:** It might take a few minutes for the insights to be created. Once insights are ready, a message appears in the top right corner.
 
-- Personal bookmarks on the report are ones which the consumer can create on their own.
+1. Click on **View insights.**
 
-84. Click **View** in the **Report** bookmarks pane.
-
-Notice that you can view and navigate through the bookmarks using the arrow at the bottom of the screen. This behavior is like in Power BI Desktop.
-
-![](Images/powerbi-04-42.png)  
+      ![](Images/did350-1.png) 
   
-85. Click **Exit** in the **Bookmark** pane to close it.
+1. A quick insights report is displayed based on the dataset. This provides insights into data you may have missed and helps to get a quick start on creating dashboards. Hovering over each report provides an option to **Pin it** to a dashboard.
 
-Power BI provides an option to get quick insights into the complete dataset.
-
-86. Navigate back to the Power BI Service. In the left panel, hover over **Datasets** and then click **DIAD Final Report**.
-
-87. Click the **ellipse**.
-
-88. Click **Quick Insights**.
-
-    ![](Images/powerbi-04-43.png)
-  
-It might take a few minutes for the insights to be created. Once insights are ready, a message appears in the top right corner.
-
-89. Click **View insights.**
-
-    ![](Images/powerbi-04-44.png)
-  
-A quick insights report is displayed based on the dataset. This provides insights into data you may have missed and helps to get a quick start on creating dashboards. Hovering over each report provides an option to **Pin it** to a dashboard.
-
-![](Images/powerbi-04-45.png)  
-
-You’ve now completed Lab four! Throughout this lab, you have learned how to apply conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. You also learned how to add bookmarks to tell a story about the report.
+      ![](Images/did351.png)
 
 ## Summary
 
