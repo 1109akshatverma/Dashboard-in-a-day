@@ -69,6 +69,8 @@ In this lab, you will perform:
 
 1. Hover over the **VanArsdel Market Share** card visual. Click the **pin** icon on the top right of the visual. 
 
+     ![](Images/did1000.png) 
+
 1. Provide the dashboard name as **VanArsdel (1)** in the text box and click on **Pin (2)**.
   
      ![](Images/did321.png) 
@@ -86,6 +88,8 @@ In this lab, you will perform:
       >**Note:** Tiles in the dashboard are not interactive.
 
 1. Hover over the **% Growth by Manufacturer** visual. Click the **pin** icon on the top right of the visual. 
+
+     ![](Images/did1001.png) 
 
 1. Make sure that **VanArsdel** is selected in the drop-down and click on **Pin**.
 
@@ -113,7 +117,7 @@ In this lab, you will perform:
 
 1. Navigate to the **VanArsdel** dashboard. Notice that all the visuals are pinned as tiles to the dashboard.
 
-     ![](Images/did330.png)
+     ![](Images/did330-1.png)
 
     > **Note:** Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates.
 
@@ -176,6 +180,8 @@ In this lab, you will perform:
       ![](Images/did341.png) 
   
       > **Note:** You will be navigated to **Focus mode** for the line chart.
+
+      ![](Images/did1002.png) 
 
 1. Scroll on the Insights panel to review the various insights Power BI can generate.
 
