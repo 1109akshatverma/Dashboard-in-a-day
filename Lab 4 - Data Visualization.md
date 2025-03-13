@@ -10,7 +10,7 @@ In this lab, you will create and finalize a Power BI report that is ready for pu
 
 1. Navigate to **"C:\DIAD\Reports"** and select **Lab 2 solution.pbix**.
 
-1. With the **Matrix** visual selected, navigate to the **Values** section and click the arrow next to **% Growth**.
+1. With the **Matrix** visual selected, navigate to the **Values** section and click on the downwards facing arrow next to **% Growth**.
 
     ![](Images/powerbi-03-01.png)
 
