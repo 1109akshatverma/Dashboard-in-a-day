@@ -11,85 +11,41 @@ In this lab, you will perform:
 
 ### Task 1 - Power BI Service – Publishing Report
 
-   ![](Images/powerbi-04-11.png)
+1. Navigate to <http://aka.ms/pbidiadtraining>[ ](http://aka.ms/pbidiadtraining) and sign up:
 
-1. If you have not signed up for a Power BI account, go to <http://aka.ms/pbidiadtraining>[ ](http://aka.ms/pbidiadtraining)and sign up for Power BI with a business email address.
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-2. If you have not already opened the **app.powerbi.com** page, please open a browser and navigate to [http://app.powerbi.com](http://app.powerbi.com/)[.](http://app.powerbi.com/)
+   * Password: <inject key="AzureAdUserPassword"></inject>     
 
-3. Sign-in to Power BI using your user account. Once logged in, you will be taken to the **Home** screen.
-
-   >**Note**: If you have previously signed into Power BI, then your **Home** screen will list your **Favorites** plus recent reports and dashboards.
-
-    ![](Images/powerbi-04-12.png)
-
-4. If the left navigation is collapsed, click the ![](Images/powerbi-04-13.png) (menu) icon below Power BI on the top left side of the screen to expand the left navigation.
+1. Navigate to **app.powerbi.com** [http://app.powerbi.com](http://app.powerbi.com/)[.](http://app.powerbi.com/) and sign in if not already signed in.
 
 The following options are listed in the left navigation:
 
 - **Home**: This is a one-stop-shop for all your content. It lists your favorite and recent content such as reports, dashboards, and apps. It also shows the most recent content that was shared with you.
 
-- **Favorites**: Lists all your favorite content. We will create a favorite in a later section.
-
 - **Create**: Allows you to add data manually or use an already existing dataset.
-
-- **Datasets**: Lists all available datasets that have been published.
-
-- **Goals**: Create scorecards to track goals setup by the users
-
-- **Recent**: Lists the most recent content you have viewed.
 
 - **Apps**: List all the apps you have installed.
 
-- **Shared with me**: Lists the content that is shared with you. We will share dashboards in a later section.
-
-- **Deployment pipelines**: Allows the user to manage workspace content with deployment stages.
-
 - **Workspaces**: Lists all the workspaces you are assigned. By default, you are assigned to **My Workspace**.
 
-Click the down arrow next to **My Workspace**. Notice the Dashboards, Reports, Workbooks, and Datasets sections. Let’s import a Power BI Desktop file and create dashboards.
-
-My Workspace is your personal workspace. We need to create a workspace where we can collaborate with team members and distribute content to end-users. To do this we’ll create a new workspace.
-
-5. In the left panel, click **Workspaces** and then click **Create a workspace**. The **Create a workspace** dialog box opens.
+1. In the left panel, click **Workspaces** and then click on **+ New workspace**. The **Create a workspace** dialog box opens.
 
    ![](Images/powerbi-04-14.png)
 
-   >**Note**: Creating workspace is a **Pro feature**. If you do not have a Pro license, please choose the trial option.
-
 6. In the **Create a workspace** dialog box, click **Upload**.
 
-7. A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder (**/DIAD/Data**). Click **VanArsdel\_WSLogo** file.
+7. A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder (**/DIAD/Data**). Click **VanArsdel Logo** file.
 
-8. In the **Name your workspace** text area, type **DIAD\_<youremailaddress>**.
+8. In the **Name your workspace** text area, type **DIAD**.
 
 9. In the **Description** text area, type **This is DIAD workspace**.
 
-10. Click **Save** to create the workspace.
+10. Click on **Apply** to create the workspace.
 
     ![](Images/powerbi-04-15.png)
 
-    >**Note**: You are entering your email address as part of the workspace name to keep it unique.
-
-    ![](Images/powerbi-04-16.png)  
-  
-Notice that you have navigated from My Workspace to the workspace \ just created. You are in the **Welcome** screen with options to discover or create content.
-
-**Add content** has options to connect to Files, Databases, and Dataflows.
-
-There are two options to publish the Power BI Desktop report we created:
-
-- **Get** option under Files.
-
-- **Publish** from Power BI Desktop.
-
-We are going to use the **Publish** from Power BI Desktop option.
-
-Let’s publish the report to Power BI Service and then we will come back to the browser.
-
-11. Navigate back to the **DIAD Final Report.**
-
-12. Ensure **Mobile View** is **off.**
+11. Navigate to `C:\DIAD\Reports` and select the **DIAD** Final Report.
 
 13. From the **Home** tab, click **Publish.**
 
@@ -97,21 +53,14 @@ Let’s publish the report to Power BI Service and then we will come back to the
   
 14. If you have not already logged into Power BI, a **Sign in** dialog box opens. Please sign in.
 
-15. Once you are signed in, the **Publish to Power BI** dialog box opens. Click **DIAD\_<youremailaddress>** in the dialog box.
+15. Once you are signed in, the **Publish to Power BI** dialog box opens. Click **DIAD** in the dialog box.
 
 16. Click **Select**.
 
 The **Publishing to Power BI** dialog box opens. Once the process is complete, a success message displays.
 
 ![](Images/powerbi-04-18.png)  
-  
-17. Click **Got it** to close the dialog box.
 
-Now that we have published the report to the Power BI service, let’s navigate back to the browser and start exploring. 
-  
-![](Images/powerbi-04-19.png) 
-  
-Once you are in the browser, in the left panel notice that under **DIAD\_<youremailaddress>**, you see **Reports** has the **DIAD Final Report**, and **Datasets**, has the **DIAD Final Report**.
 
 ### Task 2- Power BI – Building a Dashboard
 
@@ -357,7 +306,7 @@ Power BI provides an option to get quick insights into the complete dataset.
 
 87. Click the **ellipse**.
 
-88. Click **Get quick Insights**.
+88. Click **Quick Insights**.
 
     ![](Images/powerbi-04-43.png)
   
