@@ -20,15 +20,15 @@ In this lab, you'll explore Embedded Analytics and Power BI Embedded, learning h
 
 1. Log into [Microsoft Azure](https://portal.azure.com) portal.
 
-2. Search for App registrations in Search box at the top and **App registrations** under Services.
+2. Search for App registrations in Search box at the top and **App registrations** under Services and select it.
 
    ![](Images/search-app-registration.png)
    
-3. In the App registrations pane, select **All application**  and click on **DIADApp**.
+3. In the App registrations pane, select **All applications**  and and click on **app-xxxxxx**.
 
    ![](Images/app-registration-diadapp.png)
 
-4. From the **Overview** tab, copy and save the **Application (client) ID** in text editor for later use.
+4. From the **Overview** tab, copy the **Application (client) ID** in a Notepad for later use.
 
    ![](Images/overview-applicationid.png)
    
@@ -36,21 +36,21 @@ In this lab, you'll explore Embedded Analytics and Power BI Embedded, learning h
 
    ![](Images/new-client-secret.png)
    
-6. **Add a client secret** pane appears, enter **DIAD client secret** in Description and leave default for Expires and click on **Add**.
+6. **Add a client secret** pane appears, enter **DIAD client secret** in Description, leave default for **Expires** and click on **Add**.
 
    ![](Images/add-client-secret.png)
    
-7. Copy and save the **Client Secret Value** in text editor for later use.
+7. Copy the **Client Secret Value** in a Notepad for later use.
 
    ![](Images/save-secret-value.png)
 
->**Note**: After you leave this window, the client secret value will be hidden, and you'll not be able to view or copy it again.
+      >**Note**: After you leave this window, the client secret value will be hidden, and you'll not be able to view or copy it again.
 
 ### Task 2 - Enable the Power BI service admin settings
 
-1. Naviaget to [PowerBI App](https://app.powerbi.com/) in the browser. Use your admin account credentials for sign-in.
+1. Navigate to [PowerBI App](https://app.powerbi.com/) in the browser. Use your admin account credentials for sign-in.
 
-2. From the page header, select **...**(1)> **Settings**(2) > **Admin portal**(3).
+2. From the page header, click on **Settings**(1) > **Admin portal**(2).
 
    ![](Images/select-admin-portal.png)
    
@@ -60,7 +60,7 @@ In this lab, you'll explore Embedded Analytics and Power BI Embedded, learning h
    
 ### Task 3 - Add the service principal and security group to your workspace
 
-1. Navigate back to **Home** pane of Power BI App, select **Workspaces**(1) then click on **eclipse**(2) next to workspace name. Then select **Workspace access**(3).
+1. Navigate back to **Home** pane of Power BI App, select **Workspaces**(1) then click on the **ellipsis**(2) next to the DIAD Workspace. Then, select **Workspace access**(3).
 
    ![](Images/workspace-access.png)
  
