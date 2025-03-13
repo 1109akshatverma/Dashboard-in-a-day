@@ -6,18 +6,7 @@
 
 In this lab, you will create and finalize a Power BI report that is ready for publication to the Power BI Service. You will explore key features such as conditional formatting, adding a logo to the manufacturer filter, importing a custom visual, and applying a custom theme. Additionally, you will use bookmarks to enhance storytelling within the report. The lab provides step-by-step guidance with accompanying screenshots, where key actions are highlighted in red or orange boxes to ensure clarity and ease of execution.
 
-
-### Power BI Desktop – Data Visualization
-
-Now that we’ve completed data exploration and visualization in previous labs, you have good insights to share with your team. In this section, you create a professional report for the benefit of you and your entire team.
-
-**IMPORTANT**: Please start this lab with the provided  file found in the  in the Lab Virtual machine.
-
-At the end of this section, you will build a report like the one shown in the screenshot below.
-
-  ![](Images/powerbi-03-01.png)
-
-Now let’s get started, we will pick up where we left off at the end of Lab 3. 
+### Task 1: 
 
 1. Navigate to **"C:\DIAD\Reports"** and select **Lab 2 solution.pbix**.
 
@@ -67,19 +56,11 @@ At this point, your report page should look like the screenshot below.
 
 Once data is loaded, notice **Revenue by Year visual**. You will see columns for years 2014 through 2021.
 
-12. Hover over **Manufacturer slicer** visual.
+12. Hover over **Manufacturer slicer** visual on the Canvas.
 
-13. On the top right corner, click the **arrow**.
+13. From the Visualizations pane, click on the **Format** visual and select **Tile** in the Options dropdown.
 
-14. Click **List**.
-
-    ![](Images/powerbi-03-07.png)
-
-15. In the **Visualizations** panel, click the **paint roller** icon. This opens the formatting options available for a visual.
-
-16. To expand the **General** section, click **Horizontal** in the **Orientation** drop-down menu.
-
-17. Notice the **Slicer** visual is updated. You can resize the visual, so all the manufacturers are listed horizontally.
+17. Notice the **Slicer** visual is updated. 
 
     ![](Images/powerbi-03-08.png)
 
@@ -93,7 +74,7 @@ Once data is loaded, notice **Revenue by Year visual**. You will see columns for
 
 Now it would be nice to add logos of the manufacturer to the slicer. Let’s do it.
 
-20. From the **Fields** section, click the **Logo** field in the **Manufacturer** table
+20. From the **Data** section, double click on the **Logo** field in the **Manufacturer** table
 
 21. From the ribbon, click **Column** tools, click **Data Category** and then click **Image URL.** Setting the data category to **Image URL** helps Power BI understand that it is a URL so it can access the data.
 
@@ -101,7 +82,7 @@ Now it would be nice to add logos of the manufacturer to the slicer. Let’s do 
 
 22. From the canvas, click the **Manufacturer** slicer.
 
-23. From the **Fields** section, drag and drop the **Logo** from the **Manufacturer** table to the **Field** box replacing the **Manufacturer** column.
+23. From the **Data** section, drag and drop the **Logo** from the **Manufacturer** table to the **Field** box replacing the **Manufacturer** column.
 
 24. **Resize** the slicer visual as needed.
 
@@ -109,21 +90,23 @@ Now it would be nice to add logos of the manufacturer to the slicer. Let’s do 
 
 25. Click the **VanArsdel** logo to filter all the other visuals.
 
-26. Click the **Revenue by Year** visual.
+26. Click on the **Sum of the Revenue by Year** visual.
 
 27. From **Visualizations** panel, click the **Line and clustered** column chart to change the visual type.
 
-28. From the **Fields** section, drag and drop the **% Growth** field from the **Sales** table to the **Line values**.
+28. From the **Data** section, drag and drop the **% Growth** field from the **Sales** table to the **Line y axis**.
 
     ![](Images/powerbi-03-11.png)
 
 This provides a representation of the revenue and growth over time.
 
+1. Copy the existing visual and paste it else where in the Canvas.
+
 29. Now let’s click the **Revenue Card** visual so we can change it to a **Gauge** visual.
 
 30. From the **Visualizations** panel, click the **Gauge** visual.
 
-31. From the **Fields** section, drag and drop the **PY Sales** field to the **Target value**.
+31. From the **Data** section, drag and drop the **PY Sales** field to the **Target value**.
 
     ![](Images/powerbi-03-12.png)
 
@@ -133,7 +116,7 @@ Now let’s take time to select the colors of the visuals.
 
 33. Click the **Gauge** visual.
 
-34. From the **Visualizations** panel, click the **paint roller** icon.
+34. From the **Visualizations** panel, click on the **format visual** icon.
 
 35. Expand the **Data Colors** section.
 
@@ -171,7 +154,7 @@ Notice colors on all the visuals are updated. Your report should look like the s
 
 43. Click the **Gauge** visual.
 
-44. From the **Visualizations** panel, click the **paint roller** icon.
+44. From the **Visualizations** panel, click the **format visual** icon.
 
 45. Expand the **Data colors** section.
 
@@ -187,7 +170,7 @@ Notice colors on all the visuals are updated. Your report should look like the s
 
 50. Change the **Text size** to **10**.
 
-51. Expand the **Target** section.
+51. Expand the **Target Labels** section.
 
 52. Change the **Text size** to **10**.
 
@@ -197,27 +180,21 @@ Notice colors on all the visuals are updated. Your report should look like the s
 
 54. Drill up to the **Segment** level.
 
-55. Click the **Revenue by Country and State** visual.
+55. Click the **Sum of Revenue by Country and State** visual.
 
 56. Drill up to the **Country** level.
 
-57. From the **Visualizations** panel, click the **paint roller** icon.
+57. From the **Visualizations** panel, click the **format visual** icon.
 
 58. Expand the **Data colors** section.
 
 59. Select a light shade of **gray** as the **Default color**.
 
-60. Enable and expand the **Data labels**.
-
-61. Change the **Display** units to **Millions**.
-
-    ![](Images/powerbi-03-19.png)
-
-Notice that there a lot of formatting options. For example, a visual title can be changed and formatted, or you can add a border and background to the visual. Feel free to explore the options.
+60. Expand the **y axis** section, turn the Values to ON and select Millions from the dropdown.
 
 62. Let’s move to another visual, click the **Revenue and % Growth by Year** visual.
 
-63. From the **Visualizations** panel, click the **paint roller** icon.
+63. From the **Visualizations** panel, click the **format visual** icon.
 
 64. Expand the **Data colors** section.
 
@@ -255,7 +232,7 @@ Now let’s add a report title.
 
 77. Uncheck the **Show Gridlines** and **Snap to Grid** options to disable these features.
 
-78. Right-click the page name in the lower-left corner and then click **Rename Page.**
+78. Right-click the page name in the lower-left corner and then click **Rename**.
 
 79. Rename the page to **Manufacturer**.
 
@@ -265,11 +242,11 @@ We can also use a background image to format the reports. Let’s try it.
 
 80. Click the white space in the canvas.
 
-81. From the **Visualizations** panel, click the **paint roller** icon.
+81. From the **Visualizations** panel, click the **format visual** icon.
 
-82. Expand the **Page Background** section.
+82. Expand the **Canvas Background** section.
 
-83. Click the **Add Image** button.
+83. On the **Image** button, click on Browse.
 
 84. A File browser dialog box opens. Browse to the **DIAD** folder then the **Data** folder (/DIAD/Data).
 
@@ -365,9 +342,9 @@ Now let’s add a custom visual.
 
 110. From the **Visualizations** section, click the newly imported **Play Axis** visual.
 
-111. From the **Fields** section, click the checkbox next to the **Date** field in the **Date** table.
+111. From the **Data** section, click the checkbox next to the **Date** field in the **Date** table.
 
-112. From the **Visualizations** panel, click the **paint roller** icon.
+112. From the **Visualizations** panel, click the **format visual** icon.
 
 113. Expand the **Colors** section.
 
