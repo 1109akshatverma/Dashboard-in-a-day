@@ -181,7 +181,7 @@ In this lab, you will perform:
   
       > **Note:** You will be navigated to **Focus mode** for the line chart.
 
-      ![](Images/did1002.png) 
+      ![](Images/did1002-1.png) 
 
 1. Scroll on the Insights panel to review the various insights Power BI can generate.
 
