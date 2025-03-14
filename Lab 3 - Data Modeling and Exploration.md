@@ -51,15 +51,19 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
     
 1. From the **Data** section, expand the **Geography** table and then check the box next to the **Country (1)** field. Also, check the box next to the **Revenue (2)** field under the **Sales** Table.
 
+      ![](Images/diad9.png)
+
 1. **Resize** the visual as needed by dragging the edges.
 
-1. Click on the **Model (1)** icon on the left panel to navigate to the Relationship view. Drag the **Zip** field in the **Sales** table to connect the line with the **Zip** field in the **Geography** table.
+1. Click on the **Model (1)** icon on the left panel to navigate to the Relationship view. Drag the **Zip (2)** field in the **Sales** table to connect the line with the **Zip (3)** field in the **Geography** table.
 
-    ![](Images/powerbi-02-10.png)
+      ![](Images/diad10.png)
 
-1. Click on the **Report** icon on the left panel to navigate to the **Report** view.
+1. Click on **Save**.
 
-1. In the **Data** section, click on the **ellipsis** next to the **Sales** table and select **New Column**.
+      ![](Images/diad11.png)
+
+1. Click on the **Report** icon on the left pane. In the **Data** section, click on the **ellipsis** next to the **Sales** table and select **New Column**.
 
     ![](Images/powerbi-02-11.png)
     
@@ -69,13 +73,13 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
     ZipCountry = Sales[Zip] & "," & Sales[Country]
     ```
 
-    ![](Images/powerbi-02-12.png)
+      ![](Images/diad12.png)
 
 1. Once you are done entering the formula, press `Enter`. 
 
-1. From the Data section, click the **Geography** table, from the ribbon click **Modeling**, and then click **New Column** as shown in the figure.
+1. From the Data section, click the **Geography (1)** table, from the ribbon click **Modeling**, and then click on **New Column (2)**.
 
-    ![](Images/powerbi-02-14.png)
+      ![](Images/diad13-1.png)
 
 1. A formula bar now appears. Enter the following DAX expression in the formula bar: 
 
