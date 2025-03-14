@@ -1,4 +1,4 @@
-# Lab 6 - Share Power BI App in your Organization
+# Lab 6 - Share Power BI App in your Organization [READ-ONLY]
 
 ### Estimated Duration: 30 Minutes
 
