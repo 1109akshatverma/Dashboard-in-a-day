@@ -19,35 +19,39 @@ In this lab, you will explore how to share reports and dashboards in the Power B
   
     ![](Images/select-azureportal.png)
     
-2. On the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+1. On the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
-3. Enter the following **Password** and click on **Sign in**. 
-   * Password: <inject key="AzureAdUserPassword"></inject>
+1. Enter the following **Password** and click on **Sign in**. 
 
-4. Click **Skip for now (14 day until this is required)**
+    * Password: <inject key="AzureAdUserPassword"></inject>
    
-5. If you see the pop-up **Stay Signed in?**, click **No**. Also, if you see a **Save Password** popup, close that.
+1. If you see the pop-up **Stay Signed in?**, click **No**.
 
-6. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
-
-7. If **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
-
-8. In the Global search bar, type **Azure Active Dircetory** and select as below;
+1. In the search bar, search for **Microsoft Entra ID** and select it.
 
    ![](Images/active-directory.png)
 
-9. Select **Users** under Manage and click **+New User**.
+1. Select **Users** under Manage from the left pane.
 
-10. Ensure to select the Create User box and provide the desired **user name**, **Name** and also please take a note of the password for the user and then clik **Create**
+1. In the Users page, click on **+ New User** and select **Create new user** from the dropdown.
 
-    ![](Images/new_user.png)
+1. In the Create new user page, provide the following values and click on **Review + Create** :
+
+   - User principal name: **testuser (1)**
+   - Display name: **testuser (2)**
+   - Password: **Demopass@34 (3)**
+
+1. Click on **Create**.
     
-11. Minimize the Azure portal and navigate back to PowerBi desktop.
+1. Minimize the Azure portal and navigate back to PowerBI desktop.
 
-12. In a list of reports, or in an open report, select **Share** ![](Images/powerbi-06-02.png).
+1. Navigate to the already opened PowerBI report- DIAD Final Report.
 
-13. Then in the **Send link** dialog, you'll see the option to copy the sharing link or share it via Outlook and Teams to **People in your organization**
+1. Click on **Share** from the top right corner.
+
+15. Then in the **Send link** dialog, you'll see the option to copy the sharing link or share it via Outlook and Teams to **People in your organization**
 
    ![](Images/powerbi-06-03.png)
 
