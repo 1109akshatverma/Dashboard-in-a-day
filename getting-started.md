@@ -13,7 +13,7 @@ In this lab, you will:
 - **Data Modeling and Exploration**: Explore the Power BI Desktop interface, focusing on layout and data exploration.
 - **Data Visualization**: Learn to create interactive reports and compelling dashboards in Power BI for effective data visualization and insights.
 - **Publishing and Accessing Reports**: Learn how to publish a Power BI report to the Power BI Service and build an interactive dashboard.
-- **Share Power BI App in your Organization**: Learn how to create an Azure AD user and manage permissions for Power BI reports and dashboards.
+- **Share Power BI App in your Organization [READ-ONLY]**: Learn how to create an Azure AD user and manage permissions for Power BI reports and dashboards.
 
 ## Getting Started with the Lab
 
