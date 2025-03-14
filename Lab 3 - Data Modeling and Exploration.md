@@ -115,11 +115,11 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
 1. From the **Data** section, expand the **Manufacturer** table, and then drag the **Manufacturer (1)** column to the **Legend** section under Visualizations.From the **Visualizations** section, click on the **Stacked column chart (2)** visual.
 
-      ![](Images/diad72-1.png)
+      ![](Images/did72-1.png)
 
 1. Click on the **Ellipsis (1)**, click on **Sort axis (2)** and select **Sort decending (3)**.
 
-      ![](Images/dia73.png)
+      ![](Images/did73.png)
     
 1. In the **Filters** pane, expand **Manufacturer** and drag under **Filters on this visual**. From the **Filter Type** dropdown menu, click **Top N (1)**. Enter **5 (2)** in the text box next to **Top**. From the **Sales** table, drag and drop the **Sum of Revenue (3)** field into the **By value** section. Click on **Apply filter (4)**.
 
