@@ -54,8 +54,6 @@ In this lab, you will create and finalize a Power BI report that is ready for pu
 
 1. Notice the **Slicer** visual is updated. 
 
-    ![](Images/powerbi-03-08.png)
-
     > **Note**: There are other options to change the outline color, weight, and more.
 
 1. Click **VanArsdel**.
