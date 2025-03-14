@@ -8,153 +8,111 @@ In this lab, you will create and finalize a Power BI report that is ready for pu
 
 ### Task 1: 
 
-1. Navigate to **"C:\DIAD\Reports"** and select **Lab 2 solution.pbix**.
+1. Navigate to `C:\DIAD\Reports` and select the **Lab 2 solution.pbix**.
 
-1. With the **Matrix** visual selected, navigate to the **Values** section and click on the downwards facing arrow next to **% Growth**.
+1. In the **Lab 2 solution.pbix** report, with the **Matrix (1)** visual selected, navigate to the **Values** section and click on the downwards facing arrow next to **% Growth (2)**.
 
-    ![](Images/powerbi-03-01.png)
+    ![](Images/did200.png)
 
-2. Click **Conditional Formatting** and then click Background color. The **Background color** dialog box opens. This dialog provides options to format the report background color using either rules or diverging colors.
+1. Click on **Conditional Formatting (1)** and then click **Background color (2)**. 
 
-   ![](Images/powerbi-03-02.png)
+    ![](Images/did201.png)
 
-3. Click on the Add a middle color checkbox.
+1. Click on the **Add a middle color (1)** checkbox and click on **OK (2)**.
 
-4. Click **OK**.
+    ![](Images/did202.png)
 
-   ![](Images/powerbi-03-03.png)
- 
->**Note:** Conditional formatting can also be based on another column using the **Color based on** the drop-down menu.
+1. From the **ribbon**, click **Home** and then click **Transform Data**. 
 
-Initially, we added a filter to load three years of data. Let’s load the complete data now.
+    ![](Images/did203.png)
 
-5. From the **ribbon**, click **Home** and then click **Transform Data**. The **Power Query Editor** window opens.
+1. Click the **filter** button on the **Date** column. Click on the **Clear filter** button to remove the 3-year filter and click on **OK**.
 
-6. Click the **filter** button on the **Date** column.
+    ![](Images/did204.png)
 
-7. Click **Clear filter** to remove the 3-year filter.
+1. From the **Home (1)** tab, click on **Close & Apply (2)** to load the data.
 
-   ![](Images/powerbi-03-04.png)
+    ![](Images/did205.png)
 
-8. Click **Home** and then click **Close & Apply** to load the data.
+1. Enable drill down mode on the **Sum of Revenue by Country** visual
 
-This time all the data will be loaded. It might take a couple of minutes as we are loading approximately seven million rows.
+    ![](Images/did221.png)
 
-Make sure the report is filtered by VanArsdel using the **Manufacturer** slicer. Remove all other filters.
+1. Click on **Australia** to drill down to **State.**
 
-9. Enable drill down mode on the **Revenue by Country** visual
+1. Disable drill mode on the **Sum of Revenue by Country and State** visual
 
-   ![](Images/powerbi-03-05.png)
+1. At this point, your report page should look like the image below.
 
-10. Click **Australia** to drill down to **State.**
+    ![](Images/did206.png)
 
-11. Disable drill mode on the **Revenue by Country and State** visual
+1. Once data is loaded, notice **Revenue by Year visual**. You will see columns for years 2014 through 2021.
 
-At this point, your report page should look like the screenshot below.
+1. Hover over **Manufacturer slicer (1)** visual on the Canvas. From the Visualizations pane, click on the **Format** visual and select **Tile (2)** in the Options dropdown.
 
-   ![](Images/powerbi-03-06.png)
+    ![](Images/did207.png)
 
-Once data is loaded, notice **Revenue by Year visual**. You will see columns for years 2014 through 2021.
-
-12. Hover over **Manufacturer slicer** visual on the Canvas.
-
-13. From the Visualizations pane, click on the **Format** visual and select **Tile** in the Options dropdown.
-
-17. Notice the **Slicer** visual is updated. 
+1. Notice the **Slicer** visual is updated. 
 
     ![](Images/powerbi-03-08.png)
 
->**Note**: There are other options to change the outline color, weight, and more.
+    > **Note**: There are other options to change the outline color, weight, and more.
 
-18. Click **VanArsdel**.
+1. Click **VanArsdel**.
 
-19. Now, collapse the **General** section.
+1. Now, collapse the **General** section.
 
->**Note:** Notice there is an option to enable the **Select All** option in the visual. There is also an option to make the slicer multi-select. Feel free to explore other formatting options.
+1. From the **Data** section, double click on the **Logo (1)** field in the **Manufacturer** table. From the ribbon, **Column tools** will be selected, click on **Data Category** and then select **Image URL (2)**. 
 
-Now it would be nice to add logos of the manufacturer to the slicer. Let’s do it.
+    ![](Images/did209.png)
 
-20. From the **Data** section, double click on the **Logo** field in the **Manufacturer** table
+1. From the canvas, click the **Manufacturer** slicer.
 
-21. From the ribbon, click **Column** tools, click **Data Category** and then click **Image URL.** Setting the data category to **Image URL** helps Power BI understand that it is a URL so it can access the data.
+1. From the **Data** section, drag and drop the **Logo** from the **Manufacturer** table to the **Field** box replacing the **Manufacturer** column.
 
-    ![](Images/powerbi-03-09.png)
-
-22. From the canvas, click the **Manufacturer** slicer.
-
-23. From the **Data** section, drag and drop the **Logo** from the **Manufacturer** table to the **Field** box replacing the **Manufacturer** column.
-
-24. **Resize** the slicer visual as needed.
+1. **Resize** the slicer visual as needed.
 
     ![](Images/powerbi-03-10.png)
 
-25. Click the **VanArsdel** logo to filter all the other visuals.
+1. Click the **VanArsdel** logo to filter all the other visuals.
 
-26. Click on the **Sum of the Revenue by Year** visual.
+1. Click on the **Sum of the Revenue by Year** visual. From the **Visualizations** panel, click on the **Line and clustered (1)** column chart to change the visual type. From the **Data** section, drag and drop the **% Growth (2)** field from the **Sales** table to the **Line y axis (3)**.
 
-27. From **Visualizations** panel, click the **Line and clustered** column chart to change the visual type.
-
-28. From the **Data** section, drag and drop the **% Growth** field from the **Sales** table to the **Line y axis**.
-
-    ![](Images/powerbi-03-11.png)
-
-This provides a representation of the revenue and growth over time.
+    ![](Images/did212.png)
 
 1. Copy the existing visual and paste it else where in the Canvas.
 
-29. Now let’s click the **Revenue Card** visual so we can change it to a **Gauge** visual.
+1. Select the copied visual. From the **Visualizations** panel, click on the **Gauge (1)** visual. From the **Data** section, drag and drop the **PY Sales (2)** field to the **Target value (3)**.
 
-30. From the **Visualizations** panel, click the **Gauge** visual.
+    ![](Images/did213.png)
 
-31. From the **Data** section, drag and drop the **PY Sales** field to the **Target value**.
+1. Resize the visual as needed. 
 
-    ![](Images/powerbi-03-12.png)
+1. Click the **Gauge** visual. From the **Visualizations** panel, click on the **format visual (1)** icon. Expand the **Colors** section. Click on the arrow next to **Fill (2)** color.
 
-32. Resize the visual as needed. Now we can compare **Revenue** with the target.
+    ![](Images/did214.png)
 
-Now let’s take time to select the colors of the visuals.
+    > **Note:** Notice you can pick a color from the default color palette or pick More colors.
 
-33. Click the **Gauge** visual.
-
-34. From the **Visualizations** panel, click on the **format visual** icon.
-
-35. Expand the **Data Colors** section.
-
-36. Click the arrow next to **Fill** color.
-
-37. Notice you can pick a color from the default color palette or pick More colors.
-
-    ![](Images/powerbi-03-13.png)
-
-Let’s check out some of the themes available.
-
-38. From the ribbon, click **View**, click **Themes**, and then click **Temperature**.
+1. From the ribbon, click **View**, click **Themes**, and then click **Temperature**.
 
     ![](Images/powerbi-03-14.png)
 
-Notice that the colors on all the visuals are updated. Feel free to try the other out-of-the-box themes.
+1. From the ribbon, click on **View (1)**, click **Themes**, and then click on **Browse for themes (2)**.
 
-In our scenario, the Marketing department has provided standard color themes to be used across reports. We can use the **Report Theme** feature in Power BI by uploading a theme. The **Report Theme** requires a JSON file where the data colors, background, foreground, and a table of accent colors are defined. The JSON file can be used across all the reports.
+    ![](Images/did215.png)
 
-39. From the ribbon, click **View**, click **Themes**, and then click **Browse for themes**.
+1. A file browser dialog box opens. Navigate to the `C:\DIAD\Data\` and click on **Theme** folder.
 
-40. A file browser dialog box opens. Navigate to the **Data** folder then the **Theme** folder (C:\DIAD\Data\Theme).
+1. Click the **DIADTheme2** file and then click on **Open**.
 
-41. Click the **DIADTheme2** file and then click **Open**.
-
-    ![](Images/powerbi-03-15.png)
-
-42. Once the theme is imported, a success dialog box opens. Click **Close**.
-
-    ![](Images/powerbi-03-16.png)
+1. Once the theme is imported, a success dialog box opens. Click **Close**.
 
 Notice colors on all the visuals are updated. Your report should look like the screenshot at this point. This theme looks good. Now, most of the visuals are blue, so let’s add some contrast.
 
 >**Note:** Here you can save and add your custom themes.
 
-43. Click the **Gauge** visual.
-
-44. From the **Visualizations** panel, click the **format visual** icon.
+43. Click on the **Gauge** visual. From the **Visualizations** panel, click the **format visual** icon.
 
 45. Expand the **Data colors** section.
 
