@@ -65,9 +65,9 @@ In this lab, you will perform:
   
 1. In the **map visual**, enable drill-down by **hovering** over the visual.
 
-1. Click the **down arrow** on the top right corner of the visual.
+1. Click the **down arrow (1)** on the top right corner of the visual. Select **Australia (2)** to drill-down to the **State** level.
 
-1. Select **Australia** to drill-down to the **State** level.
+     ![](Images/diad3001.png)
 
 1. Hover over the **VanArsdel Market Share** card visual. Click the **pin** icon on the top right of the visual. 
 
@@ -113,8 +113,12 @@ In this lab, you will perform:
   
 1. Pin the **gauge visual** to the dashboard.
 
+     ![](Images/diad3003.png) 
+
 1. Pin the **Revenue by Country** visual to the dashboard.
-  
+
+     ![](Images/diad3000.png) 
+
       >**Note:** The **VanArsdel** filter is applied to the tile that is pinned to the dashboard.
 
 1. Navigate to the **VanArsdel** dashboard. Notice that all the visuals are pinned as tiles to the dashboard.
