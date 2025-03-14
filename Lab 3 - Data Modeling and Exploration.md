@@ -87,7 +87,7 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
     ZipCountry = Geography[Zip] & "," & Geography[Country]
     ```
           
-    ![](Images/powerbi-02-15.png)
+     ![](Images/powerbi-02-15.png)
 
 1. Click on the **Model** icon on the left panel to navigate to the **Relationship** view.
 
@@ -99,7 +99,7 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
     
 1. Click on the **Report** icon on the left panel to navigate to the **Report** view.
 
-1. Click on the **ellipse** on the top right corner of the visual (alternatively, the ellipse may be at the bottom of the chart). Notice there is an option to Sort axis by **Country** as well.
+1. Click on the **ellipsis** on the top right corner of the visual (alternatively, the ellipse may be at the bottom of the chart). Notice there is an option to Sort axis by **Country** as well.
 
     ![](Images/sort-by-revenue.png)
 
@@ -109,7 +109,7 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
 1. Change filter type to **Advanced filtering** and select **is not blank**, click on **Apply Filter**
  
- >**NOTE**: Additional filter options are available: is blank, is empty, is not empty
+ > **NOTE**: Additional filter options are available: is blank, is empty, is not empty
 
    ![](Images/powerbi-02-18.png)
 
@@ -117,73 +117,61 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
 1. Drag the **ProductID** field in the **Product** table to connect the line with the **ProductID** field in the **Sales** table.
 
-1. Drag the **ManufacturerID** field in the **Manufacturer** table to connect the line with the **ManufacturerID** field in the **Manufacturer** table.
+1. Click on **Save**.
+
+1. Drag the **ManufacturerID** field in the **Manufacturer** table to connect the line with the **ManufacturerID** field in the **Product** table.
 
 1. From the **Data** section, expand the **Manufacturer** table, and then drag the **Manufacturer** column to the **Legend** section under Visualizations.
 
-35. While you have your chart selected, click the **Clustered column chart** from the **Visualizations** section, and then click the **Stacked column chart** visual.
+1. From the **Visualizations** section, click on the **Stacked column chart** visual.
 
-36. **Resize** the visual as needed.
+1. **Resize** the visual as needed.
 
     ![](Images/powerbi-02-19.png)
 
-Now we can see the top manufacturers by country. 
-
-Now let’s try different visuals to see which chart represents the data the best.
-
-37. Begin with the **Stacked column chart** selected.
+1. Begin with the **Stacked column chart** selected.
 
     ![](Images/powerbi-02-20.png)
 
-38. Sort the legend in descending order
+1. Sort the legend in descending order
 
     ![](Images/powerbi-02-21.png)
     
-39. In the **Filters** pane, expand **Manufacturer**.
+1. In the **Filters** pane, expand **Manufacturer**. From the **Filter Type** dropdown menu, click **Top N**. Enter **5** in the text box next to **Top**. From the **Sales** table, drag and drop the **Revenue** field into the **By value** section.
 
-40. From the **Filter Type** dropdown menu, click **Top N**.
-
-41. Enter **5** in the text box next to **Top**.
-
-42. From the **Sales** table, drag and drop the **Revenue** field into the **By value** section.
-
-43. Click on **Apply filter**.
+1. Click on **Apply filter**.
 
     ![](Images/powerbi-02-22.png)
 
-Notice that the visual is filtered to display the top five manufacturers by Revenue. We see that the manufacturer VanArsdel has a higher percentage of sales in USA compared to other countries or regions.
+1. Lets explore font formatting options
 
-We can now add total labels to the stacked visuals
+1. Click on the **Format visual** and click on **X axis**.
 
-44. Lets explore font formatting options
-
-45. Click on the **paint roller icon** and click on **X axis**
-
-46. Turn on **Bold** and **Italic** – feel free to try different formatting option on different areas. For the purpsoe of the lab we will turn off Bold and Italic
+1. Turn on **Bold** and **Italic** – feel free to try different formatting option on different areas. For the purpsoe of the lab we will turn off Bold and Italic
 
     ![](Images/powerbi-02-23.png)
 
-47. Navigate to the **Total labels** heading and click to **On**
+1. Navigate to the **Total labels** heading and click to **On**
 
     ![](Images/powerbi-02-24.png)
     
 Let’s remove the total labels
 
-48. Click Total labels to the **Off** position
+1. Click Total labels to the **Off** position
 
 We are interested in the top five competitors by revenue. Let’s group them so we don’t have to add a filter to every visual. Before we do that, we’ll remove the **Top 5** visual level filter.
 
-49. Begin with **Stacked column chart** selected.
+1. Begin with **Stacked column chart** selected.
 
-50. Hover over and click the **Clear filter** icon (erase) next to **Manufacturer** field in the **Filters** Pane.
+1. Hover over and click the **Clear filter** icon (erase) next to **Manufacturer** field in the **Filters** Pane.
 
     ![](Images/powerbi-02-25.png)
 
-51. From the **Data** section, right-click on the **Manufacturer** field name from **Manufacturer** table.
+1. From the **Data** section, right-click on the **Manufacturer** field name from **Manufacturer** table.
 
->**Note**: do not check the checkbox.
+      >**Note**: do not check the checkbox.
 
-52. Click **New Group**.
+1. Click **New Group**.
 
 1. In the **Ungrouped values** section, using **Ctrl** key, click **Aliqui**, **Currus**, **Natura**, and **Pirum** **(1)**. Click the **Group (2)** button. Notice a new group is added in the **Groups and members** section.
 
