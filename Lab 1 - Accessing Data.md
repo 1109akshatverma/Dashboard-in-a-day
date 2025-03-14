@@ -37,9 +37,9 @@ In this lab, you will explore the key features of the Power BI service. This int
 
      ![](Images/did6.png)
 
-1. Click on Preview features from the left pane.Check the box for **Shape map visual (1)** option and click on **OK (2)** to close the dialog.
+1. Click on **Preview features (1)** from the left pane.Check the box for **Shape map visual (2)** option and click on **OK (3)** to close the dialog.
  
-     ![](Images/did7.png)
+     ![](Images/diad1.png)
 
       > **Note:** Click on **OK** when you are prompted with the Feature requires a restart pop-up.
 
@@ -49,9 +49,9 @@ In this lab, you will explore the key features of the Power BI service. This int
  
      ![](Images/did9.png)
  
-1. In the left panel of **Options** dialog box, click **Regional Settings (1)** under Current File. From the Locale drop-down, select **English (United States) (2)** and click on **OK**.
+1. In the left panel of **Options** dialog box, click **Regional Settings (1)** under Current File. From the Locale drop-down, select **English (United States) (2)** and click on **OK (3)**.
 
-     ![](Images/did10.png)
+     ![](Images/diad2.png)
     
 1. From the ribbon, click on **Home** and then click the **Get Data (1)** drop-down arrow. Select **Text/CSV (2)**.
 
@@ -67,13 +67,13 @@ In this lab, you will explore the key features of the Power BI service. This int
      
      >**Note**: You should be in the Query Editor window as shown in the image below. The Query Editor is used to perform data shaping operations. Notice that the sales file you connected to shows as a query in the left panel. You can see a preview of the data in the center panel. Power BI predicts the data type of each field (based on the first 200 rows) as indicated next to the column header. In the right panel, steps that the Query Editor performs are recorded in the Applied Steps section.    
      
-     ![](Images/powerbi-01-08.png)
+     ![](Images/diad3.png)
      
      >**Note**: You will bring in sales data from other countries as well as performing certain data shaping operations.
 
 1. Select the **Zip column**. Then, from the ribbon, click **Home**, click **Data Type (1)**, and change it to **Text (2)**.
 
-     ![](Images/did13.png)
+     ![](Images/diad4.png)
 
 1. The **Change Column Type** dialog box opens. Click on the **Replace Current** button which overwrites Power BI’s predicted data type.
     
