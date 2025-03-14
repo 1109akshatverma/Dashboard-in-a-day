@@ -8,7 +8,9 @@ In this lab, you will create and finalize a Power BI report that is ready for pu
 
 ### Task 1: 
 
-1. Navigate to `C:\DIAD\Reports` and select the **Lab 2 solution.pbix**.
+1. Navigate to `C:\DIAD\Attendee\Attendee\Data`, move the `Data` file to `C:\DIAD`.
+
+1. Navigate to `C:\DIAD\Attendee\Attendee\Reports` and select the **Lab 2 solution.pbix**.
 
 1. In the **Lab 2 solution.pbix** report, with the **Matrix (1)** visual selected, navigate to the **Values** section and click on the downwards facing arrow next to **% Growth (2)**.
 
@@ -46,7 +48,7 @@ In this lab, you will create and finalize a Power BI report that is ready for pu
 
     ![](Images/did206.png)
 
-1. Once data is loaded, notice **Revenue by Year visual**. You will see columns for years 2014 through 2021.
+1. Once data is loaded, notice **Revenue by Year visual**. You will see columns for years 2014 through 2022.
 
 1. Hover over **Manufacturer slicer (1)** visual on the Canvas. From the Visualizations pane, click on the **Format** visual and select **Tile (2)** in the Options dropdown.
 
@@ -78,7 +80,7 @@ In this lab, you will create and finalize a Power BI report that is ready for pu
 
     ![](Images/did212.png)
 
-1. Copy the existing visual and paste it else where in the Canvas.
+1. Duplicate the current visual and place it in another location on the Canvas.
 
 1. Select the copied visual. From the **Visualizations** panel, click on the **Gauge (1)** visual. From the **Data** section, drag and drop the **PY Sales (2)** field to the **Target value (3)**.
 
@@ -92,10 +94,6 @@ In this lab, you will create and finalize a Power BI report that is ready for pu
 
     > **Note:** Notice you can pick a color from the default color palette or pick More colors.
 
-1. From the ribbon, click **View**, click **Themes**, and then click **Temperature**.
-
-    ![](Images/powerbi-03-14.png)
-
 1. From the ribbon, click on **View (1)**, click **Themes**, and then click on **Browse for themes (2)**.
 
     ![](Images/did215.png)
@@ -106,19 +104,17 @@ In this lab, you will create and finalize a Power BI report that is ready for pu
 
 1. Once the theme is imported, a success dialog box opens. Click **Close**.
 
-Notice colors on all the visuals are updated. Your report should look like the screenshot at this point. This theme looks good. Now, most of the visuals are blue, so let’s add some contrast.
+    > **Note:** Notice colors on all the visuals are updated. Your report should look like the image at this point. This theme looks good. Now, most of the visuals are blue, so let’s add some contrast.
 
->**Note:** Here you can save and add your custom themes.
+1. Click on the **Gauge** visual. From the **Visualizations** panel, click the **format visual** icon.
 
-43. Click on the **Gauge** visual. From the **Visualizations** panel, click the **format visual** icon.
+1. Expand the **Data colors** section.
 
-45. Expand the **Data colors** section.
+1. Click the drop-down menu next to **Target**. Notice the color palette is different now.
 
-46. Click the drop-down menu next to **Target**. Notice the color palette is different now.
+1. Click the **black** color. Notice how it changes in the visual.
 
-47. Click the **black** color. Notice how it changes in the visual.
-
-48. Collapse the **Data colors** section.
+1. Collapse the **Data colors** section.
 
     ![](Images/powerbi-03-17.png)
 
@@ -140,11 +136,6 @@ Notice colors on all the visuals are updated. Your report should look like the s
 
 56. Drill up to the **Country** level.
 
-57. From the **Visualizations** panel, click the **format visual** icon.
-
-58. Expand the **Data colors** section.
-
-59. Select a light shade of **gray** as the **Default color**.
 
 60. Expand the **y axis** section, turn the Values to ON and select Millions from the dropdown.
 
