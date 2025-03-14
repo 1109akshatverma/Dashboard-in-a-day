@@ -39,17 +39,19 @@ In this lab, you will perform:
 
      ![](Images/did302.png) 
 
-1. A file browser dialog box opens. Navigate to `DIAD/Data` and click on **VanArsdel Logo** file.
+1. A file browser dialog box opens. Navigate to `C:/DIAD/Data` and click on **VanArsdel_Logo** file.
 
 1. Provide the name as **DIAD (1)** and the **Description** as **This is DIAD workspace (2)** and click on **Apply** to create the workspace.
 
      ![](Images/did303.png) 
 
-1. Navigate to `C:\DIAD\Reports` and select the **DIADFinalReport**.
+1. Navigate to `C:\DIAD\Attendee\Attendee\Reports` and select the **DIADFinalReport**.
 
 1. From the **Home** tab, click on **Publish (1)**. Select **DIAD (2)** in the dialog box and click on **Select (3)**.
 
      ![](Images/did304.png) 
+
+      > **Note:** Click on **Save** if prompted.
 
 1. The **Publishing to Power BI** dialog box opens. Click on **Got it**.
 
@@ -57,7 +59,7 @@ In this lab, you will perform:
 
 ### Task 2- Power BI – Building a Dashboard
   
-1. From the left menu, click **Reports** and then click on **DIAD (1)**. Click on **DIAD Final Report (2)**.
+1. Navigate back to the browser, select **DIAD (1)** and click on **DIAD Final Report (2)**.
 
      ![](Images/did307.png) 
   
@@ -87,7 +89,7 @@ In this lab, you will perform:
 
       >**Note:** Tiles in the dashboard are not interactive.
 
-1. Hover over the **% Growth by Manufacturer** visual. Click the **pin** icon on the top right of the visual. 
+1. Navigate back to the **DIAD Final Report**, hover over the **% Growth by Manufacturer** visual. Click the **pin** icon on the top right of the visual. 
 
      ![](Images/did1001.png) 
 
