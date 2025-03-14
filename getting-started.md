@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this lab, you will explore the key features of the Power BI service, from authoring reports in Power BI Desktop to sharing insights via the Power BI Service. You will perform essential data transformations to optimize the data model, ensuring consistency and usability. The lab provides step-by-step guidance, including visual aids with highlighted key sections for clarity. You will finalize a Power BI report by applying conditional formatting, custom visuals, themes, and bookmarks for enhanced storytelling. Additionally, you will learn to share reports securely using Row-Level Security (RLS) and configure sharing permissions. Lastly, you will explore Embedded Analytics, integrating Power BI reports into applications using Power BI Embedded, enabling seamless access to insights within third-party solutions.
+In this lab, you will explore the key features of the Power BI service, from authoring reports in Power BI Desktop to sharing insights via the Power BI Service. You will perform essential data transformations to optimize the data model, ensuring consistency and usability. The lab provides step-by-step guidance, including visual aids with highlighted key sections for clarity. You will finalize a Power BI report by applying conditional formatting, custom visuals, themes, and bookmarks for enhanced storytelling. Additionally, you will learn to share reports securely using Row-Level Security (RLS) and configure sharing permissions. 
 
 ## Objectives
 
@@ -11,10 +11,9 @@ In this lab, you will:
 - **Accessing Data**: Explore data connectivity and integration in Power BI Desktop by importing and enhancing datasets.
 - **Data Preparation**: Learn how to clean and transform data in Power BI Desktop by filling empty values, splitting and renaming columns, removing unwanted rows, transposing data, and appending queries.
 - **Data Modeling and Exploration**: Explore the Power BI Desktop interface, focusing on layout and data exploration.
-- Data Visualization
+- **Data Visualization**: Learn to create interactive reports and compelling dashboards in Power BI for effective data visualization and insights.
 - **Publishing and Accessing Reports**: Learn how to publish a Power BI report to the Power BI Service and build an interactive dashboard.
 - **Share Power BI App in your Organization**: Learn how to create an Azure AD user and manage permissions for Power BI reports and dashboards.
-- **Embedded Power BI App in Web App**: Configure an Microsoft Entra app, set up Power BI service permissions, and embed a Power BI report into a web app using Visual Studio.
 
 ## Getting Started with the Lab
 
