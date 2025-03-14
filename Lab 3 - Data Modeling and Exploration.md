@@ -64,8 +64,6 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
       ![](Images/diad11.png)
 
 1. Click on the **Report** icon on the left pane. In the **Data** section, click on the **ellipsis** next to the **Sales** table and select **New Column**.
-
-    ![](Images/powerbi-02-11.png)
     
 1. Now we are ready to combine the Zip and Country columns into a new column called **ZipCountry**, separated by a comma. To create this column called ZipCountry, type the following calculation in the editor.
          
@@ -87,31 +85,25 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
     ZipCountry = Geography[Zip] & "," & Geography[Country]
     ```
           
-     ![](Images/powerbi-02-15.png)
+      ![](Images/diad14.png)
 
 1. Click on the **Model** icon on the left panel to navigate to the **Relationship** view.
 
 1. Drag the **ZipCountry** field from the **Sales** table and connect it to the **ZipCountry** field in the **Geography** table.
 
-    ![](Images/powerbi-02-16.png)
+      ![](Images/diad15.png)
 
 1. Click on **Save** in the **Create relationship** dialog box.
     
 1. Click on the **Report** icon on the left panel to navigate to the **Report** view.
 
-1. Click on the **ellipsis** on the top right corner of the visual (alternatively, the ellipse may be at the bottom of the chart). Notice there is an option to Sort axis by **Country** as well.
+1. Click on the **ellipsis (1)** on the top right corner of the visual. Click on **Sort axis (2)** and select **Sum of Revenue (3)**.
 
-    ![](Images/sort-by-revenue.png)
+      ![](Images/diad59.png)
 
-1. Notice that we have some blanks in our data. We want to clean up our data and get rid of the blanks
-
-1. Drag the **Country** field from the **Geography** table to the Filters pane and drop it in **Filters on all pages**
-
-1. Change filter type to **Advanced filtering** and select **is not blank**, click on **Apply Filter**
+1. Drag the **Country (1)** field from the **Geography** table to the Filters pane and drop it in **Filters on all pages**. Change filter type to **Advanced filtering (2)** and select **is not blank (3)**, click on **Apply Filter (4)**.
  
- > **NOTE**: Additional filter options are available: is blank, is empty, is not empty
-
-   ![](Images/powerbi-02-18.png)
+      ![](Images/diad60.png)
 
 1. Click on the **Model** icon.
 
@@ -121,51 +113,25 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
 1. Drag the **ManufacturerID** field in the **Manufacturer** table to connect the line with the **ManufacturerID** field in the **Product** table.
 
-1. From the **Data** section, expand the **Manufacturer** table, and then drag the **Manufacturer** column to the **Legend** section under Visualizations.
+1. From the **Data** section, expand the **Manufacturer** table, and then drag the **Manufacturer (1)** column to the **Legend** section under Visualizations.From the **Visualizations** section, click on the **Stacked column chart (2)** visual.
 
-1. From the **Visualizations** section, click on the **Stacked column chart** visual.
+1. Click on the **Ellipsis (1)**, click on **Sort axis (2)** and select **Sort decending (3)**.
 
-1. **Resize** the visual as needed.
-
-    ![](Images/powerbi-02-19.png)
-
-1. Begin with the **Stacked column chart** selected.
-
-    ![](Images/powerbi-02-20.png)
-
-1. Sort the legend in descending order
-
-    ![](Images/powerbi-02-21.png)
+      ![](Images/diad73.png)
     
-1. In the **Filters** pane, expand **Manufacturer**. From the **Filter Type** dropdown menu, click **Top N**. Enter **5** in the text box next to **Top**. From the **Sales** table, drag and drop the **Revenue** field into the **By value** section.
+1. In the **Filters** pane, expand **Manufacturer** and drag under **Filters on this visual**. From the **Filter Type** dropdown menu, click **Top N (1)**. Enter **5 (2)** in the text box next to **Top**. From the **Sales** table, drag and drop the **Sum of Revenue (3)** field into the **By value** section. Click on **Apply filter (4)**.
 
-1. Click on **Apply filter**.
-
-    ![](Images/powerbi-02-22.png)
-
-1. Lets explore font formatting options
+      ![](Images/diad19.png)
 
 1. Click on the **Format visual** and click on **X axis**.
 
-1. Turn on **Bold** and **Italic** – feel free to try different formatting option on different areas. For the purpsoe of the lab we will turn off Bold and Italic
-
-    ![](Images/powerbi-02-23.png)
-
-1. Navigate to the **Total labels** heading and click to **On**
-
-    ![](Images/powerbi-02-24.png)
-    
-Let’s remove the total labels
-
-1. Click Total labels to the **Off** position
-
-We are interested in the top five competitors by revenue. Let’s group them so we don’t have to add a filter to every visual. Before we do that, we’ll remove the **Top 5** visual level filter.
-
+1. Turn on **Bold** and **Italic** – feel free to try different formatting option on different areas. For the purpsoe of the lab we will turn off Bold and Italic.
+   
 1. Begin with **Stacked column chart** selected.
 
 1. Hover over and click the **Clear filter** icon (erase) next to **Manufacturer** field in the **Filters** Pane.
 
-    ![](Images/powerbi-02-25.png)
+      ![](Images/diad200.png)
 
 1. From the **Data** section, right-click on the **Manufacturer** field name from **Manufacturer** table.
 
@@ -188,8 +154,6 @@ We are interested in the top five competitors by revenue. Let’s group them so 
 1. With the **Stacked column chart** selected, click on the **X** next to **Manufacturer** in the **Legend** section. This will remove the Manufacturer.
 
 1. From the **Data** section, drag the newly created **Manufacturer (groups)** to the **Legend** section.Now we can see that VanArsdel has nearly 50% share in USA.
-
-    ![](Images/powerbi-02-27.png)
 
 1. Hover over one of the columns and right-click.
 
