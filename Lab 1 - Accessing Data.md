@@ -13,15 +13,6 @@ In this lab, you will explore the key features of the Power BI service. This int
 
 ### Task 1: Power BI Desktop - Get Data
 
-The dataset contains sales data of VanArsdel and other competitors. We have seven years of transaction data by day, product, and zip code for each 
-manufacturer. We are going to analyze data from seven countries.
-
-USA sales data is in a CSV file located in the USSales subfolder within the Data folder (/Data/USSales).
-
-Sales of all other countries is in the InternationalSales subfolder within the Data folder (/Data/InternationalSales). Each country’s sales data is in a CSV file in this folder.
-
-Product, Geography, and Manufacturer information is in a Microsoft Excel file called bi_dimensions.xlsx in the USSales subfolder within the Data folder (/Data/USSales/).
-   
 1. From the desktop, open the **Power BI Desktop**.
  
 1. Click on **Sign in** from the top.
