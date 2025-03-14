@@ -36,29 +36,35 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
     ![](Images/did205.png)
 
-1. Enable drill down mode on the **Sum of Revenue by Country** visual
+1. On the **Sum of Revenue by Country** visual, click on **Australia** to drill down to **State.**
 
-    ![](Images/did221.png)
+    ![](Images/pd1.png)
 
-1. Click on **Australia** to drill down to **State.**
+    ![](Images/pd2.png)   
 
-1. Disable drill mode on the **Sum of Revenue by Country and State** visual
+1. Disable drill mode on the **Sum of Revenue by Country and State** visual by clicking on **Drill up**.
+
+    ![](Images/pd3.png)
 
 1. At this point, your report page should look like the image below.
 
-    ![](Images/did206.png)
+    ![](Images/pd4.png)
 
-1. Once data is loaded, notice **Revenue by Year visual**. You will see columns for years 2014 through 2022.
+1. Once data is loaded, notice **Revenue by Year visual**. You will see columns for years 2014, 2016, 2018, 2020 and 2022.
 
-1. Hover over **Manufacturer slicer (1)** visual on the Canvas. From the Visualizations pane, click on the **Format** visual and select **Tile (2)** in the Options dropdown.
+1. Hover over **Manufacturer slicer (1)** visual on the Canvas. From the Visualizations pane, click on the **Format visual**, click on the dropdown for **Slicer Settings** and select **Tile (2)** in the Options dropdown.
 
     ![](Images/did207.png)
 
 1. Notice the **Slicer** visual is updated. 
 
+    ![](Images/pd5.png)
+
     > **Note**: There are other options to change the outline color, weight, and more.
 
-1. Click **VanArsdel**.
+1. Click on **VanArsdel**.
+
+    ![](Images/pd6.png)
 
 1. Now, collapse the **General** section.
 
