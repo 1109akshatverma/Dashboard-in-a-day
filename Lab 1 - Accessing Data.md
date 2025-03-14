@@ -36,8 +36,8 @@ In this lab, you will explore the key features of the Power BI service. This int
 1. Click on **Options and settings (1)** from the left pane and select **Options (2)**.
 
      ![](Images/did6.png)
-   
-1. Check the box for **Shape map visual (1)** option and click on **OK (2)** to close the dialog.
+
+1. Click on Preview features from the left pane.Check the box for **Shape map visual (1)** option and click on **OK (2)** to close the dialog.
  
      ![](Images/did7.png)
 
@@ -45,21 +45,19 @@ In this lab, you will explore the key features of the Power BI service. This int
 
       ![](Images/did8.png)      
  
-1. From the ribbon, click **File**, then click **Options and settings (1)**, then click **Options (2)**.
+1. From the ribbon, click **File**, then click **Options and settings (1)** and select **Options (2)**.
  
      ![](Images/did9.png)
  
-1. In the left panel of **Options** dialog box, click **Regional Settings (1)** under Current File. From the Locale drop-down, click **English (United States) (2)**.
+1. In the left panel of **Options** dialog box, click **Regional Settings (1)** under Current File. From the Locale drop-down, select **English (United States) (2)** and click on **OK**.
 
      ![](Images/did10.png)
-
-1. Click **OK** to close the dialog box.
     
 1. From the ribbon, click on **Home** and then click the **Get Data (1)** drop-down arrow. Select **Text/CSV (2)**.
 
      ![](Images/did11.png)
 
-1. Browse to **Local Disk(C:)> DIAD**, double-click **Data**, double-click the **USSales** folder, and then select **sales.csv**.
+1. Navigate to `C:\DIAD\Attendee\Attendee\Data\USSales`, and select the **sales.csv** file.
 
 1. Click on the **Open** button.
 
@@ -67,7 +65,7 @@ In this lab, you will explore the key features of the Power BI service. This int
 
      ![](Images/did12.png)
      
-     >**Note**: You should be in the Query Editor window as shown in the screenshot below. The Query Editor is used to perform data shaping operations. Notice that the sales file you connected to shows as a query in the left panel. You can see a preview of the data in the center panel. Power BI predicts the data type of each field (based on the first 200 rows) as indicated next to the column header. In the right panel, steps that the Query Editor performs are recorded in the Applied Steps section.    
+     >**Note**: You should be in the Query Editor window as shown in the image below. The Query Editor is used to perform data shaping operations. Notice that the sales file you connected to shows as a query in the left panel. You can see a preview of the data in the center panel. Power BI predicts the data type of each field (based on the first 200 rows) as indicated next to the column header. In the right panel, steps that the Query Editor performs are recorded in the Applied Steps section.    
      
      ![](Images/powerbi-01-08.png)
      
@@ -83,11 +81,11 @@ In this lab, you will explore the key features of the Power BI service. This int
 
      ![](Images/did14.png)
     
-1. Browse to **Local Disk(C:)> DIAD**, double-click **Data**, double-click the **USSales** folder, and then select **bi_dimensions.xlsx**.
+1. Browse to `C:\DIAD\Attendee\Attendee\Data\USSales`, and select the **bi_dimensions.xlsx** file.
 
 1. Click on the **Open** button. The **Navigator** dialog box opens.
     
-1. Click on **product** in the panel on the left. In the preview panel, notice that the first row is the headers. This is not part of the data.
+1. Select **product** from the left pane. In the preview panel, notice that the first row is the headers. This is not part of the data.
  
      ![](Images/did15.png)
 
@@ -101,7 +99,7 @@ In this lab, you will explore the key features of the Power BI service. This int
 
 1. From the left panel, click **manufacturer**. In the preview panel, notice that the last couple of rows are footers and are not part of the data.
 
-1. Make sure that **Product_Table**, **geo** and **manufacturer** **(1)** are selected in the left panel, and then click **OK (2)**. 
+1. Make sure that **Product_Table**, **geo** and **manufacturer** **(1)** are selected in the left panel and then click on **OK (2)**. 
 
      ![](Images/did17.png)
 
@@ -117,7 +115,7 @@ In this lab, you will explore the key features of the Power BI service. This int
 
      ![](Images/did19.png)
     
-1. Click on the **Browse… (1)** button. In the **Browse** for Folder dialog box, navigate to **This PC> Windows(C:)> DIAD** > **Data** and click on the **InternationalSales (2)** folder. Click on **OK (3)** (to close the **Browse for Folder** dialog box). Click on **OK (4)** again.
+1. Click on the **Browse… (1)** button. In the **Browse** for Folder dialog box, navigate to `C:\DIAD\Attendee\Attendee\Data` and click on the **InternationalSales (2)** folder. Click on **OK (3)** (to close the **Browse for Folder** dialog box). Click on **OK (4)** again.
 
      ![](Images/did20.png)
 
@@ -133,13 +131,13 @@ In this lab, you will explore the key features of the Power BI service. This int
 
     > **Note:** If you do not see the **Queries** pane on left, click on the > (greater than) icon to expand. 
 
-1. Click on the Query **InternationalSales**.
+1. Ensure the Query **InternationalSales** is selected in the left pane.
  
 1. Highlight the **Zip** column and change the **Data Type** to **Text**.
 
      ![](Images/did23-1.png)
 
-1. The **Change Column Type** dialog box will open. Click the **Replace Current** button.
+1. The **Change Column Type** dialog box will open. Click on the **Replace Current** button.
 
 1. Click on the **Source.Name** column and right click and select **Remove** option.
 
@@ -149,7 +147,7 @@ In this lab, you will explore the key features of the Power BI service. This int
 
      ![](Images/did25.png)    
    
-1. Now, you will see the **countries (1)** (blank), Australia, Canada, Germany, Japan, Mexico, and Nigeria. Click on **OK (2)**.
+1. Now, you will see the **countries (1)** Australia, Canada, Germany, Japan, Mexico, and Nigeria. Click on **OK (2)**.
 
      ![](Images/did26.png)
 
