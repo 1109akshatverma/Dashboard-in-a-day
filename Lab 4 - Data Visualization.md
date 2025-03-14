@@ -4,7 +4,7 @@
 
 ## Overview
 
-In this lab, you will create and finalize a Power BI report that is ready for publication to the Power BI Service. You will explore key features such as conditional formatting, adding a logo to the manufacturer filter, importing a custom visual, and applying a custom theme. Additionally, you will use bookmarks to enhance storytelling within the report. The lab provides step-by-step guidance with accompanying screenshots, where key actions are highlighted in red or orange boxes to ensure clarity and ease of execution.
+In this lab, you will explore data visualization techniques using Power BI to transform raw data into meaningful insights. You will learn how to connect to various data sources, create interactive reports, and design compelling dashboards. The lab covers key visualization elements such as charts, graphs, slicers, and filters, helping you enhance data storytelling and decision-making. By the end, you will have hands-on experience in building visually impactful reports that drive business insights.
 
 ### Task 1: 
 
