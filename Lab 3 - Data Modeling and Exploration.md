@@ -49,23 +49,17 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
       ![](Images/did58.png)
     
-1. From the **Data** section, expand the **Geography** table and then click the checkbox next to the **Country** field.
-
-1. From the **Data** section, expand the **Sales** table and then click the checkbox next to the **Revenue** field.
+1. From the **Data** section, expand the **Geography** table and then check the box next to the **Country (1)** field. Also, check the box next to the **Revenue (2)** field under the **Sales** Table.
 
 1. **Resize** the visual as needed by dragging the edges.
 
-1. Click on the **Model** icon on the left panel to navigate to the Relationship view.
-
-1. Our sales data is by **Zip** code, so we need to connect the Zip column from the **Sales** table with **Zip** column in the **Geography** table. You can do this by dragging the **Zip** field in the **Sales** table to connect the line with the **Zip** field in the **Geography** table.
+1. Click on the **Model (1)** icon on the left panel to navigate to the Relationship view. Drag the **Zip** field in the **Sales** table to connect the line with the **Zip** field in the **Geography** table.
 
     ![](Images/powerbi-02-10.png)
 
-1. Click on **Cancel** in the **Create relationship** dialog box.
-
 1. Click on the **Report** icon on the left panel to navigate to the **Report** view.
 
-1. In the **Data** section, click on the ellipse next to the **Sales** table. Click on **New Column** as shown. You will see a formula bar appear, as shown in the screenshot, to help create this new column.
+1. In the **Data** section, click on the **ellipsis** next to the **Sales** table and select **New Column**.
 
     ![](Images/powerbi-02-11.png)
     
