@@ -99,11 +99,11 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
 1. Click on the **ellipsis (1)** on the top right corner of the visual. Click on **Sort axis (2)** and select **Sum of Revenue (3)**.
 
-      ![](Images/diad59.png)
+      ![](Images/did59.png)
 
 1. Drag the **Country (1)** field from the **Geography** table to the Filters pane and drop it in **Filters on all pages**. Change filter type to **Advanced filtering (2)** and select **is not blank (3)**, click on **Apply Filter (4)**.
  
-      ![](Images/diad60.png)
+      ![](Images/did60.png)
 
 1. Click on the **Model** icon.
 
@@ -114,6 +114,8 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 1. Drag the **ManufacturerID** field in the **Manufacturer** table to connect the line with the **ManufacturerID** field in the **Product** table.
 
 1. From the **Data** section, expand the **Manufacturer** table, and then drag the **Manufacturer (1)** column to the **Legend** section under Visualizations.From the **Visualizations** section, click on the **Stacked column chart (2)** visual.
+
+      ![](Images/diad72-1.png)
 
 1. Click on the **Ellipsis (1)**, click on **Sort axis (2)** and select **Sort decending (3)**.
 
