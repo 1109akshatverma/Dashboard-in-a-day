@@ -110,9 +110,9 @@ To analyze the Sales of all countries, it is convenient to have a single **Sales
 
       ![](Images/did38.png)
 
-1. In the Append dialog box, keep the default **Two Tables (1)** checked, select **International Sales** from the drop-down and then click on **OK (2)**.
+1. In the Append dialog box, keep the default **Two Tables (1)** checked, select **International Sales (2)** from the drop-down and then click on **OK (3)**.
 
-      ![](Images/did39.png)
+     ![](Images/diad6.png)
     
       > **Note:** You will now see a new column in the **Sales** table called **Country**. Since the International **Sales** query had the additional column for **Country**, Power BI Desktop added the column to the **Sales** table when it loaded the values from the **International Sales** query. 
 
@@ -170,14 +170,17 @@ To analyze the Sales of all countries, it is convenient to have a single **Sales
 
       ![](Images/did48.png)
     
-     >**Note**: The appropriate data from the International Sales table will load into the Sales table each time the model is refreshed. By removing the International Sales table, we are preventing duplicate data from loading into the model and increasing its file size. In some instances, storing very large amounts 
-of data affects the data model performance.
+     >**Note**: The appropriate data from the International Sales table will load into the Sales table each time the model is refreshed. By removing the International Sales table, we are preventing duplicate data from loading into the model and increasing its file size. In some instances, storing very large amounts of data affects the data model performance.
  
 1. From the ribbon, click on the **View** tab and select **Query Dependencies**.
+
+     ![](Images/diad7.png)
 
    > **Note:** This opens the **Query Dependencies** dialog box. The dialog box shows the source of each query and its dependencies. For example, we see that the Sales query has a CSV file source and a dependency on the International Sales query. This is a useful information to share knowledge with your team members.
 
 1. **Close** the dialog box.
+
+     ![](Images/diad8.png)
 
     > **Note:** You have now successfully completed import and data shaping operations and are ready to load the data into the Power BI Desktop data model to visualize the data. 
 
