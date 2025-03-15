@@ -227,47 +227,51 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
     ![](Images/pd25.png)
    
-1. From the ribbon, click on **View**. Click on the **Bookmarks** button to enable Bookmarks. 
+1. From the ribbon, click on the **View** tab and select **Bookmarks** button to enable Bookmarks. 
 
-1. Click on **Add** in the **Bookmarks** pane. This will add the current state of the visual to the bookmark.
+1. Click on **Add (1)** in the **Bookmarks** pane. Click on the **ellipsis (2)** next to the newly created **Bookmark 1**, select**Rename (3)** and change the name to **Initial State**.
 
-1. Click on the **ellipsis** next to the newly created **Bookmark 1**, click **Rename** and change the name to **Initial State**.
+    ![](Images/pd26.png)
 
 1. In the **Sum of Revenue by Country** visual, click on the **USA** column.
 
 1. Hover over the **Sum of Revenue by Country** visual, click on the **ellipsis** on the top right corner.
 
-1. Click on **Spotlight (1)**. In the **Bookmarks** pane, click on **Add** and change the bookmark name to **USA Revenue**
+1. Click on **Spotlight (1)**. In the **Bookmarks** pane, click on **Add (2)** and change the bookmark name to **USA Revenue (3)**.
+
+    ![](Images/did236.png)
 
 1. Click on the canvas.
 
-1. Click **Australia** in the **Revenue by Country** visual. In the **Bookmarks** pane, click **Add** and change the bookmark name to **Australia Revenue**
+1. Click on **Australia (1)** in the **Revenue by Country** visual. In the **Bookmarks** pane, click **Add (2)** and change the bookmark name to **Australia Revenue (3)**.
+
+    ![](Images/pd27.png)
 
 1. Click on any bookmark that we have created and it will re-direct you to that visual.
 
 1. From the ribbon, click **View** and uncheck the **Bookmarks Pane**.
 
-1. Collapse the **Visualizations** and **Filters** pane by clicking on the arrows
+1. Collapse the **Visualizations** and **Filters** pane by clicking on the arrows.
     
-1. From the ribbon, click on the **Insert** tab, select **Button**, click on **Navigator** -> **Bookmark navigator**
+1. From the ribbon, click on the **Insert (1)** tab, select **Button (2)**, click on **Navigator (3)** -> **Bookmark navigator (4)**.
 
-   ![](Images/powerbi-03-40.png)
+    ![](Images/pd28.png)
 
 1. Arrange the Bookmark navigator to fit on the page as shown.
 
-   ![](Images/powerbi-03-41.png)
+1. In the **Format Navigator** area, select **Fill (1)** from the Style dropdown and change the Fill color to a **light blue (2)** as shown.
 
-1. In the Format Navigator area, select Fill from the Style dropdown and change the Fill color to a light blue.
+    ![](Images/pd29.png)
 
-   ![](Images/powerbi-03-42.png)
+1. Click on the **Shape (1)** dropdown and select **Rounded Rectangle (2)**.
 
-1. Click on the **Shape** dropdown and select **Rounded Rectangle**.
-
-   ![](Images/powerbi-03-43.png)
+    ![](Images/pd30.png)
 
 1. Your report should look as shown.
 
-1. Click **File** and then click **Save**.
+    ![](Images/pd31.png)
+
+1. Click on **File** from the top left corner of the report and then click on **Save**.
 
 ## Summary 
 
