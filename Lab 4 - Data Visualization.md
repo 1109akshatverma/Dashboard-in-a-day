@@ -68,7 +68,7 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
 1. From the **Data** section, double click on the **Logo (1)** field in the **Manufacturer** table. From the ribbon, **Column tools** will be selected, click on **Data Category (2)** dropdown and then select **Image URL (3)**. 
 
-    ![](Images/pd8.png)
+    ![](Images/pd8-1.png)
 
 1. From the canvas, click the **Manufacturer** slicer.
 
