@@ -31,8 +31,6 @@ In this lab, you will explore how to share reports and dashboards in the Power B
 
 1. In the search bar, search for **Microsoft Entra ID** and select it.
 
-   ![](Images/active-directory.png)
-
 1. Select **Users** under Manage from the left pane.
 
 1. In the Users page, click on **+ New User** and select **Create new user** from the dropdown.
