@@ -48,7 +48,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
   ![](Images/did-gs5.png)
 
-## Getting Started with the Lab
+## Let's Get Started with Power BI
 
 1. Click on **Microsoft Edge** from the desktop.
 
