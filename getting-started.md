@@ -16,6 +16,39 @@ In this lab, you will:
 - **Share Power BI App in your Organization [READ-ONLY]**: Learn how to create an Azure AD user and manage permissions for Power BI reports and dashboards.
 
 ## Getting Started with the Lab
+Welcome to your Power BI: Dashboard-in-a-Day Workshop! We've prepared a seamless environment for you to explore and learn about Power BI. Let's begin by making the most of this experience.
+ 
+## Accessing Your Lab Environment
+ 
+Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+
+  ![](Images/did-gs1.png)
+
+## Exploring Your Lab Resources
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
+ 
+  ![](Images/did-gs2.png)
+ 
+## Utilizing the Split Window Feature
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+ 
+   ![](Images/did-gs3.png)
+
+## Managing Your Virtual Machine
+ 
+Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+
+  ![](Images/did-gs4.png)
+
+## Lab Guide Zoom In/Zoom Out
+ 
+1. To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+  ![](Images/did-gs5.png)
+
+## Getting Started with the Lab
 
 1. Sign in to https://app.powerbi.com/ using the ODL credentials present under the Environemnt tab and click on **Submit**.
 
@@ -40,3 +73,19 @@ In this lab, you will:
    ![](Images/did3.png)
 
 1. **Sign out** and then **Sign in** to the account for changes to get applied.
+
+## Support Contact
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+   - Email Support: cloudlabs-support@spektrasystems.com
+   - Live Chat Support: https://cloudlabs.ai/labs-support
+
+Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
+
+Now, click on **Next** from the lower right corner to move on to the next page.
+
+  ![](Images/num.png)
+
+## Happy Learning!!
