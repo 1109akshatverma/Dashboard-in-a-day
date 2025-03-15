@@ -28,13 +28,13 @@ Once you're ready to dive in, your virtual machine and lab guide will be right a
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-  ![](Images/did-gs2.png)
+  ![](Images/did-gs3.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-   ![](Images/did-gs3.png)
+   ![](Images/did-gs2.png)
 
 ## Managing Your Virtual Machine
  
