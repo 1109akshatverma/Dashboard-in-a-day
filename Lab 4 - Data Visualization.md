@@ -68,11 +68,13 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
 1. From the **Data** section, double click on the **Logo (1)** field in the **Manufacturer** table. From the ribbon, **Column tools** will be selected, click on **Data Category (2)** dropdown and then select **Image URL (3)**. 
 
-    ![](Images/did209.png)
+    ![](Images/pd8.png)
 
 1. From the canvas, click the **Manufacturer** slicer.
 
-1. From the **Data** section, drag and drop the **Logo** from the **Manufacturer** table to the **Field** box replacing the **Manufacturer** column.
+1. From the **Data (1)** section, drag and drop the **Logo** from the **Manufacturer** table to the **Field (2)** box replacing the **Manufacturer** column. The **logos (3)** will load in the visual.
+
+    ![](Images/pd7.png)
 
 1. **Resize** the slicer visual as needed.
 
@@ -102,9 +104,9 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
     ![](Images/did215.png)
 
-1. A file browser dialog box opens. Navigate to the `C:\DIAD\Data\` and click on **Theme** folder.
+1. A file browser dialog box opens. Navigate to the `C:\DIAD\Data` and click on **Theme** folder.
 
-1. Click the **DIADTheme2** file and then click on **Open**.
+1. Click on the **DIADTheme2** file and then click on **Open**.
 
 1. Once the theme is imported, a success dialog box opens. Click **Close**.
 
@@ -114,37 +116,53 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
 1. Expand the **Colours** section. Click on the drop-down menu next to **Target** and select the **black** color. 
 
+    ![](Images/pd9.png)
+
 1. Collapse the **Colors** section.
 
-1. Expand the **Data Labels** section and change the **Text size** to **10**.
+1. Expand the **Data Labels (1)** section and change the **Text size** to **10 (2)**.
+
+    ![](Images/pd10.png)
 
 1. Expand the **Target Labels** section and change the **Text size** to **10**.
 
 1. Select the **Matrix** visual and drill up and down until the **Segment** Column appears.
 
-1. Click on the **Sum of Revenue by Country** visual and navigate to the Format Visual.
+    ![](Images/pd11.png)
 
-1. Expand the **y axis** section, turn the Values to **ON** and select Millions from the Display Units dropdown.
+1. Click on the **Sum of Revenue by Country** visual and navigate to the **Format Visual** in the Visualizations pane.
+
+1. Expand the **y axis** section, turn the Values to **ON (1)** and select **Millions (2)** from the Display Units dropdown.
+
+    ![](Images/pd12.png)
 
 1. Click on the **Sum of Revenue and % Growth by Year** visual.
 
 1. From the **Visualizations** panel, click the **format visual** icon, expand the **Column** section and select **gray** as the **Default color**
 
+    ![](Images/pd13.png)
+
 1. Then, click on **Lines** dropdown, further click on **Colour** dropdpwn and select the **black** color for **% Growth.**
 
-1. From the **Home** tab, click on **Text box** and enter **Manufacturer Analysis** in the text box. Select **Segoe (Bold)** as the **font** and **36** as the **font size**.
+    ![](Images/pd14.png)
+
+1. From the **Home** tab, click on **Text box** and enter **Manufacturer Analysis (1)** in the text box. Select **Segoe (Bold) (2)** as the **font** and **36 (3)** as the **font size**.
+
+    ![](Images/pd15.png)
 
 1. Resize the text box as needed.
 
 1. Right-click the page name in the lower-left corner and then click **Rename**.
 
-1. Rename the page to **Manufacturer**.
+1. Rename the page to **Manufacturer** from the bottom.
 
-    ![](Images/powerbi-03-23.png)
+    ![](Images/pd16.png)
 
 1. Click the white space on the canvas.
 
-1. From the **Visualizations** panel, click on the **format visual** icon.Expand the **Canvas Background** section and On the **Image** button, click on **Browse**.
+1. From the **Visualizations** panel, click on the **format visual** icon. Expand the **Canvas Background** section and On the **Image** button and click on **Browse**.
+
+    ![](Images/pd17.png)
 
 1. Navigate to `C:/DIAD/Data` and click on the **Background** file.
 
@@ -152,13 +170,17 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
     ![](Images/powerbi-03-24.png)
 
-1. From **Image Fit** drop-down, select **Fit** and slide to **0%** for **Transparency**.
+1. From **Image Fit** drop-down, select **Fit (2)** and slide to **0% (3)** for **Transparency**.
+
+    ![](Images/pd18.png)
 
 1. **Resize** and **arrange** the visuals as shown in the image.
 
     ![](Images/powerbi-03-26.png)
 
-1. From the ribbon, click **Insert** and then select **Image**.
+1. From the ribbon, click on the **Insert (1)** tab and select **Image (2)**.
+
+    ![](Images/pd19.png)
 
 1. Navigate to `C:/DIAD/Data` and select the **VanArsdel\_Logo** file.
 
@@ -168,43 +190,45 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
 1. **Drag** the visual to the top left corner of the page.
 
-    >**Note:** The logo is transparent. You need to place it on the blue background to see it.
+    ![](Images/pd21.png)
 
-1. Highlight **Manufacturer Analysis**, click on the arrow next to the **A** for the font color and select the **white** color.
+     >**Note:** The logo is transparent. You need to place it on the blue background to see it.
 
-1. Change the **size** of the **font** to **24**.
+1. Highlight **Manufacturer Analysis (1)**, click on the arrow next to the **A** for the font color and select the **white (2)** color. Change the **size** of the **font** to **24 (3)**.
 
-1. From the Format text box, click on the Effects dropdown, click on **Background** and select the blue color as shown in the image.
+    ![](Images/pd22.png)
 
-     ![](Images/did.png)
+1. From the Format text box, click on the **Effects (1)** dropdown, click on **Background (2)** and select the **blue (3)** color as shown in the image.
+
+    ![](Images/did223.png)
 
 1. From **Visualizations** section, click on the **ellipsis** in the last row of visuals and select **Get more visuals**.
 
-     ![](Images/did321.png)
+     ![](Images/did231.png)
 
 1. Type **play axis (1)** in the **search box** and select the **Play Axis (2)** Visual.
 
+     ![](Images/did232.png)
+
 1. Click on **Add**.
 
-     ![](Images/powerbi-03-33.png)
+     ![](Images/did233.png)
 
 1. Notice a new visual is added to the list of available visuals.
 
-1. Click on the white space in the canvas.
+1. Click on the newly imported **Play Axis (1)** visual. From the **Data** section, click on the checkbox next to the **Date (2)** field in the **Date** table.
 
-1. From the **Visualizations** section, click on the newly imported **Play Axis** visual.
-
-1. From the **Data** section, click the checkbox next to the **Date** field in the **Date** table. From the **Visualizations** panel, click on the **format visual** icon, expand the **Colors** section and enable the **Show all** option.
+1. From the **Visualizations** panel, click on the **format visual** icon, expand the **Colors** section and enable the **Show all** option.
 
 1. **Resize** and **position** the visual as shown in the image below.
-   
-1. From the ribbon, click **View**. Click on the **Bookmarks** button to enable Bookmarks. 
 
-     ![](Images/powerbi-03-36.png)
+    ![](Images/pd25.png)
+   
+1. From the ribbon, click on **View**. Click on the **Bookmarks** button to enable Bookmarks. 
 
 1. Click on **Add** in the **Bookmarks** pane. This will add the current state of the visual to the bookmark.
 
-1. Click the **ellipsis** next to the newly created **Bookmark 1**, click **Rename** and change the name to **Initial State**.
+1. Click on the **ellipsis** next to the newly created **Bookmark 1**, click **Rename** and change the name to **Initial State**.
 
 1. In the **Sum of Revenue by Country** visual, click on the **USA** column.
 
