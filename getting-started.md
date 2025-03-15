@@ -50,7 +50,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 ## Getting Started with the Lab
 
-1. Sign in to https://app.powerbi.com/ using the ODL credentials present under the Environemnt tab and click on **Submit**.
+1. Click on **Microsoft Edge** from the desktop.
+
+   ![](Images/did-gs6.png)  
+
+1. Navigate to `https://app.powerbi.com/`, sign in using the Email and Password given below and click on **Submit**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
@@ -58,7 +62,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    
    * Password: <inject key="AzureAdUserPassword"></inject>   
 
-3. In the **Stay Signed in?** pop-up, click on **No**. 
+3. On the **Stay Signed in?** pop-up, click on **No**. 
 
 1. From the page header on the top right, click on **Settings (1)** and select **Admin portal (2)**.
 
