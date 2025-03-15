@@ -87,7 +87,7 @@ You can choose who your sharing link gives access to and what they can do with t
 
 - **Specific people**
 
-  This type of link allows specific people or groups to access the report. If you select this option, enter the names or email addresses of the people you wish to share with. With this link type you can share to guest users in your organization’s Azure Active Directory (AAD), but you cannot share to external users who are not guests in your organization.
+  This type of link allows specific people or groups to access the report. If you select this option, enter the names or email addresses of the people you wish to share with. With this link type you can share to guest users in your organization’s Microsoft Entra ID, but you cannot share to external users who are not guests in your organization.
 
 ### Settings
 
