@@ -6,7 +6,12 @@
 
 In this lab, you will explore data visualization techniques using Power BI to transform raw data into meaningful insights. You will learn how to connect to various data sources, create interactive reports, and design compelling dashboards. The lab covers key visualization elements such as charts, graphs, slicers, and filters, helping you enhance data storytelling and decision-making. By the end, you will have hands-on experience in building visually impactful reports that drive business insights.
 
-### Task 1: 
+## Lab Objectives
+
+- Task 1: Create a Report
+- Task 2: Enhance the Report
+
+### Task 1: Create a Report
 
 1. Navigate to `C:\DIAD\Attendee\Attendee\Data`, move the `Data` file to `C:\DIAD`.
 
@@ -175,6 +180,8 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 1. **Resize** and **arrange** the visuals as shown in the image.
 
     ![](Images/powerbi-03-26.png)
+
+### Task 2: Enhance the Report
 
 1. From the ribbon, click on the **Insert (1)** tab and select **Image (2)**.
 
