@@ -198,7 +198,7 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
 1. From the Format text box, click on the **Effects (1)** dropdown, click on **Background (2)** and select the **blue (3)** color as shown in the image.
 
-    ![](Images/did223.png)
+    ![](Images/pd23.png)
 
 1. From **Visualizations** section, click on the **ellipsis** in the last row of visuals and select **Get more visuals**.
 
