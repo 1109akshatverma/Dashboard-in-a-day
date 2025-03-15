@@ -239,7 +239,7 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
 1. Click on **Spotlight (1)**. In the **Bookmarks** pane, click on **Add (2)** and change the bookmark name to **USA Revenue (3)**.
 
-    ![](Images/did236.png)
+    ![](Images/did235.png)
 
 1. Click on the canvas.
 
