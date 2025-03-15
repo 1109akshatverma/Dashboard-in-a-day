@@ -54,7 +54,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](Images/did-gs6.png)  
 
-1. Navigate to `https://app.powerbi.com/`, sign in using the Email and Password given below and click on **Submit**.
+1. Navigate to `https://app.powerbi.com/`, sign in by using the Email given below and click on **Submit**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
