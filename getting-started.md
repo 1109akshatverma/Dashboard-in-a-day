@@ -68,7 +68,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](Images/did1-1.png)
 
-1. In **Tenant settings** under Admin Portal, scroll down to **Integration settings**. Then, click on the **Map and filled map visuals** drop-down, toggle the button to **Enabled**.
+1. In **Tenant settings** under Admin Portal, scroll down to **Integration settings**. Then, click on the **Map and filled map visuals** drop-down and toggle the button to **Enabled**.
 
    ![](Images/did2.png)
 
