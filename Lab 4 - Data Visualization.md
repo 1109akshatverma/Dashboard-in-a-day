@@ -168,8 +168,6 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
 1. Click on the **Open** button.
 
-    ![](Images/powerbi-03-24.png)
-
 1. From **Image Fit** drop-down, select **Fit (2)** and slide to **0% (3)** for **Transparency**.
 
     ![](Images/pd18.png)
