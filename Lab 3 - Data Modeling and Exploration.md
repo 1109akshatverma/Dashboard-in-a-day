@@ -1,6 +1,6 @@
 # Lab 3 - Data Modeling and Exploration
 
-### Estimated Duration: 40 Minutes
+### Estimated Duration: 60 Minutes
 
 ## Overview
 
