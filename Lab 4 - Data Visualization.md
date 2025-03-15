@@ -83,8 +83,6 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
 1. **Resize** the slicer visual as needed.
 
-    ![](Images/powerbi-03-10.png)
-
 1. Click the **VanArsdel** logo to filter all the other visuals.
 
 1. Click on the **Sum of the Revenue by Year** visual. From the **Visualizations** panel, click on the **Line and clustered (1)** column chart to change the visual type. From the **Data** section, drag and drop the **% Growth (2)** field from the **Sales** table to the **Line y axis (3)**.
