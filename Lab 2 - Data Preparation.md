@@ -66,8 +66,6 @@ In the **Geography** query, notice that the first two rows are informational. Th
 
       ![](Images/remove-rows-1703.png)
 
-      >**Note**: The Remove Rows option can sometimes be found under the Reduce Rows option.
-
 1. The **Remove Top Rows** dialog box opens. Enter **2** in the text box and click on **OK**.
     
       >**Note**: Notice the first row in the Geography query is now the column header. 
@@ -85,8 +83,6 @@ In the **Geography** query, notice that the first two rows are informational. Th
 1. From the left panel, click on the **Manufacturer (1)** query. From the ribbon, click on the **Home** tab, click on the **Reduce Rows (2)** dropdown and then select **Remove Rows (3)** and then click on **Remove Bottom Rows (4)**.
  
       ![](Images/remove-rows2-1703.png)
-
-      >**Note**: The Remove Rows option can sometimes be found under the Reduce Rows option.
 
 1. The **Remove Bottom Rows** dialog box opens. Enter **3** in the **Number of rows text box** and click on **OK**.
    
