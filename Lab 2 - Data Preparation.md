@@ -62,9 +62,9 @@ In the Product query, notice the Product column. It looks like the product name 
 
 In the **Geography** query, notice that the first two rows are informational. They are not part of the data. Similarly, in the Manufacturer query, the last couple of rows are not part of the data. Let’s remove them so we have a clean dataset.
 
-1. From the left pane, click on the **Geography (1)** query. From the ribbon, click on the **Remove Rows (2)** dropdown and then select **Remove Top Rows (3)**.
+1. From the left pane, click on the **Geography (1)** query. From the ribbon, click on the **Reduce Rows (2)** dropdown and then select **Remove Rows (3)** and then click on **Remove Top Rows (4)**.
 
-      ![](Images/did32.png)
+      ![](Images/remove-rows-1703.png)
 
       >**Note**: The Remove Rows option can sometimes be found under the Reduce Rows option.
 
@@ -82,9 +82,9 @@ In the **Geography** query, notice that the first two rows are informational. Th
 
 1. Click on **Replace Current** in the **Change Column Type** dialog box.
 
-1. From the left panel, click on the **Manufacturer (1)** query. From the ribbon, click on the **Home** tab, click on the **Remove Rows (2)** dropdown and then select **Remove Bottom Rows (3)**.
+1. From the left panel, click on the **Manufacturer (1)** query. From the ribbon, click on the **Home** tab, click on the **Reduce Rows (2)** dropdown and then select **Remove Rows (3)** and then click on **Remove Bottom Rows (4)**.
  
-      ![](Images/did35.png)
+      ![](Images/remove-rows2-1703.png)
 
       >**Note**: The Remove Rows option can sometimes be found under the Reduce Rows option.
 
@@ -106,9 +106,9 @@ In the **Geography** query, notice that the first two rows are informational. Th
 
 To analyze the Sales of all countries, it is convenient to have a single **Sales** table. To do this, you need to append all the rows from the **International Sales** query to the **Sales** query.
 
-1. Click on the **Sales (1)** query from the left pane. From the ribbon, click on the **Home** tab and then select **Append Queries (2)**. 
+1. Click on the **Sales (1)** query from the left pane. From the ribbon, click on the **Home** tab and then select the dropdown from **Combine (2)** and click on **Append Queries (3)**. 
 
-      ![](Images/did38.png)
+      ![](Images/append-queries-1703.png)
 
 1. In the Append dialog box, keep the default **Two Tables (1)** checked, select **International Sales (2)** from the drop-down and then click on **OK (3)**.
 
@@ -200,7 +200,7 @@ To analyze the Sales of all countries, it is convenient to have a single **Sales
 
 1. Name the file as **MyFirstPowerBIModel**. Save the file in `C:\DIAD\Attendee\Attendee\Reports` folder.
 
-1. On the left panel, click **Data ![](Images/powerbi-01-51.png) icon**  to view the data that was loaded. If you need to open Power Query editor, navigate to **Home -> Transform Data**.
+1. On the left panel, click **Table view ![](Images/powerbi-01-51.png) icon**  to view the data that was loaded. If you need to open Power Query editor, navigate to **Home -> Transform Data**.
 
       ![](Images/did52.png)
 
