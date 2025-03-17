@@ -33,7 +33,7 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
       ![](Images/did55.png)
 
-10. Click on the **Data** icon on the left side. Expand the **Sales** table in the **Data** pane as shown in the image. Scroll up and down to notice how fast you can navigate through over three million rows.
+10. Click on the **Table view** icon on the left side. Expand the **Sales** table in the **Data** pane as shown in the image. Scroll up and down to notice how fast you can navigate through over three million rows.
 
       ![](Images/did56.png)
     

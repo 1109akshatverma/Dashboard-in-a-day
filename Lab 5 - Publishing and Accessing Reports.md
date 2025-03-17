@@ -231,7 +231,7 @@ In this lab, you will perform:
       > - Report bookmarks are the bookmarks the report author created (we did this in Power BI Desktop).
       > - Personal bookmarks on the report are ones which the consumer can create on their own.
 
-1. Click on **View** in the **Report** bookmarks pane.
+1. Click on **Show more bookmarks** and select **View** in the **Report** bookmarks pane.
 
       ![](Images/did348.png) 
 
