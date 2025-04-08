@@ -61,6 +61,8 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
 1. Click on **Save**.
 
+   -**Note:** Ignore the warnings.
+
       ![](Images/diad11.png)
 
 1. Click on the **Report** icon on the left pane. In the **Data** section, click on the **ellipsis** next to the **Sales** table and select **New Column**.
