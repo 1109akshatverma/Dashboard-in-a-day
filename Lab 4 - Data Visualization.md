@@ -13,9 +13,9 @@ In this lab, you will explore data visualization techniques using Power BI to tr
 
 ### Task 1: Create a Report
 
-1. Navigate to `C:\DIAD\Attendee\Attendee\Data`, move the `Data` file to `C:\DIAD`.
+1. Navigate to `C:\DIAD\Attendee\Data`, move the `Data` file to `C:\DIAD`.
 
-1. Navigate to `C:\DIAD\Attendee\Attendee\Reports` and select the **Lab 2 solution.pbix**.
+1. Navigate to `C:\DIAD\Attendee\Reports` and select the **Lab 2 solution.pbix**.
 
 1. In the **Lab 2 solution.pbix** report, with the **Matrix (1)** visual selected, navigate to the **Values** section and click on the downwards facing arrow next to **% Growth (2)**.
 
