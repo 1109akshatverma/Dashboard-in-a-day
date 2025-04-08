@@ -61,7 +61,7 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
 1. Click on **Save**.
 
-   -**Note:** Ignore the warnings.
+    - **Note:** Ignore the warnings.
 
       ![](Images/diad11.png)
 
