@@ -188,7 +188,7 @@ To analyze the Sales of all countries, it is convenient to have a single **Sales
     
     ![](Images/powerbi-01-50.png)
     
-    >**Note**: It may take several minutes to load all the tables.
+    >**Note**: **Do not** click on **Cancel**. It may take several minutes to load all the tables.
 
 1. Click on **File** and then click **Save** to save the file.
 
