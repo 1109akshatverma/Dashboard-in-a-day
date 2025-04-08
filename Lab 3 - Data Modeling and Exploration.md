@@ -61,6 +61,8 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
 1. Click on **Save**.
 
+    - **Note:** Ignore the warnings.
+
       ![](Images/diad11.png)
 
 1. Click on the **Report** icon on the left pane. In the **Data** section, click on the **ellipsis** next to the **Sales** table and select **New Column**.
@@ -101,19 +103,24 @@ This lab provides step-by-step instructions for users to follow, accompanied by 
 
       ![](Images/did59.png)
 
-1. Drag the **Country (1)** field from the **Geography** table to the Filters pane and drop it in **Filters on all pages**. Change filter type to **Advanced filtering (2)** and select **is not blank (3)**, click on **Apply Filter (4)**.
+1. **Uncheck** the box and **drag** the **Country (1)** field from the **Geography** table to the Filters pane and drop it in **Filters on all pages**. Change filter type to **Advanced filtering (2)** and select **is not blank (3)**, click on **Apply Filter (4)**.
  
+
       ![](Images/did60.png)
 
 1. Click on the **Model** icon.
 
 1. Drag the **ProductID** field in the **Product** table to connect the line with the **ProductID** field in the **Sales** table.
 
+    - **Note:** If you receive an error stating "There's already a relationship between these two columns," kindly repeat this step.
+
 1. Click on **Save**.
 
 1. Drag the **ManufacturerID** field in the **Manufacturer** table to connect the line with the **ManufacturerID** field in the **Product** table.
 
 1. Now, click on the **Report** icon on the left panel. From the **Data** section, expand the **Manufacturer** table, and then drag the **Manufacturer (1)** column to the **Legend** section under Visualizations.From the **Visualizations** section, click on the **Stacked column chart (2)** visual.
+
+    - **Note :** Make sure to check the box next to the **Country** field under the **Geography table**, and also check the box next to the **Revenue** field under the **Sales table**.
 
       ![](Images/did72-1.png)
 
