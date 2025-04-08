@@ -188,13 +188,13 @@ To analyze the Sales of all countries, it is convenient to have a single **Sales
     
     ![](Images/powerbi-01-50.png)
     
-    >**Note**: It may take several minutes to load all the tables.
+    >**Note**: **Do not** click on **Cancel**. It may take several minutes to load all the tables.
 
 1. Click on **File** and then click **Save** to save the file.
 
       ![](Images/did50.png)
 
-1. Name the file as **MyFirstPowerBIModel**. Save the file in `C:\DIAD\Attendee\Attendee\Reports` folder.
+1. Name the file as **MyFirstPowerBIModel**. Save the file in `C:\DIAD\Attendee\Reports` folder.
 
 1. On the left panel, click **Table view ![](Images/powerbi-01-51.png) icon**  to view the data that was loaded. If you need to open Power Query editor, navigate to **Home -> Transform Data**.
 

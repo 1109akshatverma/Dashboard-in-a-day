@@ -57,7 +57,7 @@ In this lab, you will explore the key features of the Power BI service. This int
 
      ![](Images/did11.png)
 
-1. Navigate to `C:\DIAD\Attendee\Attendee\Data\USSales`, and select the **sales.csv** file.
+1. Navigate to `C:\DIAD\Attendee\Data\USSales`, and select the **sales.csv** file.
 
 1. Click on the **Open** button.
 
@@ -81,7 +81,7 @@ In this lab, you will explore the key features of the Power BI service. This int
 
      ![](Images/did14.png)
     
-1. Browse to `C:\DIAD\Attendee\Attendee\Data\USSales`, and select the **bi_dimensions.xlsx** file.
+1. Browse to `C:\DIAD\Attendee\Data\USSales`, and select the **bi_dimensions.xlsx** file.
 
 1. Click on the **Open** button. The **Navigator** dialog box opens.
     
@@ -115,7 +115,7 @@ In this lab, you will explore the key features of the Power BI service. This int
 
      ![](Images/did19.png)
     
-1. Click on the **Browse… (1)** button. In the **Browse** for Folder dialog box, navigate to `C:\DIAD\Attendee\Attendee\Data` and click on the **InternationalSales (2)** folder. Click on **OK (3)** (to close the **Browse for Folder** dialog box). Click on **OK (4)** again.
+1. Click on the **Browse… (1)** button. In the **Browse** for Folder dialog box, navigate to `C:\DIAD\Attendee\Data` and click on the **InternationalSales (2)** folder. Click on **OK (3)** (to close the **Browse for Folder** dialog box). Click on **OK (4)** again.
 
      ![](Images/did20.png)
 
