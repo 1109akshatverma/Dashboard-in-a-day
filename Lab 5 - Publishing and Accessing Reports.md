@@ -45,7 +45,7 @@ In this lab, you will perform:
 
      ![](Images/did303.png) 
 
-1. Navigate to `C:\DIAD\Attendee\Attendee\Reports` and select the **DIADFinalReport**.
+1. Navigate to `C:\DIAD\Attendee\Reports` and select the **DIADFinalReport**.
 
 1. From the **Home** tab, click on **Publish (1)**. Select **DIAD (2)** in the dialog box and click on **Select (3)**.
 
