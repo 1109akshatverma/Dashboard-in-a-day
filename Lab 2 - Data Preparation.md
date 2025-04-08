@@ -19,6 +19,8 @@ In this lab, you will explore methods to transform data in the data model to ens
 
 1. On the Query Editor window, click each query name in the **Other Queries** section.
    
+   >**Note**: Please ignore the warning: "There are pending changes in your queries that haven't been applied," if you encounter it in any of the upcoming tasks or labs.
+  
 1. Navigate to **Query Settings**, and then from the **Properties** section in the right-hand pane ,rename the queries as shown below:
 
    | Initial Name             | Final Name            |
