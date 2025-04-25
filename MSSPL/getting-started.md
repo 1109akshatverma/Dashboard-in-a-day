@@ -39,7 +39,7 @@ In this lab, you'll start with a pre-created Power BI report and follow a struct
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-  ![image](../Images/pb65.png)
+  ![image](../Images/power-05.png)
 
 ### Virtual Machine & Lab Guide
  
@@ -49,19 +49,19 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-   ![image](../Images/pb64.png)
+   ![image](../Images/power-02.png)
 
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
 
-   ![image](../Images/pb67.png)
+   ![image](../Images/power-03.png)
    
 ## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
 
-   ![image](../Images/pb66.png)
+   ![image](../Images/power-04.png)
 
 In this labs, you will learn to create and publish Power BI dashboards and reports, focusing on report development, dashboard organization, and presentation enhancement. You'll work with features such as conditional formatting, custom visuals, themes, and bookmarks to effectively communicate data insights.
 
