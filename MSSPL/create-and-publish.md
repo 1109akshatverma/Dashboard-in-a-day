@@ -28,7 +28,7 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
    ![](../Images/pb3.png)
 
-   > **Note:** If a pop-up appears with **More Information Required**, click **Next**, then select **Skip setup** on the following page.If **Skip setup** option is not available, please follow the below instructions:
+   > **Note:** If a pop-up appears with **Action Required**, click **Next**, then select **Skip setup** on the following page.If **Skip setup** option is not available, please follow the below instructions:
    >1. On the **"Keep your account secure"** page, select **Next** twice.
    >1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
    >    - Open **Google Play Store** (Android) or **App Store** (iOS).
@@ -38,6 +38,7 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
    >1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
    >1. After scanning, click **Next** to proceed.
    >1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
+   >1. On the **Success!** pop-up, select **Done**.
 
 1. If **Stay signed in** window pops-up, select **No**
 
@@ -47,13 +48,14 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
     ![](../Images/pb5.png) 
 
-1. In the **Tenant settings (1)**, search for **map (2)**, then select **Map and Filled Map Visuals (3)**. If the toggle bar is not enabled, switch it to **Enabled (4)** and click **Apply (5)** to save the settings. 
+1. In the **Tenant settings (1)**, search for **map (2)**, then select **Map and filled map visuals (3)**. If the toggle bar is not enabled, switch it to **Enabled (4)** and click **Apply (5)** to save the settings. 
 
     ![](../Images/pr1.png) 
 
 1. Navigate to **PowerBI desktop** from the desktop and sign in using the same credentials used for app service.
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
 1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
@@ -66,7 +68,7 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 ### Task 1 - Power BI Service – Publishing Report
 In this task, you will open a Power BI report, enable map visuals, adjust the mobile layout, create a workspace, and publish the report to the Power BI Service.
 
-1. Navigate to the **DIAD** folder and then to the Reports folder (C:\DIAD\DIADL4\Reports) folder in the LabVM
+1. Open **File Explorer**. Navigate to the **DIAD** folder, then go to the Reports folder by browsing to **(C:\DIAD\DIADL4\Reports)** in the LabVM.
 
 1. Open the DIAD Final Report.pbix file. 
 
@@ -409,7 +411,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![](../Images/new-create-publish-powerbi-march-025.png)
 
-1. On the **Manage alerts** page, click **+Add alert rule (1)** to open the dialog, then click **Cancel (2)** since we are not creating an alert rule.
+1. On the **Manage alerts** page, click **+ Add alert rule (1)** to open the dialog, then click **Cancel (2)** since we are not creating an alert rule.
 
     ![](../Images/pb53.png)
   
