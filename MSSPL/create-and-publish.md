@@ -4,7 +4,7 @@
 
 ## Overview
 
-In this lab, you will create and publish Power BI dashboards and reports, applying conditional formatting, adding logos, importing custom visuals, and using bookmarks to enhance storytelling.
+In this lab, you'll use a pre-built Power BI report to publish it to the Power BI Service and create a dashboard by pinning key visuals. You'll explore features such as customizing the dashboard layout, enabling map visuals, and working with drill-through, quick insights, Q\&A, alerts, and bookmarks to enhance the report experience.
 
 ## Lab Objectives
 
