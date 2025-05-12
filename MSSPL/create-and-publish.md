@@ -52,11 +52,13 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
     ![](../Images/pr1.png) 
 
-1. Navigate to **PowerBI desktop** from the desktop and sign in using the same credentials used for app service.
+1. Navigate to **PowerBI desktop** from the desktop and **Sign in** using the same credentials used for app service.
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    
    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+    > **Note:** If you have enabled MFA, enter the authentication code displayed on your device to log in
 
 1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
 
@@ -191,6 +193,8 @@ while creating a mobile layout.
 
     ![](../Images/pr13.png) 
 
+    > **Note:** If the reports are not visible, please refresh the page.
+
 ### Task 2- Power BI – Building a Dashboard
 
 In this task, you will create a dashboard that combines data from the **Market Share** report.  
@@ -205,6 +209,8 @@ By the end of this section, we will have created a dashboard that looks like the
 1. In the **map visual**, enable drill-down by *hovering* over the visual and click on the **down arrow (1)** on the top right corner of the visual and then Select **Australia (2)** to drill-down to the **State** level.
 
     ![](../Images/pb26.png)
+
+    >**Note:** The map visual may take a few seconds to load initially. If it doesn't appear after a short wait, please try refreshing the page.
 
 1. Now let’s pin visuals to the dashboard.
 
