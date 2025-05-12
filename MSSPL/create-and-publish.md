@@ -224,6 +224,8 @@ By the end of this section, we will have created a dashboard that looks like the
   
     ![](../Images/new-create-publish-powerbi-march-9.png)
  
+    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+
     >**Note**: Notice that alert messages are displayed stating the dashboard is ready to view.
 
 1. Notice the **VanArsdel** dashboard is created under **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace.
@@ -249,7 +251,9 @@ By the end of this section, we will have created a dashboard that looks like the
 1. Make sure that **Existing dashboard (1)** is selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
     ![](../Images/pr17.png)
-  
+
+    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+
 1. Closeout the alert dialog boxes.
 
 1. Hover over the **Revenue by Year and Manufacturer** visual. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
@@ -260,6 +264,8 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pb32.png)
    
+    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+
 1. Closeout the alert dialog boxes.
 
 1. Navigate to the **By Manufacturer** page.
@@ -286,6 +292,8 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/new-create-publish-powerbi-march-12.png)
 
+    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+
 1. **Pin** the **Revenue by Country** visual to the dashboard.
 
    ![](../Images/new-create-publish-powerbi-march-15.png)
@@ -293,6 +301,8 @@ By the end of this section, we will have created a dashboard that looks like the
 1. Make sure that **Existing dashboard (1)** s selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
     ![](../Images/new-create-publish-powerbi-march-13.png)   
+
+    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
 
 1. Closeout the alert dialog boxes.
   
