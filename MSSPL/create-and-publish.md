@@ -4,7 +4,7 @@
 
 ## Overview
 
-In this lab, you will create and publish Power BI dashboards and reports, applying conditional formatting, adding logos, importing custom visuals, and using bookmarks to enhance storytelling.
+In this lab, you'll use a pre-built Power BI report to publish it to the Power BI Service and create a dashboard by pinning key visuals. You'll explore features such as customizing the dashboard layout, enabling map visuals, and working with drill-through, quick insights, Q\&A, alerts, and bookmarks to enhance the report experience.
 
 ## Lab Objectives
 
@@ -52,11 +52,13 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
     ![](../Images/pr1.png) 
 
-1. Navigate to **PowerBI desktop** from the desktop and sign in using the same credentials used for app service.
+1. Navigate to **PowerBI desktop** from the desktop and **Sign in** using the same credentials used for app service.
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    
    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+    > **Note:** If you have enabled MFA, enter the authentication code displayed on your device to log in
 
 1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
 
@@ -191,6 +193,8 @@ while creating a mobile layout.
 
     ![](../Images/pr13.png) 
 
+    > **Note:** If the reports are not visible, please refresh the page.
+
 ### Task 2- Power BI – Building a Dashboard
 
 In this task, you will create a dashboard that combines data from the **Market Share** report.  
@@ -206,6 +210,8 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pb26.png)
 
+    >**Note:** The map visual may take a few seconds to load initially. If it doesn't appear after a short wait, please try refreshing the page.
+
 1. Now let’s pin visuals to the dashboard.
 
 1. Hover over the **VanArsdel Market Share** card visual.
@@ -218,6 +224,8 @@ By the end of this section, we will have created a dashboard that looks like the
   
     ![](../Images/new-create-publish-powerbi-march-9.png)
  
+    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+
     >**Note**: Notice that alert messages are displayed stating the dashboard is ready to view.
 
 1. Notice the **VanArsdel** dashboard is created under **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace.
@@ -243,7 +251,9 @@ By the end of this section, we will have created a dashboard that looks like the
 1. Make sure that **Existing dashboard (1)** is selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
     ![](../Images/pr17.png)
-  
+
+    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+
 1. Closeout the alert dialog boxes.
 
 1. Hover over the **Revenue by Year and Manufacturer** visual. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
@@ -254,6 +264,8 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pb32.png)
    
+    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+
 1. Closeout the alert dialog boxes.
 
 1. Navigate to the **By Manufacturer** page.
@@ -280,6 +292,8 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/new-create-publish-powerbi-march-12.png)
 
+    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+
 1. **Pin** the **Revenue by Country** visual to the dashboard.
 
    ![](../Images/new-create-publish-powerbi-march-15.png)
@@ -287,6 +301,8 @@ By the end of this section, we will have created a dashboard that looks like the
 1. Make sure that **Existing dashboard (1)** s selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
 
     ![](../Images/new-create-publish-powerbi-march-13.png)   
+
+    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
 
 1. Closeout the alert dialog boxes.
   
