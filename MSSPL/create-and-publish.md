@@ -54,6 +54,8 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
 1. Navigate to **PowerBI desktop** from the desktop and **Sign in** using the same credentials used for app service.
 
+    ![](../Images/signin.png) 
+
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    
    - **Password:** <inject key="AzureAdUserPassword"></inject>
@@ -70,7 +72,7 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 ### Task 1 - Power BI Service – Publishing Report
 In this task, you will open a Power BI report, enable map visuals, adjust the mobile layout, create a workspace, and publish the report to the Power BI Service.
 
-1. Open **File Explorer**. Navigate to the **DIAD** folder, then go to the Reports folder by browsing to **(C:\DIAD\DIADL4\Reports)** in the LabVM.
+1. Open **File Explorer**. Navigate to the **DIAD** folder, then go to the Reports folder by browsing to `C:\DIAD\DIADL4\Reports` in the LabVM.
 
 1. Open the DIAD Final Report.pbix file. 
 
@@ -107,6 +109,8 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
    ![](../Images/pr3.png)
 
    ![](../Images/pb12.png)   
+
+   >**Note:** You can change the size of the text for better alignment.
 
    >**Note:** If you recieve any pop up, click on **Close**.
 
@@ -153,7 +157,7 @@ while creating a mobile layout.
 
       ![](../Images/pr4.png)
 
-    - A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder (**C:\DIAD\DIADL4\Data**). Select **VanArsdel_WSLogo (1)** file and click **open (2)**
+    - A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder `C:\DIAD\DIADL4\Data` Select **VanArsdel_WSLogo (1)** file and click **open (2)**
 
       ![](../Images/pr8.png)
 
