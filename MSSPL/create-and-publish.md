@@ -54,6 +54,8 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
 1. Navigate to **PowerBI desktop** from the desktop and **Sign in** using the same credentials used for app service.
 
+    ![02](image.png)
+
     ![](../Images/signin.png) 
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
@@ -61,6 +63,16 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
     > **Note:** If you have enabled MFA, enter the authentication code displayed on your device to log in
+
+   ![02](image-1.png)
+
+7. After selecting continue It will again ask you to sign in.
+
+   ![02](image-2.png)
+
+8. Enter password and **sign in**
+
+   ![02](image-3.png)
 
 1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
 
@@ -125,9 +137,13 @@ while creating a mobile layout.
 
 1. Drag the **Revenue by Year and Manufacturer** line chart below the card on the phone layout. Resize the line chart to stretch across the phone layout.
 
+   ![02](image-4.png)
+
    ![](../Images/pb14.png)
 
-1. Drag the **map** below the line chart on the phone layout, resize the map, and then exit the mobile view.
+1. Drag the **Revenue by Country** below the line chart on the phone layout, resize the map, and then exit the mobile view.
+
+   ![02](image-5.png)
 
    ![](../Images/pb15.png)
 
@@ -186,10 +202,10 @@ while creating a mobile layout.
     ![](../Images/pb23.png)
 
 1. The **Publishing to Power BI** dialog box opens. Once the process is complete, a success message displays.
-
-    ![](../Images/pb24.png) 
   
 1. Click **Got it** to close the dialog box.
+
+    ![02](image-6.png)
 
     >**Note**: Now that we have published the report to the Power BI service, let’s navigate back to the browser and start exploring. 
     
@@ -327,7 +343,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. Click the bottom right corner of the tile and move it diagonally to change the image size.
 
-    ![](../Images/pb38.png)
+    ![02](image-8.png)
   
     Tiles can be of various sizes (1x1 to 5x5). Drag the tile using the bottom right corner to resize it. 
 
@@ -438,6 +454,8 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
     >**Note**: Notice that you can add **Above** or **Below threshold**. You can also set the notification frequency. This is just an introduction to managing alerts. Complete functionality is not covered in this lab.
 
 1. Click **Don’t Save** from **Unsaved changes** pop-up window.
+
+   ![02](image-7.png)
 
 1. Click on the **VanArsdel Market Share** tile to navigate to the report.
 
