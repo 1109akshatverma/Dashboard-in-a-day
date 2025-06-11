@@ -343,7 +343,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. Click the bottom right corner of the tile and move it diagonally to change the image size.
 
-    ![02](image-8.png)
+    ![02](image-9.png)
   
     Tiles can be of various sizes (1x1 to 5x5). Drag the tile using the bottom right corner to resize it. 
 
