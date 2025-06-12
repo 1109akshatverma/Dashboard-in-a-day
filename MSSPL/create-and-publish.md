@@ -4,15 +4,16 @@
 
 ## Overview
 
-In this lab, you'll use a pre-built Power BI report to publish it to the Power BI Service and create a dashboard by pinning key visuals. You'll explore features such as customizing the dashboard layout, enabling map visuals, and working with drill-through, quick insights, Q\&A, alerts, and bookmarks to enhance the report experience.
+In this lab, you'll use a pre-built Power BI report to publish it to the Power BI Service and create a dashboard by pinning key visuals. You'll explore features such as customizing the dashboard layout, enabling map visuals, and working with drill-through, quick insights, Q&A, alerts, and bookmarks to enhance the report experience.
 
 ## Lab Objectives
 
-- Task 1 : Power BI Service – Publishing Report
-- Task 2 : Power BI – Building a Dashboard
-- Task 3 : Organize dashboard.
+- Task 1: Power BI Service – Publishing Report
+- Task 2: Power BI – Building a Dashboard
+- Task 3: Organize the dashboard
   
 ### Pre-requisites
+
 Before starting the lab, you need to complete a set of prerequisite steps to ensure that Power BI is correctly configured.
 
 1. Navigate to [https://app.powerbi.com](https://app.powerbi.com/) in the LabVM browser using the credentials provided below:
@@ -28,7 +29,7 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
    ![](../Images/pb3.png)
 
-   > **Note:** If a pop-up appears with **Action Required**, click **Next**, then select **Skip setup** on the following page.If **Skip setup** option is not available, please follow the below instructions:
+   > **Note:** If a pop-up appears with **Action Required**, click **Next**, then select **Skip setup** on the following page. If the **Skip setup** option is not available, please follow the instructions below:
    >1. On the **"Keep your account secure"** page, select **Next** twice.
    >1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
    >    - Open **Google Play Store** (Android) or **App Store** (iOS).
@@ -52,7 +53,7 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
     ![](../Images/pr1.png) 
 
-1. Navigate to **PowerBI desktop** from the desktop and **Sign in** using the same credentials used for app service.
+1. Navigate to **PowerBI desktop** from the desktop and **Sign in** using the same credentials used for the app service.
 
     ![](../Images/1.png)
 
@@ -66,11 +67,11 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
     ![02](../Images/2.png)
 
-7. After selecting continue It will again ask you to sign in.
+7. After selecting continue, it will again ask you to sign in.
 
    ![02](../Images/3.png)
 
-8. Enter password and **sign in**
+8. Enter password and **Sign in**
 
    ![alt text](../Images/4.png)
 
@@ -80,15 +81,15 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
 1. You have completed the prerequisites. Please wait for 15 minutes before continuing with the next step.
 
+## Task 1 - Power BI Service – Publishing Report
 
-### Task 1 - Power BI Service – Publishing Report
 In this task, you will open a Power BI report, enable map visuals, adjust the mobile layout, create a workspace, and publish the report to the Power BI Service.
 
 1. Open **File Explorer**. Navigate to the **DIAD** folder, then go to the Reports folder by browsing to `C:\DIAD\DIADL4\Reports` in the LabVM.
 
 1. Open the DIAD Final Report.pbix file. 
 
-   >**Note**: This file uses the same dataset that you used for the lab. We have added more visuals and performed additional formatting in the report. Feel free to explore the report.
+   >**Note:** This file uses the same dataset that you used for the lab. We have added more visuals and performed additional formatting in the report. Feel free to explore the report.
 
    ![](../Images/pb8upd.png) 
 
@@ -114,7 +115,7 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
    ![](../Images/pb10.png) 
 
-   > **Note:** If **The mobile layout canvas is now interactive** pop-up comes up, click on **Close.**
+   > **Note:** If **The mobile layout canvas is now interactive** pop-up comes up, click on **Close**.
 
 1. Drag the **Market Analysis** title to the top of the phone layout.
 
@@ -124,10 +125,9 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
    >**Note:** You can change the size of the text for better alignment.
 
-   >**Note:** If you recieve any pop up, click on **Close**.
+   >**Note:** If you receive any pop-up, click on **Close**.
 
-1. Click on the **View (1)** tab and turn on  the **Selection (2)** pane by clicking on it. This allows you to change the layer order 
-while creating a mobile layout.
+1. Click on the **View (1)** tab and turn on  the **Selection (2)** pane by clicking on it. This allows you to change the layer order while creating a mobile layout.
 
    ![](../Images/pr6.png)
 
@@ -157,7 +157,7 @@ while creating a mobile layout.
 
     ![](../Images/pb18.png)
 
-    >**Note**: Creating workspace is a **Pro feature**.
+    > **Note:** Creating workspace is a **Pro feature**.
 
 1. On the **Create a workspace** page, give the following details then click on **Apply (4)**.
 
@@ -169,7 +169,7 @@ while creating a mobile layout.
 
       ![](../Images/pr4.png)
 
-    - A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder `C:\DIAD\DIADL4\Data` Select **VanArsdel_WSLogo (1)** file and click **open (2)**
+    - A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder `C:\DIAD\DIADL4\Data` Select **VanArsdel_WSLogo (1)** file and click **Open (2)**
 
       ![](../Images/pr8.png)
 
@@ -178,20 +178,22 @@ while creating a mobile layout.
     ![02](../Images/16.png)
 
     ![02](../Images/5.png)
+
    > **Note** If it asks about licence select **Try Free**.
-   > **Note:** If **Introducing task flows (preview)** pop-up comes up, click on **Got it.**
 
-1. Let’s publish the report to Power BI Service and then we will come back to the browser.
+   > **Note:** If **Introducing task flows (preview)** pop-up comes up, click on **Got it**.
 
-1. Navigate back to the **DIAD Final Report** in PowerBi desktop.
+1. Let’s publish the report to Power BI Service, and then we will come back to the browser.
 
-1. Ensure **Mobile View** is **off.**
+1. Navigate back to the **DIAD Final Report** in Power BI desktop.
 
-1. From the **Home (1)** tab, click **Publish (2).**
+1. Ensure **Mobile View** is **off**.
+
+1. From the **Home (1)** tab, click **Publish (2)**.
 
     ![](../Images/pb21.png)
 
-1. If you are prompted to save the changes, then click on **Save**
+1. If you are prompted to save the changes, then click on **Save**.
 
     ![](../Images/pb22.png)
 
@@ -205,17 +207,18 @@ while creating a mobile layout.
 
     ![02](../Images/6.png)
 
-    >**Note**: Now that we have published the report to the Power BI service, let’s navigate back to the browser and start exploring. 
+    >**Note:** Now that we have published the report to the Power BI service, let’s navigate back to the browser and start exploring. 
     
-1. Once you are in the browser, in the left panel notice that under **DIAD_<inject key="DeploymentID" enableCopy="false"/>**, you see **Reports** has the **DIAD Final Report**.
+1. Once you are in the browser, in the left panel, notice that under **DIAD_<inject key="DeploymentID" enableCopy="false"/>**, you see **Reports** has the **DIAD Final Report**.
 
     ![](../Images/pr13.png) 
 
     > **Note:** If the reports are not visible, please refresh the page.
 
-### Task 2- Power BI – Building a Dashboard
+## Task 2- Power BI – Building a Dashboard
 
 In this task, you will create a dashboard that combines data from the **Market Share** report.  
+
 By the end of this section, we will have created a dashboard that looks like the screenshot below.
 
   ![](../Images/powerbi-04-20.png)
@@ -224,11 +227,11 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pr12.png)
   
-1. In the **map visual**, enable drill-down by *hovering* over the visual and click on the **down arrow (1)** on the top right corner of the visual and then Select **Australia (2)** to drill-down to the **State** level.
+1. In the **map visual**, enable drill-down by *hovering* over the visual and click on the **down arrow (1)** on the top right corner of the visual and then select **Australia (2)** to drill down to the **State** level.
 
     ![](../Images/pb26.png)
 
-    >**Note:** The map visual may take a few seconds to load initially. If it doesn't appear after a short wait, please try refreshing the page.
+    > **Note:** The map visual may take a few seconds to load initially. If it doesn't appear after a short wait, please try refreshing the page.
 
 1. Now let’s pin visuals to the dashboard.
 
@@ -238,13 +241,13 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pr11.png)
 
-1. We do not have a dashboard yet. Let’s create one. With **New dashboard (1)** selected, enter **VanArsdel (2)** in the text box then click on **Pin (3)**.
+1. We do not have a dashboard yet. Let’s create one. With **New dashboard (1)** selected, enter **VanArsdel (2)** in the text box, then click on **Pin (3)**.
   
     ![](../Images/new-create-publish-powerbi-march-9.png)
  
-    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+    >**Note:** If you see an option labeled **Tile Theming**, select **Use destination theme**.
 
-    >**Note**: Notice that alert messages are displayed stating the dashboard is ready to view.
+    >**Note:** Notice that alert messages are displayed stating the dashboard is ready to view.
 
 1. Notice the **VanArsdel** dashboard is created under **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace.
 
@@ -270,9 +273,9 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pr17.png)
 
-    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+    >**Note:** If you see an option labeled **Tile Theming**, select **Use destination theme**.
 
-1. Closeout the alert dialog boxes.
+1. Close out the alert dialog boxes.
 
 1. Hover over the **Revenue by Year and Manufacturer** visual. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
 
@@ -282,9 +285,9 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/pb32.png)
    
-    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+    > **Note:** If you see an option labeled **Tile Theming**, select **Use destination theme**.
 
-1. Closeout the alert dialog boxes.
+1. Close out the alert dialog boxes.
 
 1. Navigate to the **By Manufacturer** page.
 
@@ -310,7 +313,7 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/new-create-publish-powerbi-march-12.png)
 
-    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+    >**Note:** If you see an option labeled **Tile Theming**, select **Use destination theme**.
 
 1. **Pin** the **Revenue by Country** visual to the dashboard.
 
@@ -320,9 +323,9 @@ By the end of this section, we will have created a dashboard that looks like the
 
     ![](../Images/new-create-publish-powerbi-march-13.png)   
 
-    >**Note**: If you see an option labeled **Tile Theming**, select **Use destination theme**.
+    >**Note:** If you see an option labeled **Tile Theming**, select **Use destination theme**.
 
-1. Closeout the alert dialog boxes.
+1. Close out the alert dialog boxes.
   
     >**Note:** The **VanArsdel** filter is applied to the tile that is pinned to the dashboard.
 
@@ -332,9 +335,10 @@ By the end of this section, we will have created a dashboard that looks like the
 
    ![](../Images/new-create-publish-powerbi-march-11.png)    
 
-    >**Note**: You will see the visuals on the dashboard like in the screenshot. Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates. Tiles are not interactive.
+    >**Note:** You will see the visuals on the dashboard like in the screenshot. Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates. Tiles are not interactive.
 
-### Task 3- Organize dashboard.
+## Task 3- Organize dashboard
+
 In this task, you will organize the Power BI dashboard by resizing tiles, adding images, renaming visuals, generating insights, setting alerts, using drill-through, and exploring bookmarks.
 
 1. Resize and move the **gauge** tile as shown in the screenshot.
@@ -381,7 +385,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. Now let’s create a visual that represents Market Share by country.
 
-1. Notice on the top of the visual, there is an option to **Ask a question about your data**. This is like *Ask a question in the desktop*.
+1. Notice on the top of the visual, there is an option to **Ask a question about your data**. This is like *Ask a question on the desktop*.
 
    ![](../Images/pr24.png)
 
@@ -397,27 +401,27 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![](../Images/new-create-publish-powerbi-march-21.png)
   
-    >**Note**: Remember that we renamed our tables. One of the reasons we did this was to make them user friendly for Q & A
+    >**Note:** Remember that we renamed our tables. One of the reasons we did this was to make them user-friendly for Q & A
 
 1. In the top right of the screen, click **Pin Visual**.
 
     ![](../Images/new-create-publish-powerbi-march-22.png)
 
-1. The **Pin to dashboard** dialog box opens. Make sure that **Existing dashboard (1)** is selected and **VanArsdel (2)** is selected in the drop-down and then click **Pin (3)** to pin the visual to the **VanArsdel** dashboard.
+1. The **Pin to dashboard** dialog box opens. Make sure that **Existing dashboard (1)** is selected and **VanArsdel (2)** is selected in the drop-down, and then click **Pin (3)** to pin the visual to the **VanArsdel** dashboard.
 
     ![](../Images/pb48.png)
     
 1. Close the alert dialog boxes.
 
-1. Click **Exit Q&A** from upper left corner to navigate back to the dashboard.
+1. Click **Exit Q&A** from the upper left corner to navigate back to the dashboard.
 
     ![](../Images/new-create-publish-powerbi-march-23.png)
 
-1. Notice that the visual is added as tile to the dashboard. Clicking on the treemap visual will navigate you back to the Q & A section.
+1. Notice that the visual is added as a tile to the dashboard. Clicking on the treemap visual will navigate you back to the Q&A section.
 
     ![](../Images/new-create-publish-powerbi-march-24.png)
 
-    >**Note**: Power BI quickly searches different subsets of your dataset while applying a set of sophisticated algorithms to discover potentially interesting insights. You can run insights against a dataset or a dashboard tile.
+    >**Note:** Power BI quickly searches different subsets of your dataset while applying a set of sophisticated algorithms to discover potentially interesting insights. You can run insights against a dataset or a dashboard tile.
 
 1. Let’s generate insights on a dashboard tile. When we run insights on a dashboard tile, instead of searching for insights against an entire dataset, the search is narrowed to the data used to create a single dashboard tile. This is often referred to as scoped insights.
 
@@ -449,7 +453,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![02](../Images/10.png)
   
-    >**Note**: Notice that you can add **Above** or **Below threshold**. You can also set the notification frequency. This is just an introduction to managing alerts. Complete functionality is not covered in this lab.
+    >**Note:** Notice that you can add **Above** or **Below threshold**. You can also set the notification frequency. This is just an introduction to managing alerts. Complete functionality is not covered in this lab.
 
 1. Click **Don’t Save** from **Unsaved changes** pop-up window.
 
@@ -479,7 +483,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![02](../Images/13.png)
 
-1. Click **Back to report.**
+1. Click **Back to report**.
 
     ![alt text](../Images/14.png)
   
@@ -495,7 +499,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![](../Images/pb58.png)  
 
-    >**Note**: Notice that you can view and navigate through the bookmarks using the arrow at the bottom of the screen. This behavior is like in Power BI Desktop.
+    >**Note:** Notice that you can view and navigate through the bookmarks using the arrow at the bottom of the screen. This behavior is like that in Power BI Desktop.
 
     ![](../Images/pr30.png)          
   
@@ -511,17 +515,17 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
    ![](../Images/new-create-publish-powerbi-march-29.png)
   
-    >**Note**: It might take a few minutes for the insights to be created. Once insights are ready, a message appears in the top right corner.
+    > **Note:** It might take a few minutes for the insights to be created. Once insights are ready, a message appears in the top right corner.
 
-1. Click **View insights.**
+1. Click **View insights**.
 
     ![](../Images/pb61.png)
   
-    >**Note**: A quick insights report is displayed based on the dataset. This provides insights into data you may have missed and helps to get a quick start on creating dashboards. Hovering over each report provides an option to **Pin it** to a dashboard.
+    > **Note:** A quick insights report is displayed based on the dataset. This provides insights into data you may have missed and helps to get a quick start on creating dashboards. Hovering over each report provides an option to **Pin it** to a dashboard.
 
     ![](../Images/new-create-publish-powerbi-march-30.png)  
 
-You’ve now successfully completed Lab! Throughout this lab, you have learned how to apply conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. You also learned how to add bookmarks to tell a story about the report.
+Throughout this lab, you have learned how to apply conditional formatting, add a logo to the manufacturer filter, import a custom visual, and apply a custom theme to the report. You also learned how to add bookmarks to tell a story about the report.
 
 ## References
 
@@ -549,4 +553,3 @@ In this exercise, you have completed the following:
 - Created a dashboard combining data from the Market Share report.
 
 ## You have successfully completed this Lab!
-
