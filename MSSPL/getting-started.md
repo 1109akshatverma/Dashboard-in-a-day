@@ -10,9 +10,9 @@ In this lab, you will learn how to create and publish Power BI dashboards and re
 
 Understand report creation and dashboard management in Power BI. By the end of this lab, you will gain insights on:
 
-- **Create and Publish a Report**: Develop a comprehensive Power BI report, incorporating conditional formatting, custom visuals, and themes, and publish it to the Power BI Service.
-- **Build and Organize a Dashboard**: Construct and organize a Power BI dashboard to effectively visualize and present data from the report.
-- **Enhance Report Presentation**: Utilize features such as custom logos, conditional formatting, and bookmarks to create an engaging and informative report narrative.
+- **Create and Publish a Report:** Develop a comprehensive Power BI report, incorporating conditional formatting, custom visuals, and themes, and publish it to the Power BI Service.
+- **Build and Organize a Dashboard:** Construct and organize a Power BI dashboard to effectively visualize and present data from the report.
+- **Enhance Report Presentation:** Utilize features such as custom logos, conditional formatting, and bookmarks to create an engaging and informative report narrative.
 
 ## Pre-requisites
 
@@ -30,10 +30,13 @@ In this lab, you'll start with a pre-created Power BI report and follow a struct
 
 ## Explanation of Components
 
-- **Pre-Created Report**: A Power BI report with existing data and visuals, used as the foundation for further customization and enhancement tasks.
-- **Conditional Formatting**: A technique used to modify the appearance of report visuals based on data-driven conditions, highlighting key information.
-- **Custom Visuals**: Specialized visual elements imported into Power BI to offer unique data representations and enhance the visual appeal of the report.
-- **Power BI Service**: The cloud-based platform where the completed report is published for sharing, collaboration, and online access.
+- **Pre-Created Report:** A Power BI report with existing data and visuals, used as the foundation for further customization and enhancement tasks.
+
+- **Conditional Formatting:** A technique used to modify the appearance of report visuals based on data-driven conditions, highlighting key information.
+
+- **Custom Visuals:** Specialized visual elements imported into Power BI to offer unique data representations and enhance the visual appeal of the report.
+
+- **Power BI Service:** The cloud-based platform where the completed report is published for sharing, collaboration, and online access.
   
 ## Getting Started with the Lab
  
@@ -41,7 +44,7 @@ Once you're ready to dive in, your virtual machine and lab guide will be right a
 
   ![02](../Images/0.1.png)
 
-### Virtual Machine & Lab Guide
+## Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
@@ -63,7 +66,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![image](../Images/power-04.png)
 
-In this labs, you will learn to create and publish Power BI dashboards and reports, focusing on report development, dashboard organization, and presentation enhancement. You'll work with features such as conditional formatting, custom visuals, themes, and bookmarks to effectively communicate data insights.
+## Lab Guide Zoom In/Zoom Out
+
+To adjust the zoom level for the environment page, click the A↕ : 100% icon located next to the timer in the lab environment.
+
+![image](https://github.com/user-attachments/assets/9311e57e-095e-4ac5-bd3e-ffd3f3d51812)
 
 ## Support Contact
 
