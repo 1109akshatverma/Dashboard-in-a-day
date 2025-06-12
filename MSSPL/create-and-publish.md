@@ -507,7 +507,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. In the left panel, click on **DIAD_<inject key="DeploymentID" enableCopy="false"/>** and then select the checkbox for **DIAD Final Report** under **Report** type.
 
-1. Click the **ellipse (...) (1)** then click on **Quick Insights (2)**.
+1. Click the **ellipse (...) (1)** then click on **Quick Insights (2)**. 
 
    ![](../Images/new-create-publish-powerbi-march-29.png)
   
