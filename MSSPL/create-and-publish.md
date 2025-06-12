@@ -14,13 +14,19 @@ In this lab, you'll use a pre-built Power BI report to publish it to the Power B
 
 In this task, you will open a Power BI report, enable map visuals, adjust the mobile layout, create a workspace, and publish the report to the Power BI Service.
 
-1. Open **File Explorer**. Navigate to the **DIAD** folder, then go to the Reports folder by browsing to `C:\DIAD\DIADL4\Reports` in the LabVM.
+1. From the toolbar, open **File Explorer** and go to `C:\DIAD\DIADL4\Reports` in the LabVM.
 
 1. Open the DIAD Final Report.pbix file. 
 
    >**Note:** This file uses the same dataset that you used for the lab. We have added more visuals and performed additional formatting in the report. Feel free to explore the report.
 
    ![](../Images/pb8upd.png) 
+
+   > **Note:** If you receive any pop-ups, please close them.
+
+   ![02](../Images/12062025(7).png)
+
+   ![02](../Images/12062025(8).png)
 
 1. On the **DIAD Final Report**, to enable the **Map and filled map visuals** like Power BI follow the below steps.
 
@@ -36,7 +42,7 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
       ![](../Images/pr35.png) 
 
-1. Highlight the **Market Analysis (1)** title and change the text color to **black (2)**.
+1. Highlight the **MARKET ANALYSIS (1)** title and change the text color to **black (2)**.
 
    ![](../Images/pr2.png) 
 
@@ -46,7 +52,7 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
    > **Note:** If **The mobile layout canvas is now interactive** pop-up comes up, click on **Close**.
 
-1. Drag the **Market Analysis** title to the top of the phone layout.
+1. Drag the **MARKET ANALYSIS** title to the top of the phone layout.
 
    ![](../Images/pr3.png)
 
