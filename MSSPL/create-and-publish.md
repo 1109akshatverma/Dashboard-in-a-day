@@ -1,7 +1,5 @@
 # Hands-on Lab: Create and Publish PowerBI Dashboards & Reports
 
-### Estimated Duration: 4 Hours
-
 ## Overview
 
 In this lab, you'll use a pre-built Power BI report to publish it to the Power BI Service and create a dashboard by pinning key visuals. You'll explore features such as customizing the dashboard layout, enabling map visuals, and working with drill-through, quick insights, Q&A, alerts, and bookmarks to enhance the report experience.
@@ -21,9 +19,9 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
    - **Email:** <inject key="AzureAdUserEmail"></inject>
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-   ![02](../Images/1.1.png)
+     ![02](../Images/1.1.png)
 
-   ![02](../Images/1.2.png)
+     ![02](../Images/1.2.png)
 
 1. If **Action required** window pops-up, select **Ask later**
 
@@ -45,15 +43,15 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
     ![](../Images/pb4.png)
     
-1. Once logged in, navigate to **Settings (1)** icon and select **Admin Portal (2)** under **Governance and insights** section.
+1. Once logged in, navigate to **Settings (1)** icon and select **Admin portal (2)** under **Governance and insights** section.
 
     ![02](../Images/15.png) 
 
-1. In the **Tenant settings (1)**, search for **map (2)**, then select **Map and filled map visuals (3)**. If the toggle bar is not enabled, switch it to **Enabled (4)** and click **Apply (5)** to save the settings. 
+1. In the **Tenant settings (1)**, search for **map (2)**, then expand **Map and filled map visuals (3)**. If the toggle bar is not enabled, switch it to **Enabled (4)** and click **Apply (5)** to save the settings. 
 
     ![](../Images/pr1.png) 
 
-1. Navigate to **PowerBI desktop** from the desktop and **Sign in** using the same credentials used for the app service.
+1. Navigate to **Power BI Desktop** from the desktop and **Sign in** using the same credentials used for the app service.
 
     ![](../Images/1.png)
 
@@ -337,7 +335,7 @@ By the end of this section, we will have created a dashboard that looks like the
 
     >**Note:** You will see the visuals on the dashboard like in the screenshot. Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates. Tiles are not interactive.
 
-## Task 3- Organize dashboard
+## Task 3 - Organize dashboard
 
 In this task, you will organize the Power BI dashboard by resizing tiles, adding images, renaming visuals, generating insights, setting alerts, using drill-through, and exploring bookmarks.
 
@@ -547,6 +545,7 @@ Here are a few more resources that will help you with your next steps with Power
   - Dataverse [What is Microsoft Dataverse? - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro)
 
 ## Review
+
 In this exercise, you have completed the following:
 - Opened a Power BI report, adjusted the mobile layout, created a workspace, and published the report to the Power BI Service.
 - Enabled maps, adjusted the layout, created a workspace, and published the report.
