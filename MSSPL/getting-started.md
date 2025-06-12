@@ -42,7 +42,7 @@ In this lab, you'll start with a pre-created Power BI report and follow a struct
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-  ![02](../Images/0.1.png)
+  ![02](../Images/12062025(0).png)
 
 ## Virtual Machine & Lab Guide
  
@@ -90,7 +90,7 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
      
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
-   ![image](https://github.com/user-attachments/assets/25815f6b-2a05-4b51-b30a-6569d33089e7)
+   ![02](../Images/12062025(3).png)
 
 1. You should be able to view the Power BI Portal.
 
@@ -120,17 +120,17 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-     ![02](../Images/3.png)
+     ![02](../Images/12062025(4).png)
 
 1. Enter password and **Sign in**
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-      ![alt text](../Images/4.png)
+     ![02](../Images/12062025(5).png)
 
 1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
 
-   ![](../Images/new-create-publish-powerbi-march-4.png) 
+   ![02](../Images/12062025(6).png)
 
 ## Support Contact
 
