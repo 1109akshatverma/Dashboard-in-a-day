@@ -10,42 +10,6 @@ In this lab, you'll use a pre-built Power BI report to publish it to the Power B
 - Task 2: Power BI – Building a Dashboard
 - Task 3: Organize the dashboard
   
-### Pre-requisites
-
-Before starting the lab, you need to complete a set of prerequisite steps to ensure that Power BI is correctly configured.
-
-1. Navigate to [https://app.powerbi.com](https://app.powerbi.com/) in the LabVM browser using the credentials provided below:
-
-   - **Email:** <inject key="AzureAdUserEmail"></inject>
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
-
-     ![02](../Images/1.1.png)
-
-     ![02](../Images/1.2.png)
-
-1. If **Action required** window pops-up, select **Ask later**
-
-   ![](../Images/pb3.png)
-
-   > **Note:** If a pop-up appears with **Action Required**, click **Next**, then select **Skip setup** on the following page. If the **Skip setup** option is not available, please follow the instructions below:
-   >1. On the **"Keep your account secure"** page, select **Next** twice.
-   >1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
-   >    - Open **Google Play Store** (Android) or **App Store** (iOS).
-   >    - Search for **Microsoft Authenticator** and tap **Install**.
-   >    - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
-   >3. A **QR code** will be displayed on your computer screen.
-   >1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
-   >1. After scanning, click **Next** to proceed.
-   >1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
-   >1. On the **Success!** pop-up, select **Done**.
-
-1. If **Stay signed in** window pops-up, select **No**
-
-    ![](../Images/pb4.png)
-
-
-1. You have completed the prerequisites. Please wait for 15 minutes before continuing with the next step.
-
 ## Task 1 - Power BI Service – Publishing Report
 
 In this task, you will open a Power BI report, enable map visuals, adjust the mobile layout, create a workspace, and publish the report to the Power BI Service.
