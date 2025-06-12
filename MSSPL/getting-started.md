@@ -72,6 +72,66 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
 
 ![image](https://github.com/user-attachments/assets/9311e57e-095e-4ac5-bd3e-ffd3f3d51812)
 
+## Let's Get Started with Power BI Portal
+ 
+1. On your virtual machine, click on the **Power BI Portal** icon as shown below:
+ 
+   ![](./Media/23042025(6).png)
+
+2. On the **Enter your email, we'll check if you need to create a new account** tab you will see the login screen, in that enter the following email/username, and click on **Submit**.
+ 
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+ 
+     ![](./Media/23042025(7).png)
+ 
+3. Now enter the following password and click on **Sign in**.
+ 
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+ 
+     ![](./Media/23042025(8).png)
+     
+1. If you see the pop-up **Stay Signed in?**, select **No**.
+
+   ![](./Media/23042025(9).png)
+
+1. You should be able to view the Power BI Portal.
+
+   ![](./Media/23042025(10).png)
+
+1. Once logged in, navigate to **Settings (1)** icon and select **Admin portal (2)** under **Governance and insights** section.
+
+    ![02](../Images/15.png) 
+
+1. In the **Tenant settings (1)**, search for **map (2)**, then expand **Map and filled map visuals (3)**. If the toggle bar is not enabled, switch it to **Enabled (4)** and click **Apply (5)** to save the settings. 
+
+    ![](../Images/pr1.png) 
+
+1. Navigate to **Power BI Desktop** from the desktop and **Sign in** using the same credentials used for the app service.
+
+    ![](../Images/1.png)
+
+    ![](../Images/signin.png) 
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+    > **Note:** If you have enabled MFA, enter the authentication code displayed on your device to log in
+
+    ![02](../Images/2.png)
+
+1. After selecting continue, it will again ask you to sign in.
+
+   ![02](../Images/3.png)
+
+1. Enter password and **Sign in**
+
+   ![alt text](../Images/4.png)
+
+1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
+
+   ![](../Images/new-create-publish-powerbi-march-4.png) 
+
 ## Support Contact
 
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.

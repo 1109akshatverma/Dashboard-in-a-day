@@ -42,40 +42,7 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 1. If **Stay signed in** window pops-up, select **No**
 
     ![](../Images/pb4.png)
-    
-1. Once logged in, navigate to **Settings (1)** icon and select **Admin portal (2)** under **Governance and insights** section.
 
-    ![02](../Images/15.png) 
-
-1. In the **Tenant settings (1)**, search for **map (2)**, then expand **Map and filled map visuals (3)**. If the toggle bar is not enabled, switch it to **Enabled (4)** and click **Apply (5)** to save the settings. 
-
-    ![](../Images/pr1.png) 
-
-1. Navigate to **Power BI Desktop** from the desktop and **Sign in** using the same credentials used for the app service.
-
-    ![](../Images/1.png)
-
-    ![](../Images/signin.png) 
-
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
-   
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
-
-    > **Note:** If you have enabled MFA, enter the authentication code displayed on your device to log in
-
-    ![02](../Images/2.png)
-
-7. After selecting continue, it will again ask you to sign in.
-
-   ![02](../Images/3.png)
-
-8. Enter password and **Sign in**
-
-   ![alt text](../Images/4.png)
-
-1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
-
-   ![](../Images/new-create-publish-powerbi-march-4.png) 
 
 1. You have completed the prerequisites. Please wait for 15 minutes before continuing with the next step.
 
