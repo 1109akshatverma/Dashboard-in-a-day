@@ -39,7 +39,7 @@ In this lab, you'll start with a pre-created Power BI report and follow a struct
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-  ![02](image-10.png)
+  ![02](../Images/0.1.png)
 
 ### Virtual Machine & Lab Guide
  
