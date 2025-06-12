@@ -116,7 +116,7 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
 
      ![02](../Images/2.png)
 
-1. After selecting continue, it will again ask you to sign in.
+1. After clicking Continue, you will be prompted to sign in again. Please use the credentials provided below to log in.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
@@ -126,7 +126,7 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
 
     - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-     ![alt text](../Images/4.png)
+      ![alt text](../Images/4.png)
 
 1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
 
