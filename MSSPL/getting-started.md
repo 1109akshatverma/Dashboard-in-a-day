@@ -75,28 +75,26 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
 ## Let's Get Started with Power BI Portal
  
 1. On your virtual machine, click on the **Power BI Portal** icon as shown below:
- 
-   ![](./Media/23042025(6).png)
 
-2. On the **Enter your email, we'll check if you need to create a new account** tab you will see the login screen, in that enter the following email/username, and click on **Submit**.
+2. On the **Enter your email, we'll check if you need to create a new account** tab, you will see the login screen, in that enter the following email/username, and click on **Submit**.
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-     ![](./Media/23042025(7).png)
- 
+     ![image](https://github.com/user-attachments/assets/f38ad1be-223e-4973-907b-d1e3c4af5e5a)
+
 3. Now enter the following password and click on **Sign in**.
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![](./Media/23042025(8).png)
+     ![image](https://github.com/user-attachments/assets/33088d9e-37b0-4c5e-95d7-9c991ab8ced3)
      
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
-   ![](./Media/23042025(9).png)
+   ![image](https://github.com/user-attachments/assets/25815f6b-2a05-4b51-b30a-6569d33089e7)
 
 1. You should be able to view the Power BI Portal.
 
-   ![](./Media/23042025(10).png)
+   ![image](https://github.com/user-attachments/assets/c70e25c2-4172-4818-b393-c479bf24595a)
 
 1. Once logged in, navigate to **Settings (1)** icon and select **Admin portal (2)** under **Governance and insights** section.
 
@@ -106,27 +104,29 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
 
     ![](../Images/pr1.png) 
 
-1. Navigate to **Power BI Desktop** from the desktop and **Sign in** using the same credentials used for the app service.
+1. Open the **Power BI Desktop** located on the desktop of your lab environment.
 
-    ![](../Images/1.png)
+1. Click on the **Sign-in icon** located in the top-right corner of the **Labvm**.
 
-    ![](../Images/signin.png) 
+    ![image](https://github.com/user-attachments/assets/c5cbc77b-d8fa-49e7-9828-bab72a76cbef)
 
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
-   
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
+1. Once the "Enter your email address" dialog appears, copy the **Username** and paste it into the **Email** field of the dialog and select **Continue**.
 
-    > **Note:** If you have enabled MFA, enter the authentication code displayed on your device to log in
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-    ![02](../Images/2.png)
+     ![02](../Images/2.png)
 
 1. After selecting continue, it will again ask you to sign in.
 
-   ![02](../Images/3.png)
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+     ![02](../Images/3.png)
 
 1. Enter password and **Sign in**
 
-   ![alt text](../Images/4.png)
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+     ![alt text](../Images/4.png)
 
 1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
 
