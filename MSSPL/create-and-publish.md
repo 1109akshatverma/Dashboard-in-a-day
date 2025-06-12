@@ -20,9 +20,9 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
    - **Email:** <inject key="AzureAdUserEmail"></inject>
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-   ![](../Images/pb1upd1.png)
+   ![02](image-1.png)
 
-   ![](../Images/pb2.png)
+   ![02](image-5.png)
 
 1. If **Action required** window pops-up, select **Ask later**
 
@@ -46,7 +46,7 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
     
 1. Once logged in, navigate to **Settings (1)** icon and select **Admin Portal (2)** under **Governance and insights** section.
 
-    ![](../Images/pb5.png) 
+    ![02](image-3.png) 
 
 1. In the **Tenant settings (1)**, search for **map (2)**, then select **Map and filled map visuals (3)**. If the toggle bar is not enabled, switch it to **Enabled (4)** and click **Apply (5)** to save the settings. 
 
@@ -54,7 +54,7 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
 1. Navigate to **PowerBI desktop** from the desktop and **Sign in** using the same credentials used for app service.
 
-    ![02](image.png)
+    ![alt text](image-12.png)
 
     ![](../Images/signin.png) 
 
@@ -64,15 +64,15 @@ Before starting the lab, you need to complete a set of prerequisite steps to ens
 
     > **Note:** If you have enabled MFA, enter the authentication code displayed on your device to log in
 
-   ![02](image-1.png)
+    ![02](image-13.png)
 
 7. After selecting continue It will again ask you to sign in.
 
-   ![02](image-2.png)
+   ![02](image-14.png)
 
 8. Enter password and **sign in**
 
-   ![02](image-3.png)
+   ![alt text](image-15.png)
 
 1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
 
@@ -137,13 +137,9 @@ while creating a mobile layout.
 
 1. Drag the **Revenue by Year and Manufacturer** line chart below the card on the phone layout. Resize the line chart to stretch across the phone layout.
 
-   ![02](image-4.png)
-
    ![](../Images/pb14.png)
 
 1. Drag the **Revenue by Country** below the line chart on the phone layout, resize the map, and then exit the mobile view.
-
-   ![02](image-5.png)
 
    ![](../Images/pb15.png)
 
@@ -179,8 +175,10 @@ while creating a mobile layout.
 
 1. Click **Apply (4)** to create the workspace.
 
-    ![](../Images/pr37.png)
+    ![02](image-4.png)
 
+    ![02](image-16.png)
+   > **Note** If it asks about licence select **Try Free**.
    > **Note:** If **Introducing task flows (preview)** pop-up comes up, click on **Got it.**
 
 1. Let’s publish the report to Power BI Service and then we will come back to the browser.
@@ -205,7 +203,7 @@ while creating a mobile layout.
   
 1. Click **Got it** to close the dialog box.
 
-    ![02](image-6.png)
+    ![02](image-17.png)
 
     >**Note**: Now that we have published the report to the Power BI service, let’s navigate back to the browser and start exploring. 
     
@@ -357,8 +355,8 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. In the **URL** text box, type the following URL: <https://raw.githubusercontent.com/CharlesSterling/DiadManu/master/Vanarsdel.png> **(1)** and click **Apply (2)**.
 
-    ![](../Images/pb41.png) 
-  
+    ![02](image-19.png)
+
    >**Note:** The URL is case sensitive.
 
 1. Notice that a new tile with the **VanArsdel** logo is added to the dashboard.
@@ -449,15 +447,17 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. On the **Manage alerts** page, click **+ Add alert rule (1)** to open the dialog, then click **Cancel (2)** since we are not creating an alert rule.
 
-    ![](../Images/pb53.png)
+    ![02](image-20.png)
   
     >**Note**: Notice that you can add **Above** or **Below threshold**. You can also set the notification frequency. This is just an introduction to managing alerts. Complete functionality is not covered in this lab.
 
 1. Click **Don’t Save** from **Unsaved changes** pop-up window.
 
-   ![02](image-7.png)
+   ![alt text](image-21.png)
 
 1. Click on the **VanArsdel Market Share** tile to navigate to the report.
+
+   ![02](image-22.png)
 
 1. In the map visual, ensure it is at the **Country (1)** level, right-click the **Australia (2)** bubble, click **Drill through (3)** and click then **By Manufacturer (4)**. 
   
@@ -477,11 +477,11 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. Click the **+** icon to expand.
 
-    ![](../Images/pr29.png)
+    ![02](image-23.png)
 
 1. Click **Back to report.**
 
-    ![](../Images/pb56.png)
+    ![alt text](image-24.png)
   
 1. From the top right menu, click **Bookmarks (1)** and then click **Show more bookmarks (2)**. The **Bookmark** pane opens on the right. There are two options: **Personal** bookmarks and **Report** bookmarks.
 
