@@ -18,8 +18,6 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
 1. Open the DIAD Final Report.pbix file. 
 
-   >**Note:** This file uses the same dataset that you used for the lab. We have added more visuals and performed additional formatting in the report. Feel free to explore the report.
-
    ![](../Images/pb8upd.png) 
 
    > **Note:** If you receive any pop-ups, please close them.
