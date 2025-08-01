@@ -138,7 +138,7 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
   
 1. Click **Got it** to close the dialog box.
 
-    ![02](../Images/6.png)
+    ![02](../Images/image400.png)
 
     >**Note:** Now that we have published the report to the Power BI service, let’s navigate back to the browser and start exploring. 
     
