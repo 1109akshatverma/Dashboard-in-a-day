@@ -1,5 +1,7 @@
 # Hands-on Lab: Create and Publish Power BI Dashboards & Reports
 
+### Estimated Duration: 4 Hours
+
 ## Overview
 
 In this lab, you'll use a pre-built Power BI report to publish it to the Power BI Service and create a dashboard by pinning key visuals. You'll explore features such as customizing the dashboard layout, enabling map visuals, and working with drill-through, quick insights, Q&A, alerts, and bookmarks to enhance the report experience.
