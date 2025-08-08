@@ -10,7 +10,7 @@ In this lab, you'll use a pre-built Power BI report to publish it to the Power B
 - Task 2: Power BI – Building a Dashboard
 - Task 3: Organize the dashboard
   
-## Task 1 - Power BI Service – Publishing Report
+## Task 1: Power BI Service – Publishing Report
 
 In this task, you will open a Power BI report, enable map visuals, adjust the mobile layout, create a workspace, and publish the report to the Power BI Service.
 
@@ -36,7 +36,7 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
       ![](../Images/pr34.png) 
 
-    - From the left pane, click on **Security (1)**, then under **Map and Filled Map visuals**, check **Use Map and Filled Map visuals (2)**, and click **OK (3)** to apply the changes.
+    - From the left-hand side pane, click on **Security** **(1)**, then under **Map and Filled Map visuals**, check **Use Map and Filled Map visuals** **(2)**, and click **OK** **(3)** to apply the changes.
 
       ![](../Images/pr35.png) 
 
@@ -60,11 +60,11 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
    >**Note:** If you receive any pop-up, click on **Close**.
 
-1. Click on the **View (1)** tab and turn on  the **Selection (2)** pane by clicking on it. This allows you to change the layer order while creating a mobile layout.
+1. Click on the **View** **(1)** tab and turn on the **Selection** **(2)** pane by clicking on it. This allows you to change the layer order while creating a mobile layout.
 
    ![](../Images/pr6.png)
 
-1. Click on the **View (1)** tab and turn off **Gridlines** and **Snap to Grid** **(2)** and turn off  the **Selection pane (3)**.
+2. While still in the **View** **(1)** tab, turn off **Gridlines** and **Snap to Grid** **(2)**, and also turn off the **Selection pane** **(3)**.
 
    ![](../Images/pr7.png)
 
@@ -80,19 +80,15 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
    ![](../Images/image204.png)
 
-1. If not already open, launch a browser and navigate to [https://app.powerbi.com](https://app.powerbi.com/)
-
-1. In the left-hand panel of the Power BI interface, click on **Workspaces** to view and manage your available workspaces.
+1. Navigate to the browser where Power BI is open. In the left-hand panel of the Power BI interface, click on **Workspaces** **(1)** to view and manage your available workspaces.
    
     ![](../Images/new-create-publish-powerbi-march-6.png)
 
-1. Click on + New workspace at the bottom of the Workspaces pane. This will open the **Create a workspace** dialog box.
+1. Click on **+ New workspace** at the bottom of the Workspaces pane. This will open the **Create a workspace** dialog box.
 
     ![](../Images/image108.png)
 
-    > **Note:** Creating workspace is a **Pro feature**.
-
-1. On the **Create a workspace** page, give the following details.
+1. On the **Create a workspace** page, provide the following details.
 
     - In the **Name** field, type **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)**.
 
@@ -102,7 +98,7 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
       ![](../Images/image111.png)
 
-1. A file browser dialog box opens. Browse to the **DIAD** folder and then the **Data** folder `C:\DIAD\DIADL4\Data` Select **VanArsdel_WSLogo (1)** file and click **Open (2)**
+1. A file browser dialog box will open. Browse to the **DIAD** folder, then navigate to the **Data** folder at `C:\DIAD\DIADL4\Data`. Select the **VanArsdel\_WSLogo** **(1)** file and click **Open** **(2)**.
 
       ![](../Images/pr8.png)
 
@@ -114,19 +110,17 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
    > **Note** If it asks about licence select **Try Free**.
 
-   > **Note:** If **All paid features of Power BI are yours for 60 days** and **Introducing task flows (preview)** pop-up comes up, click on **Got it**.
-
 1. Let’s publish the report to the Power BI Service, then return to the browser. First, open the **DIAD Final Report** in Power BI Desktop.
 
 1. Ensure **Mobile layout** is **turned off** by deselecting the **Mobile layout** option in the View tab.
 
     ![](../Images/image201.png)
 
-1. From the **Home (1)** tab, click **Publish (2)**.
+1. From the **Home (1)** tab, click on **Publish (2)**.
 
     ![](../Images/image205.png)
 
-1. If you are prompted to save the changes, then click on **Save**.
+1. If you're prompted to save the changes, click on **Save** to proceed.
 
     ![](../Images/image206.png)
 
@@ -140,15 +134,15 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
     ![02](../Images/image400.png)
 
-    >**Note:** Now that we have published the report to the Power BI service, let’s navigate back to the browser and start exploring. 
+1. Now that we have published the report to the Power BI service, let’s navigate back to the browser and start exploring. 
     
-1. Once you are in the browser, in the left panel, notice that under **DIAD_<inject key="DeploymentID" enableCopy="false"/>**, you see **Reports** has the **DIAD Final Report**.
+1. Once you are in the browser, in the left panel, notice that under **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace, you see **Reports** has the **DIAD Final Report**.
 
     ![](../Images/113.png) 
 
     > **Note:** If the reports are not visible, please refresh the page.
 
-## Task 2- Power BI – Building a Dashboard
+## Task 2: Power BI – Building a Dashboard
 
 In this task, you will create a dashboard that combines data from the **Market Share** report.  
 
@@ -178,27 +172,25 @@ By the end of this section, you will have created a dashboard that looks like th
 
     >**Note:** Notice that alert messages are displayed stating the dashboard is ready to view.
 
-1. Notice the **VanArsdel** dashboard is created under **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace. Click on it.
+1. Notice that the **VanArsdel** dashboard is created under the **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace. Click on it to open the dashboard.
 
     ![](../Images/image211.png)
   
-1. From the Workspaces pane, click **VanArsdel (1)** and then select **VanArsdel Market Share (2)** to view the pinned visual.
+1. Select **VanArsdel Market Share** to view the pinned visual.
 
     ![](../Images/image212.png)
 
-    Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
+    >Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
 
 1. After selecting **VanArsdel Market Share**, you are navigated directly to the report where the visual was pinned from.
 
     ![](../Images/pr15.png)
 
-    >**Note:** Tiles in the dashboard are not interactive.
-
 1. Hover over the **% Growth by Manufacturer** visual. Click the **pin** icon on the top right of the visual. The **Pin to dashboard** dialog box opens.
 
     ![](../Images/pr16.png)
 
-1. Make sure that **Existing dashboard (1)** is selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
+1. To pin a visual to the **VanArsdel** dashboard in Power BI, select **Existing dashboard** **(1)** under the "Where would you like to pin to?" section, choose **VanArsdel** from the dropdown list **(2)**, and then click on **Pin** **(3)** to complete the process.
 
     ![](../Images/pr17.png)
 
@@ -210,7 +202,7 @@ By the end of this section, you will have created a dashboard that looks like th
 
     ![](../Images/pr18.png)
 
-1. Make sure that **Existing dashboard (1)** is selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
+1. To pin a visual to the **VanArsdel** dashboard in Power BI, select **Existing dashboard** **(1)** under the "Where would you like to pin to?" section, choose **VanArsdel** from the dropdown list **(2)**, and then click on **Pin** **(3)** to complete the process.
 
     ![](../Images/image213.png)
    
@@ -218,7 +210,8 @@ By the end of this section, you will have created a dashboard that looks like th
 
 1. Close out the alert dialog boxes.
 
-1. Click **By Manufacturer** in the Pages pane to navigate to that report page.
+1. Click on **By Manufacturer** **(1)** under the **Pages** pane to navigate to that specific report page.
+
 
     ![](../Images/image214.png)
 
@@ -266,7 +259,7 @@ By the end of this section, you will have created a dashboard that looks like th
 
     >**Note:** You will see the visuals on the dashboard like in the screenshot. Each visual on the dashboard is called a tile. The tiles represent the data chosen and are kept up to date as the data in the data model updates. Tiles are not interactive.
 
-## Task 3 - Organize dashboard
+## Task 3: Organize dashboard
 
 In this task, you will organize the Power BI dashboard by resizing tiles, adding images, renaming visuals, generating insights, setting alerts, using drill-through, and exploring bookmarks.
 
@@ -472,15 +465,11 @@ Here are a few more resources that will help you with your next steps with Power
   - Power Automate [Power Automate | Microsoft Learn](https://learn.microsoft.com/en-us/power-automate/)
   - Dataverse [What is Microsoft Dataverse? - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro)
 
-## Review
+### Conclusion
 
 In this exercise, you have completed the following:
 - Opened a Power BI report, adjusted the mobile layout, created a workspace, and published the report to the Power BI Service.
 - Enabled maps, adjusted the layout, created a workspace, and published the report.
 - Created a dashboard combining data from the Market Share report.
-
-## Conclusion
-
-In this lab, you published a Power BI report to the Power BI Service and created a customized dashboard by pinning key visuals. You also explored features like map visuals, drill-through, quick insights, Q&A, alerts, and bookmarks. These tasks demonstrated how to enhance report interactivity and deliver meaningful insights through the Power BI platform.
 
 ## You have successfully completed this Lab!
