@@ -1,4 +1,4 @@
-# Create and Publish PowerBI Dashboards & Reports Workshop
+# Create and Publish Power BI Dashboards & Reports Workshop
 
 ### Overall Estimated Duration: 4 Hours
 
