@@ -190,7 +190,7 @@ By the end of this section, you will have created a dashboard that looks like th
 
     ![](../Images/pr16.png)
 
-1. To pin a visual to the **VanArsdel** dashboard in Power BI, select **Existing dashboard** **(1)** under the "Where would you like to pin to?" section, choose **VanArsdel** from the dropdown list **(2)**, and then click on **Pin** **(3)** to complete the process.
+1. To pin a visual to the **VanArsdel** dashboard in Power BI, select **Existing dashboard** **(1)** under the "Where would you like to pin to?" section, choose **VanArsdel** from the dropdown list **(2)**, and then click on **Pin** **(3)**.
 
     ![](../Images/pr17.png)
 
@@ -231,7 +231,7 @@ By the end of this section, you will have created a dashboard that looks like th
 
    ![](../Images/new-create-publish-powerbi-march-14.png)
 
-1. Make sure that **Existing dashboard (1)** is selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
+1. To pin a visual to the **VanArsdel** dashboard in Power BI, select **Existing dashboard** **(1)** under the "Where would you like to pin to?" section, choose **VanArsdel** from the dropdown list **(2)**, and then click on **Pin** **(3)**.
 
     ![](../Images/new-create-publish-powerbi-march-12.png)
 
@@ -241,7 +241,7 @@ By the end of this section, you will have created a dashboard that looks like th
 
    ![](../Images/new-create-publish-powerbi-march-15.png)
 
-1. Make sure that **Existing dashboard (1)** s selected and **VanArsdel (2)** is selected in the drop-down and then click on **Pin (3)**.
+1. To pin a visual to the **VanArsdel** dashboard in Power BI, select **Existing dashboard** **(1)** under the "Where would you like to pin to?" section, choose **VanArsdel** from the dropdown list **(2)**, and then click on **Pin** **(3)**.
 
     ![](../Images/new-create-publish-powerbi-march-13.png)   
 
@@ -271,7 +271,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
   
     Tiles can be of various sizes (1x1 to 5x5). Drag the tile using the bottom right corner to resize it. 
 
-1. Click the **Edit (1)** dropdown in the top-right corner of the dashboard and select **Add a tile (2)**.
+1. Click the **Edit (1)** dropdown in the top-right corner of the dashboard and select **+ Add a tile (2)**.
 
     ![](../Images/image217.png)
 
@@ -285,7 +285,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
    >**Note:** The URL is case sensitive.
 
-1. Notice that a new tile with the **VanArsdel** logo is added to the dashboard.
+1. Notice that a new tile with the **VANARSDEL** logo is added to the dashboard.
 
     ![](../Images/new-create-publish-powerbi-march-18.png)
   
@@ -297,7 +297,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![](../Images/image300a.png)
 
-1. Click the ellipse **(...) (1)** in the top right corner of the tile and then click **Edit Details (2)**. The **Tile Details** dialog box opens.
+1. Click the ellipsis **(...) (1)** in the top right corner of the tile and then click **Edit details (2)**. The **Tile Details** dialog box opens.
 
     ![](../Images/pb44.png)
 
@@ -329,7 +329,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![](../Images/new-create-publish-powerbi-march-22.png)
 
-1. When the **Pin to dashboard** dialog box opens, ensure **Existing dashboard (1)** is selected, choose **VanArsdel (2)** from the drop-down menu, and then click **Pin (3)** to add the visual to the **VanArsdel** dashboard.
+1. To pin a visual to the **VanArsdel** dashboard in Power BI, select **Existing dashboard** **(1)** under the "Where would you like to pin to?" section, choose **VanArsdel** from the dropdown list **(2)**, and then click on **Pin** **(3)**.
 
     ![](../Images/image302.png)
     
@@ -349,11 +349,11 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. Hover over the **line chart** on the dashboard.
 
-1. Click the **ellipse (...) (1)** on the top right corner and then click **View Insights (2)**.
+1. Click the **ellipsis (...) (1)** on the top right corner and then click **View Insights (2)**.
 
     ![](../Images/pb50.png)
   
-    You will be navigated to **Focus mode** for the line chart.
+1. You will be navigated to **Focus mode** for the line chart.
 
 1. Scroll through the Insights panel to explore the various insights Power BI can generate, and notice the option to pin these insight visuals directly to the dashboard..
 
@@ -365,9 +365,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. We want to be notified when VanArsdel’s Market Share goes above or below a threshold. We can set up alerts to achieve this.
 
-1. Hover over **VanArsdel Market Share** tile.
-
-1. Click on the **ellipse (...) (1)** in the top right corner of the tile the click **Manage alerts (2)**. The **Manage alerts** dialog box opens.
+1. Hover over the **VanArsdel Market Share** tile, then click the **ellipsis (...) (1)** in the top right corner of the tile. From the dropdown, select **Manage alerts (2)** to open the **Manage alerts** dialog box.
 
     ![](../Images/new-create-publish-powerbi-march-025.png)
 
@@ -377,7 +375,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
   
     >**Note:** Notice that you can add **Above** or **Below threshold**. You can also set the notification frequency. This is just an introduction to managing alerts. Complete functionality is not covered in this lab.
 
-1. From the **Unsaved changes** pop-up window, click **Don’t Save** to discard any changes made.
+1. From the **Unsaved changes** pop-up window, click **Don’t save** to discard any changes made.
 
    ![alt text](../Images/11.png)
 
@@ -389,8 +387,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
   
     ![](../Images/image305.png)
 
-
-    You will be navigated to the **By Manufacturer** page of the report with the **Australia** filter applied to the report page.
+1. You will be navigated to the **By Manufacturer** page of the report with the **Australia** filter applied to the report page.
 
 1. Hover over the **matrix** visual, then click the **Focus mode** icon on the top right corner of the visual.
 
@@ -410,7 +407,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     - **Personal bookmarks** on the report are ones which the consumer can create on their own.
 
-   ![](../Images/image312.png)
+      ![](../Images/image312.png)
 
 1. From the **Bookmarks** pane, click **Report bookmarks (1)**, then select **View (2)** to browse through the list of **available bookmarks (3)**.
 
@@ -430,7 +427,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![](../Images/image313.png) 
 
-1. Click the **ellipse (...) (1)** then click on **Quick Insights (2)**. 
+1. Click the **ellipsis (...) (1)** then click on **Quick insights (2)**. 
 
    ![](../Images/new-create-publish-powerbi-march-29.png)
   
