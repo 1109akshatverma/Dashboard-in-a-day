@@ -1,4 +1,4 @@
-# Hands-on Lab: Create and Publish PowerBI Dashboards & Reports
+# Hands-on Lab: Create and Publish Power BI Dashboards & Reports
 
 ## Overview
 
@@ -182,7 +182,7 @@ By the end of this section, you will have created a dashboard that looks like th
 
     >Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
 
-1. After selecting **VanArsdel Market Share**, you are navigated directly to the report where the visual was pinned from.
+1. After selecting **VanArsdel Market Share**, you are navigated directly to the report that the visual was pinned to.
 
     ![](../Images/pr15.png)
 
@@ -211,7 +211,6 @@ By the end of this section, you will have created a dashboard that looks like th
 1. Close out the alert dialog boxes.
 
 1. Click on **By Manufacturer** **(1)** under the **Pages** pane to navigate to that specific report page.
-
 
     ![](../Images/image214.png)
 
@@ -305,7 +304,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![](../Images/pb45.png)
 
-1. Now let’s create a visual that represents Market Share by country.
+1. Now, let’s create a visual that represents Market Share by country.
 
 1. Notice at the top of the visual, there’s an **Ask a question about your data** option, which works just like the *Ask a question feature on the desktop*, allowing you to interact with your data using natural language queries.
 
