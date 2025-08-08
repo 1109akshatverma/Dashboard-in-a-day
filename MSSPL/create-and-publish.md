@@ -180,7 +180,7 @@ By the end of this section, you will have created a dashboard that looks like th
   
 1. Select **VanArsdel Market Share** to view the pinned visual.
 
-    ![](../Images/image212.png)
+    ![](../Images/atask2-step6.png)
 
     >Notice the **VanArsdel Market Share** tile is pinned to the dashboard.
 
@@ -332,7 +332,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
 1. To pin a visual to the **VanArsdel** dashboard in Power BI, select **Existing dashboard** **(1)** under the "Where would you like to pin to?" section, choose **VanArsdel** from the dropdown list **(2)**, and then click on **Pin** **(3)**.
 
-    ![](../Images/image302.png)
+    ![](../Images/atask3-step17.png)
     
 1. Close the alert dialog boxes.
 
